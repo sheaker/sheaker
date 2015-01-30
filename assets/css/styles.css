@@ -1,0 +1,131 @@
+body {
+    padding-top:50px
+    }
+
+body>.navbar {
+    background-color: #fff;
+    border-color: #3a3a3a;
+    }
+
+body>.navbar-default .navbar-nav > li > a{
+    margin-bottom: -10px;
+    color: #3a3a3a;
+    }
+
+body>.navbar-default .navbar-nav > li > a:hover {
+        color: #5b5b5b;
+    }
+
+body>.navbar-default .navbar-header > a {
+        font-size:50px;
+        color: #3a3a3a;
+    }
+
+body>.navbar-default .navbar-header > a:hover {
+        color: #5b5b5b;
+    }
+
+#home {
+    padding-top:0
+    }
+
+#home .navbar-brand {
+    padding:13.5px 15px 12.5px
+    color: #fff;
+    }
+
+#home .navbar-brand > li {
+    color: #fff;
+    }
+
+#home .navbar-brand>img {
+    display:inline;
+    margin-top: -15px;
+    height:250%;
+    }
+
+#banner {
+    min-height:300px;border-bottom:none;
+    }
+
+.nav-tabs {
+    margin-bottom:15px;
+    }
+
+footer {
+    margin:5em 0;
+    }
+
+footer li {
+    float:left;
+    margin-right:1.5em;
+    margin-bottom:1.5em
+    }
+
+footer p {
+    clear:left;
+    margin-bottom:0;
+    }
+
+.splash {
+    padding:9em 0 2em;
+    background-color:#7a83ad;
+    background-size:cover;
+    background-attachment:fixed;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    color:#fff;
+    text-align:center
+    background-color:#7a83ad;
+    background-image: url("../img/fond.png");
+    }
+
+
+.carousel-control.left, .carousel-control.right{
+    background: none !important;
+    filter: progid:none !important;
+}
+
+.carousel-background{
+    background-image: url("../img/computer.png");
+    width:400px;
+    height:325px;
+    padding-top: 19px;
+    padding-left: 16px;
+}
+
+.carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+.splash .logo {
+    width:160px;
+    }
+
+.splash h1 {
+    font-size:3em;
+    }
+
+.splash #social {
+    margin:2em 0;
+    }
+
+.splash .alert {
+    margin:2em 0;
+    }
+
+@media (max-width:767px) {
+    .splash {
+        padding-top:4em;
+        }
+    .splash .logo {
+        width:100px;
+        }
+    .splash h1 {
+        font-size:2em;
+        }
+    #banner {
+        margin-bottom:2em;
+        text-align:center;
+        }
+    }
