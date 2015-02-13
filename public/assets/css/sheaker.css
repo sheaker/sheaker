@@ -20,7 +20,7 @@ body > .navbar-default .navbar-nav > li > a:hover {
 }
 
 body > .navbar-default .navbar-header > a {
-    font-size:50px;
+    font-size:45px;
     color: #3a3a3a;
 }
 
@@ -43,8 +43,7 @@ body > .navbar-default .navbar-header > a:hover {
 
 #home .navbar-brand>img {
     display:inline;
-    margin-top: -15px;
-    height:250%;
+    margin-top: -10px;
 }
 
 #banner {
@@ -90,9 +89,8 @@ footer a {
     height:496px;
 }
 
-.splash .overlay {
-    background-color:#2B88BB;
-    background-color: rgba(241, 214, 214,0.30); /*.75 opacity of the color so that background image is visible*/
+.overlay {
+    background-color: rgba(43, 136, 187,0.50); /*.75 opacity of the color so that background image is visible*/
 }
 
 
@@ -103,10 +101,10 @@ footer a {
 
 .carousel-background {
     background-image: url("../images/computer.png");
-    width:400px;
-    height:325px;
-    padding-top: 19px;
-    padding-left: 17px;
+    width:360px;
+    height:293px;
+    padding-top: 17px;
+    padding-left: 15px;
 }
 
 .carousel .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
@@ -115,6 +113,10 @@ footer a {
 
 .splash .logo {
     width:160px;
+}
+
+.feature {
+    text-align:center;
 }
 
 .splash h1 {
@@ -129,7 +131,7 @@ footer a {
     margin:2em 0;
 }
 
-.splash .container .introduction-text {
+.container .introduction-text {
     margin-top: 20px;
     text-align:center;
     font-size: 30px
@@ -169,16 +171,32 @@ footer a {
     background-color: #D2C22A;
 }
 
+.color-yellow {
+    color: #D2C22A;
+}
+
 .color-background-green {
     background-color: #289A31;
+}
+
+.color-green {
+    color: #289A31;
 }
 
 .color-background-red {
     background-color: #AC292B;
 }
 
+.color-red {
+    color: #AC292B;
+}
+
 .color-background-blue {
     background-color: #2B88BB;
+}
+
+.color-blue {
+    color: #2B88BB;
 }
 
 .section-divider .title-left {
