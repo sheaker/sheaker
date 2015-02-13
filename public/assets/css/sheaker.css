@@ -241,6 +241,7 @@ footer a {
 .btn-plan-free:active,
 .btn-plan-free.active,
 .open > .dropdown-toggle.btn-plan-free {
+    outline:0;
     color: #2B88BB;
     background-color: #fff;
     -webkit-box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
@@ -258,9 +259,9 @@ footer a {
 }
 
 .btn-plan-pro {
-    color: #272021;
-    background-color: #fff;
-    border-color: #AC292B;
+    color: #fff;
+    background-color: #2B88BB;
+    border-color: #2B88BB;
     height:300px;
     border-radius:0;
     padding-top: 10px;
@@ -275,16 +276,22 @@ footer a {
 .btn-plan-pro:active,
 .btn-plan-pro.active,
 .open > .dropdown-toggle.btn-plan-pro {
-    color: #272021;
-    background-color: #fff;
-    -webkit-box-shadow: inset 0px 0px 5px 2px rgba(172,41,43,1);
-    -moz-box-shadow: inset 0px 0px 5px 2px rgba(172,41,43,1);
-    box-shadow: inset 0px 0px 5px 2px rgba(172,41,43,1);
+    outline:0;
+    color: #fff;
+    background-color: #2B88BB;
+    -webkit-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,255);
+    -moz-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255255,255);
+    box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,255);
 }
 .btn-plan-pro:active,
 .btn-plan-pro.active,
 .open > .dropdown-toggle.btn-plan-pro {
     background-image: none;
+}
+
+#pricing .features .thumbnail-plan {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
 }
 
 .btn-go {
