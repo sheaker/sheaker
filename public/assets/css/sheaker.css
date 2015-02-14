@@ -130,7 +130,14 @@ body {
     font-size: 25px;
     color: #000;
 }
-
+#intro .introduction-text .fa {
+    margin-top: 10px;
+    margin-left: 100px;
+    position: absolute;
+    text-align:center;
+    font-size: 120px;
+    opacity: 0.15;
+}
 /*
  * Footer
  */
@@ -195,6 +202,10 @@ footer a {
 }
 .color-blue {
     color: #2B88BB;
+}
+.strong {
+    font-size: 28px;
+    font-weight: 700;
 }
 
 /*
