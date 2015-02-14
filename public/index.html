@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="assets/images/favicon.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika:700,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/sheaker.css">
 </head>
-<body id="home">
-    <div class="navbar navbar-default navbar-fixed-top">
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <a href="#home" class="navbar-brand"><img src="assets/images/logo.png">heaker</a>
@@ -27,58 +27,45 @@
                 <li><a href="#pricing">Pricing</a></li>
             </ul>
         </div>
+    </nav>
+
+    <div class="welcome-wrap">
+        <div class="welcome-cover"></div>
+
+        <section id="welcome">
+            <div class="welcome section container text-center">
+                <h2 class="title">
+                    <span class="upper">Hey, it's time!</span>
+                    <span class="middle">To put your gym in the clouds!</span>
+                    <span class="bottom"><i class="fa fa-cloud-upload fa-2x"></i></span>
+                </h2>
+                <a href="#features" type="button" class="btn btn-go">Learn more <span class="fa fa-chevron-down" aria-hidden="true"></span></button></a>
+            </div>
+        </section>
     </div>
 
-    <div class="splash">
-        <div class="container splash-content">
-            <div class="row">
-                <div class="col-lg-offset-3 col-lg-6 text-center">
-                    <h1>Hey, this is time !</h1>
-                    <h1>To put your gym in the clouds</h1>
-                    <h1><i class="fa fa-cloud-upload fa-5x"></i></h1>
-                    <a href="#features" type="button" class="btn btn-go">Learn more <span class="fa fa-chevron-down" aria-hidden="true"></span></button></a>
-                </div>
+    <section id="intro">
+        <div class="section-divider row row-no-margin color-background-yellow">
+            <p>What is it?</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 introduction-text">
+                <p>Our mission is to offer you all the necessary tools to manage your gym.</p>
+            </div>
+            <div class="col-lg-4 introduction-text">
+                <p>We keep all your data safe in the cloud. No more lost of information.</p>
+            </div>
+            <div class="col-lg-4 introduction-text">
+                <p>You can access to your manager from everywhere. You just need an internet connection.</p>
             </div>
         </div>
-    </div>
 
-    <div class="horizontal-line color-background-yellow"></div>
-
-    <div class="overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 introduction-text">
-                    <!--<div class="col-lg-4 vertical-line color-background-yellow"></div>-->
-                    <p>
-                        <div class="icone"><i class="fa fa-wrench"></i></div><br>
-                        Our mission is to offer you all the necessary tools to manage your gym.
-                    </p>
-                </div>
-                <div class="col-lg-4 introduction-text">
-                    <p>
-                        <div class="icone"><i class="fa fa-lock"></i></div><br>
-                        We keep all your data safe in the cloud. No more lost of information.
-                    </p>
-                </div>
-                <div class="col-lg-4 introduction-text">
-                    <p>
-                        <div class="icone"><i class="fa fa fa-globe"></i></div><br>
-                        You can access to your manager from everywhere. You just need an internet connection.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <section id="features">
-        <div class="section-divider">
-            <div class="row row-no-margin">
-                <div class="col-lg-offset-6 col-lg-6 section-divider-title color-background-green">
-                    <div class="title-left">
-                        Features
-                    </div>
-                </div>
-            </div>
+        <div class="section-divider row row-no-margin color-background-green">
+            <p>Features</p>
         </div>
 
         <div class="container features-container">
@@ -145,15 +132,10 @@
     </section>
 
     <section id="pricing">
-        <div class="section-divider">
-            <div class="row row-no-margin">
-                <div class="col-lg-6 section-divider-title color-background-red">
-                    <div class="title-right">
-                        Pricing Guide
-                    </div>
-                </div>
-            </div>
+        <div class="section-divider row row-no-margin color-background-red">
+            <p>Pricing Guide</p>
         </div>
+
         <div class="container table-responsive">
             <table class="table">
                 <thead>
