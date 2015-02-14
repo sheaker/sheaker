@@ -247,20 +247,49 @@ footer a {
     }
 }
 
+.btn-go {
+    color: #fff;
+    background-color: #2B88BB;
+    border-color: #2e6da4;
+    font-size:30px;
+}
+.btn-go:hover,
+.btn-go:focus,
+.btn-go.focus,
+.btn-go:active,
+.btn-go.active,
+.open > .dropdown-toggle.btn-go {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-go {
+    background-image: none;
+}
+
+/*
+ * Pricing
+ */
+
+.table > thead > tr > th {
+    padding: 0;
+}
+
 .btn-plan-free h1{
     font-size:70px;
 }
-
 .btn-plan-free {
     color: #2B88BB;
     background-color: #fff;
     border-color: #c1c1c1;
-    height:300px;
     border-radius:0;
     padding-top: 10px;
     border-radius: 74px 0px 0px 0px;
     -moz-border-radius: 74px 0px 0px 0px;
     -webkit-border-radius: 74px 0px 0px 0px;
+    width: 100%;
 }
 .btn-plan-free:hover,
 .btn-plan-free:focus,
@@ -284,18 +313,16 @@ footer a {
 .btn-plan-pro h1{
     font-size:70px;
 }
-
 .btn-plan-pro {
     color: #fff;
     background-color: #2B88BB;
     border-color: #2B88BB;
-    height:300px;
     border-radius:0;
     padding-top: 10px;
-    padding: 10px;
     border-radius: 0px 74px 0px 0px;
     -moz-border-radius: 0px 74px 0px 0px;
     -webkit-border-radius: 0px 74px 0px 0px;
+    width: 100%;
 }
 .btn-plan-pro:hover,
 .btn-plan-pro:focus,
@@ -314,38 +341,4 @@ footer a {
 .btn-plan-pro.active,
 .open > .dropdown-toggle.btn-plan-pro {
     background-image: none;
-}
-
-#pricing .features .thumbnail-plan {
-    margin-bottom: 1.5rem;
-    font-size: 18px;
-}
-
-.btn-go {
-    color: #fff;
-    background-color: #2B88BB;
-    border-color: #2e6da4;
-    font-size:30px;
-}
-.btn-go:hover,
-.btn-go:focus,
-.btn-go.focus,
-.btn-go:active,
-.btn-go.active,
-.open > .dropdown-toggle.btn-go {
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74;
-}
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-go {
-    background-image: none;
-}
-
-.thumbnail-plan {
-    font-size:30px;
-    border-top-width: 0px;
-    margin-left: 0px;
-    border-radius:0;
 }
