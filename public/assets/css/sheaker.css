@@ -136,8 +136,8 @@ body {
     font-size: 120px;
     opacity: 0.15;
     position: absolute;
+    width: 77.5%;
     text-align: center;
-    width: 75%;
 }
 /*
  * Footer
@@ -245,6 +245,10 @@ footer a:visited {
  * Pricing
  */
 
+ .pricing-big{
+    display:none;
+ }
+
 .table > thead > tr > th {
     padding: 0;
 }
@@ -343,4 +347,51 @@ footer a:visited {
 .btn-plan-pro.active,
 .open > .dropdown-toggle.btn-plan-pro {
     background-image: none;
+}
+
+.pricing-small .plan{
+    font-size:20px;
+    color: #5b5b5b;
+    margin-top: 20px;
+}
+
+.pricing-small .plan .header{
+    color: #2B88BB;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+
+    border-radius: 74px 74px 0px 0px;
+    -moz-border-radius: 74px 74px 0px 0px;
+    -webkit-border-radius: 74px 74px 0px 0px;
+}
+
+.pricing-small .plan .header-pro{
+    color: #fff;
+    background-color: #2B88BB;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #2B88BB;
+    border-radius: 74px 74px 0px 0px;
+    -moz-border-radius: 74px 74px 0px 0px;
+    -webkit-border-radius: 74px 74px 0px 0px;
+}
+
+.pricing-small .plan h1{
+    font-size:70px;
+}
+
+.pricing-small .plan ul li{
+    margin-top:15px;
+}
+
+@media(min-width:1200px) {
+    .pricing-big{
+       display:block;
+    }
+
+    .pricing-small{
+        display:none;
+    }
 }
