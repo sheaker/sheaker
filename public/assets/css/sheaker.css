@@ -92,9 +92,17 @@ body {
     text-transform: lowercase;
 }
 .welcome .btn {
+    display:none;
     font-size: 20px;
     font-weight: normal;
 }
+
+@media(min-width:1200px) {
+    .welcome .btn{
+    display:inline;
+    }
+}
+
 .btn-go {
     color: #fff;
     background-color: #2B88BB;
@@ -358,12 +366,12 @@ footer a:visited {
 .pricing-small .plan .header{
     color: #2B88BB;
     text-align: center;
-    border-style: solid;
     border-width: 5px;
 
     border-radius: 74px 74px 0px 0px;
     -moz-border-radius: 74px 74px 0px 0px;
     -webkit-border-radius: 74px 74px 0px 0px;
+    margin-bottom: 30px;
 }
 
 .pricing-small .plan .header-pro{
@@ -373,9 +381,6 @@ footer a:visited {
     border-style: solid;
     border-width: 5px;
     border-color: #2B88BB;
-    border-radius: 74px 74px 0px 0px;
-    -moz-border-radius: 74px 74px 0px 0px;
-    -webkit-border-radius: 74px 74px 0px 0px;
 }
 
 .pricing-small .plan h1{
@@ -384,6 +389,18 @@ footer a:visited {
 
 .pricing-small .plan ul li{
     margin-top:15px;
+    padding-bottom:15px;
+    border-style: solid;
+    border-bottom: 1px solid #ddd !important;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.pricing-small .plan ul{
+    list-style-type:none;
+    padding-right: 40px;
+    margin-bottom:40px;
 }
 
 @media(min-width:1200px) {
