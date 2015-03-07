@@ -62,6 +62,22 @@ class ClientRepository implements RepositoryInterface
     }
 
     /**
+     * Returns a client matching the supplied subdomain.
+     *
+     * @param string $subdomain
+     *
+     * @return \Sheaker\Entity\Client|false An entity object if found, false otherwise.
+     */
+    public function findBySubdomain($subdomain)
+    {
+        $clientData = $this->db->fetchAssoc('
+            SELECT *
+            FROM clients c
+            WHERE c.subdomain = ?', array($subdomain));
+        return $clientData ? $this->buildClient($clientData) : FALSE;
+    }
+
+    /**
      * Returns a collection of clients.
      *
      * @param integer $limit
