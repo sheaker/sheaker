@@ -35,10 +35,23 @@ class ClientController
             $app->abort(Response::HTTP_UNAUTHORIZED, 'No Authorization token sent');
         }
 
-        //@Todo: Get Secret key for user X
+        $getParams = [];
+        $getParams['id'] = $app->escape($request->get('id'));
+
+        foreach ($getParams as $value) {
+            if (!isset($value)) {
+                $app->abort(Response::HTTP_BAD_REQUEST, 'Missing parameters');
+            }
+        }
+
+        $client = $app['repository.client']->find($getParams['id']);
+        if (!$client) {
+            $app->abort(Response::HTTP_NOT_FOUND, 'Client not found');
+        }
+
         $token = explode(' ', $authorizationHeader)[1];
         try {
-            $decodedToken = \JWT::decode($token, $this->secretKey);
+            $decodedToken = \JWT::decode($token, $client->getSecretKey());
         }
         catch (UnexpectedValueException $ex) {
             $this->app->abort(Response::HTTP_UNAUTHORIZED, 'Invalid token');
@@ -48,13 +61,6 @@ class ClientController
             $app->abort(Response::HTTP_FORBIDDEN, 'Forbidden');
         }
 
-        $getParams = [];
-        $getParams['id'] = $app->escape($request->get('id'));
-
-        foreach ($getParams as $value) {
-            if (!isset($value)) {
-                $app->abort(Response::HTTP_BAD_REQUEST, 'Missing parameters');
-            }
-        }
+        return json_encode($client, JSON_NUMERIC_CHECK);
     }
 }
