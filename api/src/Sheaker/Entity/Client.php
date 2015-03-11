@@ -33,27 +33,6 @@ class Client
     public $secretKey;
 
     /**
-     * Email.
-     *
-     * @var string
-     */
-    public $mail;
-
-    /**
-     * Phone number.
-     *
-     * @var integer
-     */
-    public $phone;
-
-    /**
-     * Description of the client.
-     *
-     * @var String
-     */
-    public $description;
-
-    /**
      * When the client entity was created.
      *
      * @var string
@@ -95,33 +74,6 @@ class Client
     public function setSecretKey($secretKey)
     {
         return $this->secretKey = $secretKey;
-    }
-
-    public function getMail()
-    {
-        return $this->mail;
-    }
-    public function setMail($mail)
-    {
-        $this->mail = $mail;
-    }
-
-    public function getPhone()
-    {
-        return $this->phone;
-    }
-    public function setPhone($phone)
-    {
-        $this->phone = $phone;
-    }
-
-    public function getDescription()
-    {
-        return $this->description;
-    }
-    public function setDescription($description)
-    {
-        $this->description = $description;
     }
 
     public function getCreatedAt()

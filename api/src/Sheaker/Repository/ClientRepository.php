@@ -31,9 +31,6 @@ class ClientRepository implements RepositoryInterface
             'name'        => $client->getName(),
             'subdomain'   => $client->getSubdomain(),
             'secret_key'  => $client->getSecretKey(),
-            'mail'        => $client->getMail(),
-            'phone'       => $client->getPhone(),
-            'description' => $client->getDescription(),
             'created_at'  => $client->getCreatedAt()
         );
 
@@ -162,9 +159,6 @@ class ClientRepository implements RepositoryInterface
         $client->setName($clientData['name']);
         $client->setSubdomain($clientData['subdomain']);
         $client->setSecretKey($clientData['secret_key']);
-        $client->setMail($clientData['mail']);
-        $client->setPhone($clientData['phone']);
-        $client->setDescription($clientData['description']);
         $client->setCreatedAt($clientData['created_at']);
 
         return $client;

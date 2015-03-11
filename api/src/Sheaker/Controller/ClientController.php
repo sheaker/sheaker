@@ -9,56 +9,45 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ClientController
 {
-    public function existClient(Request $request, Application $app)
-    {
-        $getParams = [];
-        $getParams['subdomain'] = $app->escape($request->get('subdomain'));
-
-        foreach ($getParams as $value) {
-            if (!isset($value)) {
-                $app->abort(Response::HTTP_BAD_REQUEST, 'Missing parameters');
-            }
-        }
-
-        $client = $app['repository.client']->findBySubdomain($getParams['subdomain']);
-        if (!$client) {
-            $app->abort(Response::HTTP_NOT_FOUND, 'Client not found');
-        }
-
-        return json_encode(['subdomain' => $client->getSubdomain(), 'name' => $client->getName()], JSON_NUMERIC_CHECK);
-    }
-
     public function getClient(Request $request, Application $app)
     {
-        $authorizationHeader = $request->headers->get('Authorization');
-        if ($authorizationHeader == null) {
-            $app->abort(Response::HTTP_UNAUTHORIZED, 'No Authorization token sent');
-        }
-
         $getParams = [];
         $getParams['id'] = $app->escape($request->get('id'));
+        $getParams['subdomain'] = $app->escape($request->get('subdomain'));
 
-        foreach ($getParams as $value) {
-            if (!isset($value)) {
-                $app->abort(Response::HTTP_BAD_REQUEST, 'Missing parameters');
+        if (!empty($getParams['id'])) {
+            $authorizationHeader = $request->headers->get('Authorization');
+            if ($authorizationHeader == null) {
+                $app->abort(Response::HTTP_UNAUTHORIZED, 'No Authorization token sent');
+            }
+
+            $client = $app['repository.client']->find($getParams['id']);
+            if (!$client) {
+                $app->abort(Response::HTTP_NOT_FOUND, 'Client not found');
+            }
+
+            $token = explode(' ', $authorizationHeader)[1];
+            try {
+                $decodedToken = \JWT::decode($token, $client->getSecretKey());
+            }
+            catch (UnexpectedValueException $ex) {
+                $this->app->abort(Response::HTTP_UNAUTHORIZED, 'Invalid token');
+            }
+
+            if (!in_array('admin', $decodedToken->user->permissions) && !in_array('modo', $decodedToken->user->permissions)) {
+                $app->abort(Response::HTTP_FORBIDDEN, 'Forbidden');
             }
         }
+        else if (!empty($getParams['subdomain'])) {
+            $client = $app['repository.client']->findBySubdomain($getParams['subdomain']);
+            if (!$client) {
+                $app->abort(Response::HTTP_NOT_FOUND, 'Client not found');
+            }
 
-        $client = $app['repository.client']->find($getParams['id']);
-        if (!$client) {
-            $app->abort(Response::HTTP_NOT_FOUND, 'Client not found');
+            unset($client->secretKey);
         }
-
-        $token = explode(' ', $authorizationHeader)[1];
-        try {
-            $decodedToken = \JWT::decode($token, $client->getSecretKey());
-        }
-        catch (UnexpectedValueException $ex) {
-            $this->app->abort(Response::HTTP_UNAUTHORIZED, 'Invalid token');
-        }
-
-        if (!in_array('admin', $decodedToken->user->permissions) && !in_array('modo', $decodedToken->user->permissions)) {
-            $app->abort(Response::HTTP_FORBIDDEN, 'Forbidden');
+        else {
+            $app->abort(Response::HTTP_BAD_REQUEST, 'Missing parameters');
         }
 
         return json_encode($client, JSON_NUMERIC_CHECK);
