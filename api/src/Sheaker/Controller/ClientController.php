@@ -16,26 +16,9 @@ class ClientController
         $getParams['subdomain'] = $app->escape($request->get('subdomain'));
 
         if (!empty($getParams['id'])) {
-            $authorizationHeader = $request->headers->get('Authorization');
-            if ($authorizationHeader == null) {
-                $app->abort(Response::HTTP_UNAUTHORIZED, 'No Authorization token sent');
-            }
-
             $client = $app['repository.client']->find($getParams['id']);
             if (!$client) {
                 $app->abort(Response::HTTP_NOT_FOUND, 'Client not found');
-            }
-
-            $token = explode(' ', $authorizationHeader)[1];
-            try {
-                $decodedToken = \JWT::decode($token, $client->getSecretKey());
-            }
-            catch (UnexpectedValueException $ex) {
-                $this->app->abort(Response::HTTP_UNAUTHORIZED, 'Invalid token');
-            }
-
-            if (!in_array('admin', $decodedToken->user->permissions) && !in_array('modo', $decodedToken->user->permissions)) {
-                $app->abort(Response::HTTP_FORBIDDEN, 'Forbidden');
             }
         }
         else if (!empty($getParams['subdomain'])) {
