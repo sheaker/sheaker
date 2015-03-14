@@ -59,13 +59,6 @@ $app['repository.client'] = $app->share(function ($app) {
 });
 
 /**
- * Register custom services
- */
-$app['jwt'] = $app->share(function ($app) {
-    return new Sheaker\Service\JWT($app, $app['api.secretKey']);
-});
-
-/**
  * Register before handler
  */
 $app->before(function (Request $request) {
