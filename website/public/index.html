@@ -8,7 +8,7 @@
 
     <title>Sheaker: Be more efficient</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Signika:700,400' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Signika:700,400' rel='stylesheet" type="text/css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/sheaker.css">
@@ -27,39 +27,47 @@
     <![endif]-->
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#home" class="navbar-brand"><img src="assets/images/logo.png" alt="Sheaker logo">heaker</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <div class="welcome-wrap">
         <div class="welcome-cover"></div>
-
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#home" class="navbar-brand"><img src="assets/images/logo-cover.png"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#intro">Introduction</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <section id="welcome">
             <div class="welcome section container text-center">
                 <h2 class="title">
-                    <span class="upper">Hey, it's time!</span>
-                    <span class="middle">To put your gym in the clouds!</span>
-                    <span class="bottom"><i class="fa fa-cloud-upload fa-2x"></i></span>
+                    <span class="upper">"Hey, it's time! To put your gym in the clouds!"</span>
+                    <span class="upper-description">We give you all the keys to manage your gym. Easier to use, graphical stats, online saving...</span>
+                    <span class="middle">
+                    <div class="col-lg-offset-2 col-lg-4">
+                        Check all of the tools that sheaker offer to you.
+                    </div>
+                    <div class="col-lg-4">
+                        We have different offers for each kind of buisness. Free version is for as long as you want and with an unlimited number of customers.
+                    </div>
+                    </span>
+                    <a href="#intro" type="button" class="btn col-lg-offset-2 col-lg-8 btn-go">Lets discover it</a>
                 </h2>
-                <a href="#intro" type="button" class="btn btn-go">Learn more <span class="fa fa-chevron-down" aria-hidden="true"></span></button></a>
             </div>
         </section>
+        <!--<div class="overlay section container text-center">
+            Sheaker is free to use for as long as you want and with an unlimited number of customers.
+        </div>-->
     </div>
 
     <section id="intro">

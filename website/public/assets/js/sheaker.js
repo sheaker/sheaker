@@ -11,7 +11,7 @@ $(document).ready(function() {
         $('section').each(function () {
             var refElement = $(this),
                 menuButton = $('.navbar .nav li a[href=#'+this.id+']'),
-                scrollOffset = -55;
+                scrollOffset = -5;
 
             if ((refElement.position().top + scrollOffset) <= scrollPos && ((refElement.position().top + scrollOffset) + refElement.height()) > scrollPos) {
                 $('.navbar .nav .active').removeClass('active');
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
         var anchor = $(this).attr('href'),
             anchorOffset = $(anchor).offset(),
-            scrollOffset = -50;
+            scrollOffset = -0;
 
         if (anchorOffset) {
             $('html, body').stop(true, false).animate({
