@@ -1,6 +1,11 @@
 <?php
 
-/*
- * User routes
+/**
+ * Client routes
  */
- $app->get('/clients', 'Sheaker\Controller\ClientController::getClient');
+$app->get('/clients', 'Sheaker\Controller\ClientController::getClient');
+
+/**
+ * Informations routes
+ */
+$app->get('/infos', 'Sheaker\Controller\MainController::getInfos');
