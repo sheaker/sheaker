@@ -16,7 +16,7 @@ class MainController
         }
 
         $infos = [];
-        $infos['reserved_subdomains'] = $reserved_subdomains;
+        $infos['reservedSubdomains'] = $reserved_subdomains;
 
         return json_encode($infos, JSON_NUMERIC_CHECK);
     }
