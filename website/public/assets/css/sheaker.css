@@ -73,34 +73,41 @@ body {
     height: 100%;
     background-position: center bottom;
 }
+
 .welcome {
-    min-height: 650px;
+    min-height: 700px;
     color: #fff;
     padding-top: 100px;
     position: relative;
     z-index: 10;
 }
+
 .welcome .title {
     line-height: 0.75;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 50px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
     margin-bottom: 90px;
-    line-height: 50px;
+    line-height: 60px;
 }
 @media(min-width:1024px) {
     .welcome .title{
-        font-size: 50px;
+        font-size: 80px;
+        line-height: 100px;
     }
 }
 .welcome .title span {
     display: block;
 }
 
+.welcome .title .upper {
+        font-family: 'Lato', sans-serif;
+}
+
 .welcome .title .upper-description {
     font-size: 12px;
     font-weight: 300;
-    line-height: 20px;
+    line-height: 1.2;
 }
 @media(min-width:1024px) {
     .welcome .title .upper-description{
@@ -113,8 +120,22 @@ body {
     font-size: 25px;
     font-weight: normal;
     letter-spacing: 1px;
-    text-align: justify;
-    line-height: 25px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #EEEEEE;
+}
+
+.welcome .title .bottom {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .welcome .btn {
@@ -123,12 +144,28 @@ body {
     border: none;
     border-radius: 3px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media(min-width:1024px) {
     .welcome .btn{
     display:inline;
     }
+}
+
+.welcome .btn-version {
+    color: #fff;
+    background-color: #AC292B;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration:none; 
+}
+.welcome .btn-version:hover,
+.welcome .btn-version:focus,
+.welcome .btn-version:active {
+    color: #fff;
+    background-color: #8d2123;
+    border-color: #204d74;
 }
 
 .btn-go {
@@ -145,8 +182,10 @@ body {
 /*
  * Introduction
  */
+
 #intro .section-divider {
     margin-top: 0px;
+    text-align: center;
 }
 #intro .introduction-text {
     margin-top: 75px;
@@ -192,13 +231,16 @@ footer a:visited {
     z-index: 999;
     width: 100%;
     background-color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 .section-divider p {
     color: #fff;
+    line-height: 1;
     font-size: 50px;
-    padding: 20px;
-    font-weight: 700;
-    margin-bottom: 0;
+    padding: 10px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 .row-no-margin {
@@ -233,8 +275,14 @@ footer a:visited {
 .color-blue {
     color: #2B88BB;
 }
+
+.color-background-white {
+    background-color: #FFFFFF;
+}
+.color-white {
+    color: #FFFFFF;
+}
 .strong {
-    font-size: 28px;
     font-weight: 700;
 }
 
@@ -243,7 +291,7 @@ footer a:visited {
  */
 .feature {
     text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
 }
 .features-container {
     margin-top: 20px;
