@@ -24,7 +24,7 @@ $(document).ready(function() {
     }
 
     $(document).on('scroll', onScroll);
-    $('.navbar .nav li a, .btn-go, .navbar-header .navbar-brand').click(function (event) {
+    $('.navbar .nav li a, .btn-go, .navbar-header .navbar-brand, .btn-version').click(function (event) {
         event.preventDefault();
 
         var anchor = $(this).attr('href'),
