@@ -53,12 +53,11 @@ body {
  */
 .welcome-wrap {
     position: relative;
-    background-color: #141111;
+    background: none;
 }
 .welcome-wrap section {
     top: 0;
     left: 0;
-    background: none;
 }
 .welcome-cover {
     background-image: url('../images/gym.png');
@@ -75,9 +74,9 @@ body {
 }
 
 .welcome {
-    min-height: 700px;
+    min-height: 600px;
     color: #fff;
-    padding-top: 100px;
+    padding-top: 40px;
     position: relative;
     z-index: 10;
 }
@@ -158,7 +157,7 @@ body {
     background-color: #AC292B;
     padding: 5px;
     border-radius: 3px;
-    text-decoration:none; 
+    text-decoration:none;
 }
 .welcome .btn-version:hover,
 .welcome .btn-version:focus,
