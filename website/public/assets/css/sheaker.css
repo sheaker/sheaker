@@ -43,8 +43,8 @@ body {
     padding: 13.5px 15px 12.5px
     display: inline;
     margin-top: 10px;
-    width: 69px;
-    height: 60px;
+    width: 79px;
+    height: 70px;
 }
 @media(min-width:1024px) {
     .navbar-brand{
@@ -113,7 +113,7 @@ body {
 }
 @media(min-width:1024px) {
     .welcome .title .upper{
-        font-size: 80px;
+        font-size: 70px;
         line-height: 100px;
         word-spacing: -5px;
         letter-spacing: -2px;
