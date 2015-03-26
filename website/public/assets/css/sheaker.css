@@ -215,27 +215,65 @@ body {
  * Introduction
  */
 
+#intro {
+    background-color: #d7ebf6;
+}
+
 #intro .section-divider {
     margin-top: 0px;
     text-align: center;
 }
 #intro .introduction-text {
-    margin-top: 75px;
-    margin-bottom: 75px;
+    padding-top: 14px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     color: #000;
 }
+@media(min-width:1500px) {
+    #intro .introduction-text{
+    margin-bottom: 25px;
+    padding-top: 5px;
+    }
+}
+
 #intro .introduction-text .fa {
-    font-size: 120px;
-    opacity: 0.15;
+    margin-top: -15px;
+    font-size: 110px;
+    opacity: 0.1;
     position: absolute;
     width: 77.5%;
     text-align: center;
+    color: #fff;
+}
+#intro .introduction-container {
+    margin-bottom: -395px;
+}
+@media(min-width:1500px) {
+    #intro .introduction-container{
+    margin-right: 700px;
+    }
 }
 
+#intro .intro-screen {
+    display: none;
+    margin: 0;
+    float: right;
+    background-image: url('../images/screen-add.png');
+    background-repeat: no-repeat;
+    box-shadow: -6px -6px 6px #aaa;
+    width: 700px;
+    height: 406px;
+}
+@media(min-width:1500px) {
+    #intro .intro-screen{
+    display:inline;
+    }
+}
 /*
  * Footer
  */
@@ -258,7 +296,7 @@ footer a:visited {
  * Miscs
  */
 .section-divider {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
     z-index: 999;
     width: 100%;
@@ -269,11 +307,15 @@ footer a:visited {
 .section-divider p {
     color: #fff;
     line-height: 1;
-    font-size: 50px;
+    font-size: 30px;
     padding: 10px;
     font-weight: 300;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
+@media(min-width:1200px) {
+    .section-divider p {
+        font-size: 50px;
+    }
 
 .row-no-margin {
     margin-left: 0px;
@@ -321,12 +363,20 @@ footer a:visited {
 /*
  * Features
  */
+
+#features {
+    background-color: #f5fff5;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
 .feature {
     text-align: justify;
-    font-size: 16px;
 }
 .features-container {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 @media(min-width:1200px) {
