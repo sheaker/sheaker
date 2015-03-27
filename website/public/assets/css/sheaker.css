@@ -545,6 +545,10 @@ footer a:visited {
     .pricing-small {
         display: none;
     }
+    .header-plan {
+        text-align: center;
+        border: 1px solid #DDD;
+    }
     .pricing-big {
         display: block;
     }
@@ -559,7 +563,7 @@ footer a:visited {
         -webkit-border-radius: 74px 0px 0px 0px;
         width: 100%;
     }
-    .btn-plan-free:hover,
+    /*.btn-plan-free:hover,
     .btn-plan-free:focus,
     .btn-plan-free:active {
         outline: 0;
@@ -568,7 +572,7 @@ footer a:visited {
         -webkit-box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
         -moz-box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
         box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
-    }
+    }*/
     .btn-plan-free h1 {
         font-size: 70px;
     }
@@ -585,7 +589,7 @@ footer a:visited {
         padding-top: 10px;
         width: 100%;
     }
-    .btn-plan-lite:hover,
+    /*.btn-plan-lite:hover,
     .btn-plan-lite:focus,
     .btn-plan-lite:active {
         outline: 0;
@@ -594,7 +598,7 @@ footer a:visited {
         -webkit-box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
         -moz-box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
         box-shadow: inset 0px 0px 5px 2px rgba(43,135,188,1);
-    }
+    }*/
     .btn-plan-lite h1 {
         font-size: 70px;
     }
@@ -614,7 +618,7 @@ footer a:visited {
         -webkit-border-radius: 0px 74px 0px 0px;
         width: 100%;
     }
-    .btn-plan-pro:hover,
+    /*.btn-plan-pro:hover,
     .btn-plan-pro:focus,
     .btn-plan-pro:active {
         outline: 0;
@@ -623,7 +627,7 @@ footer a:visited {
         -webkit-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,255);
         -moz-box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,255);
         box-shadow: inset 0px 0px 5px 2px rgba(255,255,255,255);
-    }
+    }*/
     .btn-plan-pro h1{
         font-size: 70px;
     }
