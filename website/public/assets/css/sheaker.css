@@ -227,14 +227,14 @@ body {
     padding-top: 14px;
     margin-bottom: 50px;
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
     font-size: 20px;
     color: #000;
 }
-@media(min-width:1500px) {
+@media(min-width:1217px) {
     #intro .introduction-text{
     margin-bottom: 25px;
     padding-top: 5px;
@@ -244,16 +244,16 @@ body {
 #intro .introduction-text .fa {
     margin-top: -15px;
     font-size: 110px;
-    opacity: 0.1;
+    opacity: 0.15;
     position: absolute;
     width: 77.5%;
     text-align: center;
-    color: #fff;
+    color: #666666;
 }
 #intro .introduction-container {
     margin-bottom: -395px;
 }
-@media(min-width:1500px) {
+@media(min-width:1217px) {
     #intro .introduction-container{
     margin-right: 700px;
     }
@@ -261,15 +261,15 @@ body {
 
 #intro .intro-screen {
     display: none;
-    margin: 0;
+    margin-top:50px;
     float: right;
     background-image: url('../images/screen-add.png');
     background-repeat: no-repeat;
     box-shadow: -6px -6px 6px #aaa;
-    width: 700px;
-    height: 406px;
+    width: 600px;
+    height: 348px;
 }
-@media(min-width:1500px) {
+@media(min-width:1217px) {
     #intro .intro-screen{
     display:inline;
     }
@@ -312,10 +312,11 @@ footer a:visited {
     font-weight: 300;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
-@media(min-width:1200px) {
+@media(min-width:1217px) {
     .section-divider p {
         font-size: 50px;
     }
+}
 
 .row-no-margin {
     margin-left: 0px;
