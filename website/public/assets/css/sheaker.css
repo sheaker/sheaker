@@ -246,7 +246,7 @@ body {
     float: left;
     background-image: url('../images/mockup-iphone.png');
     background-repeat: no-repeat;
-    width: 304px;
+    width: 380px;
     height: 344px;
 }
 @media(min-width:1217px) {
@@ -263,6 +263,7 @@ body {
     padding-right: 50px;
     font-size: 20px;
     text-shadow: 0 1px #d2d4e3;
+    font-weight: 400;
 }
 @media(min-width:1217px) {
     #intro .introduction-text{
@@ -354,7 +355,6 @@ footer a:visited {
 #features {
     background-color: #f2f2f5;
     padding-bottom: 40px;
-    margin-bottom: 30px;
 }
 
 #features .section-divider {
@@ -462,6 +462,7 @@ footer a:visited {
  @media(min-width:800px) {
      #pricing .section-divider p {
          font-size: 50px;
+         padding-top: 30px;
      }
  }
 
@@ -547,7 +548,9 @@ footer a:visited {
     }
     .header-plan {
         text-align: center;
-        border: 1px solid #DDD;
+        border-top: 1px solid #DDD;
+        border-left: 1px solid #DDD;
+        border-right: 1px solid #DDD;
     }
     .pricing-big {
         display: block;
@@ -588,6 +591,8 @@ footer a:visited {
         border-radius: 0;
         padding-top: 10px;
         width: 100%;
+        border-left: 0;
+        border-right: 0;
     }
     /*.btn-plan-lite:hover,
     .btn-plan-lite:focus,
