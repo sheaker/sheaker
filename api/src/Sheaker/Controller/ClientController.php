@@ -12,7 +12,7 @@ class ClientController
     public function getClient(Request $request, Application $app)
     {
         $getParams = [];
-        $getParams['id'] = $app->escape($request->get('id'));
+        $getParams['id'] = $app->escape($request->get('id_client'));
         $getParams['subdomain'] = $app->escape($request->get('subdomain'));
 
         if (!empty($getParams['id'])) {
