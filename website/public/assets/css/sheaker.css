@@ -67,7 +67,7 @@ body {
     left: 0;
 }
 .welcome-cover {
-    background-image: url('../images/gym.png');
+    background-image: url('../images/gym.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
