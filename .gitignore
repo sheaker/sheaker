@@ -1,6 +1,2 @@
-api/vendor
-api/logs/*.log
-api/config/*.php
-api/composer.lock
-website/public/bower_components/
+dist/bower_components/
 .DS_Store
