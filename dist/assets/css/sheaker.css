@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-brand {
-    background-image: url('../images/logo-cover-phone.png');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/logo-cover-phone.png');
     padding: 13.5px 15px 12.5px
     display: inline;
     margin-top: 10px;
@@ -49,7 +49,7 @@ body {
 }
 @media(min-width:1024px) {
     .navbar-brand{
-        background-image: url('../images/logo-cover.png');
+        background-image: url('//static.sheaker.com/sheaker/assets/images/logo-cover.png');
         width: 163px;
         height: 60px;
     }
@@ -67,7 +67,7 @@ body {
     left: 0;
 }
 .welcome-cover {
-    background-image: url('../images/gym.jpg');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/gym.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -244,7 +244,7 @@ body {
 #intro .section-divider .mockup-iphone {
     display:none;
     float: left;
-    background-image: url('../images/mockup-iphone.png');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/mockup-iphone.png');
     background-repeat: no-repeat;
     width: 380px;
     height: 344px;
@@ -294,7 +294,7 @@ body {
     display: none;
     margin-top:50px;
     float: right;
-    background-image: url('../images/screen-add.png');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/screen-add.png');
     background-repeat: no-repeat;
     box-shadow: -6px -6px 6px #aaa;
     width: 600px;
@@ -398,7 +398,7 @@ footer a:visited {
 #features .section-divider .feature-screen {
     display: none;
     margin-top:50px;
-    background-image: url('../images/screen-search.png');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/screen-search.png');
     background-repeat: no-repeat;
     width: 792px;
     height: 233px;
@@ -438,7 +438,7 @@ footer a:visited {
 
 @media(min-width:1200px) {
     .screen-computer {
-        background-image: url("../images/computer.png");
+        background-image: url("//static.sheaker.com/sheaker/assets/images/computer.png");
         width:360px;
         height:293px;
     }
@@ -486,7 +486,7 @@ footer a:visited {
  #pricing .section-divider .mockup {
      display:none;
      margin-top:50px;
-     background-image: url('../images/mockup.png');
+     background-image: url('//static.sheaker.com/sheaker/assets/images/mockup.png');
      background-repeat: no-repeat;
      width: 600px;
      height: 233px;
