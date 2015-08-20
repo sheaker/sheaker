@@ -1,1 +1,11 @@
-{}
+{
+    "MENU" : {
+        "PRODUCT" : "Produit",
+        "PRICING" : "Prix",
+        "CREATE" : "Créer votre manager"
+    },
+    "WELCOME" : {
+        "TITLE": "Mettez votre salle de sport dans les nuages !",
+        "DESCRIPTION": "On vous donne toutes les clées pour gérer votre salle de sport."
+    }
+}

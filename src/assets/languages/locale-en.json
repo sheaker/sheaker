@@ -1,4 +1,9 @@
 {
+    "MENU" : {
+        "PRODUCT" : "Product",
+        "PRICING" : "Pricing",
+        "CREATE" : "Create your manager"
+    },
     "WELCOME" : {
         "TITLE": "Put your gym in the clouds!",
         "DESCRIPTION": "We give you all the keys to manage your gym."
