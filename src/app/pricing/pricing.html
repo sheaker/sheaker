@@ -1,0 +1,155 @@
+<div id="container" ng-controller="PricingController">
+
+    <div ng-include="'app/components/navbar/navbar.html'"></div>
+
+    <section id="pricing">
+        <div class="section-divider row row-no-margin color-background-wite">
+            <p>Take your Sheaker</p>
+            <h3>We have plans for every gym, take yours</h3>
+            <div class="mockup"></div>
+        </div>
+
+        <!-- Little screen -->
+        <div class="container pricing-small">
+            <!-- Free Plan -->
+            <div class="plan col-lg-4 col-sm-6">
+                <div class="header-free">
+                    <h2>Free</h2>
+                    <h1>0$<small>(MXN)</small></h1>
+                    <h3>no limits on users / time</h3>
+                </div>
+                <ul>
+                    <li>Client payment management</li>
+                    <li>Support</li>
+                    <li>Searchable client history <br>(limited to 2 weeks)</li>
+                </ul>
+            </div>
+            <!-- Lite Plan -->
+            <div class="plan col-lg-4 col-sm-6">
+                <div class="header-lite">
+                    <h2>Lite</h2>
+                    <h1>5$<small>(MXN)</small></h1>
+                    <h3>per user / month</h3>
+                </div>
+                <ul>
+                    <li>Client payment management</li>
+                    <li>Support</li>
+                    <li>Searchable client history</li>
+                    <li>Statistical graphs</li>
+                </ul>
+            </div>
+            <!-- Pro Plan -->
+            <div class="plan col-lg-4 col-sm-6">
+                <div class="header-pro">
+                    <h2>Pro</h2>
+                    <h1>8$<small>(MXN)</small></h1>
+                    <h3>per user / month</h3>
+                </div>
+                <ul>
+                    <li>Client payment management</li>
+                    <li>Support</li>
+                    <li>Searchable client history</li>
+                    <li>Statistical graphs</li>
+                    <li>Client Interface</li>
+                    <li>Smartphone Application</li>
+                    <li>Schedule management</li>
+                    <li>Notification Alert</li>
+                    <li>Music management</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Computer screen -->
+        <div class="container pricing-big table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="plan">
+                            <div class="header-plan btn-plan-free col-lg-3 col-sm-2" >
+                                <h2>Free</h2>
+                                <h1>0$<small>(MXN)</small></h1>
+                                <h3>no limits on users / time</h3>
+                            </div>
+                        </th>
+                        <th class="plan">
+                            <div class="header-plan btn-plan-lite col-lg-3 col-sm-2" >
+                                <h2>Lite</h2>
+                                <h1>5$<small>(MXN)</small></h1>
+                                <h3>per user / month</h3>
+                            </div>
+                        </th>
+                        <th class="plan">
+                            <div class="header-plan btn-plan-pro col-lg-3 col-sm-2">
+                                <h2>Pro</h2>
+                                <h1>8$<small>(MXN)</small></h1>
+                                <h3>per user / month</h3>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="feature">
+                        <td>Client payment management</td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Support</td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Searchable client history</td>
+                        <td>
+                            <i class="fa fa-check fa-2x color-yellow"></i>
+                            <p>(limited to 2 weeks)</p>
+                        </td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Statistical graphs</td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Client Interface</td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Smartphone Application</td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Schedule management</td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Notification Alert</td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                    <tr class="feature">
+                        <td>Music management</td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-close fa-2x color-red"></i></td>
+                        <td><i class="fa fa-check fa-2x color-green"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <div ng-include="'app/components/footer/footer.html'"></div>
+</div>

@@ -1,0 +1,352 @@
+/*
+ * Welcome section
+ */
+.welcome-wrap {
+    position: relative;
+    background: none;
+}
+.welcome-wrap section {
+    top: 0;
+    left: 0;
+}
+.welcome-cover {
+    background-image: url('//static.sheaker.com/sheaker/assets/images/gym.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center bottom;
+}
+
+.welcome {
+    color: #fff;
+    padding-top: 10px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 35px;
+}
+
+.welcome .title {
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    line-height: 60px;
+}
+@media(min-width:1024px) {
+    .welcome .title{
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+.welcome .title span {
+    display: block;
+}
+
+.welcome .title .upper {
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        letter-spacing: -1px;
+}
+@media(min-width:1024px) {
+    .welcome .title .upper{
+        font-size: 70px;
+        line-height: 100px;
+        letter-spacing: -2px;
+    }
+}
+
+.welcome .title .upper-description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media(min-width:1024px) {
+    .welcome .title .upper-description{
+        font-size: 18px;
+    }
+}
+
+.welcome .title .middle {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #EEEEEE;
+}
+@media(min-width:1024px) {
+    .welcome .title .middle{
+        font-size: 25px;
+        margin-top: 90px;
+    }
+}
+
+.welcome .title .bottom {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #EEEEEE;
+    font-weight: 400;
+}
+@media(min-width:1024px) {
+    .welcome .title .bottom{
+        margin-top: 100px;
+    }
+}
+
+.welcome .btn {
+    font-size: 40px;
+    font-weight: normal;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media(min-width:1024px) {
+    .welcome .btn{
+    display:inline;
+    }
+}
+
+.welcome .btn-version {
+    color: #fff;
+    background-color: #AC292B;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration:none;
+    display: none;
+}
+.welcome .btn-version:hover,
+.welcome .btn-version:focus,
+.welcome .btn-version:active {
+    color: #fff;
+    background-color: #8d2123;
+    border-color: #204d74;
+}
+@media(min-width:1024px) {
+    .welcome .btn-version{
+    display:inline;
+    }
+}
+
+.btn-go {
+    color: #fff;
+    background-color: #2B88BB;
+}
+.btn-go:hover,
+.btn-go:focus,
+.btn-go:active {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+
+/*
+ * Intro section
+ */
+#intro {
+    background-color: #d7ebf6;
+    border-bottom: 1px solid #DDD;
+}
+
+#intro .section-divider {
+    padding-top: 10px;
+    border-bottom: 3px solid #DDD;
+}
+#intro .section-divider p{
+    text-align: center;
+}
+@media(min-width:1217px) {
+    #intro .section-divider p{
+        padding-top: 60px;
+    }
+}
+#intro .section-divider h3 {
+    display:none;
+    font-size : 32px;
+    color: #fff;
+    font-weight: 300;
+}
+@media(min-width:1217px) {
+    #intro .section-divider h3{
+        display:block;
+    }
+}
+
+#intro .section-divider .mockup-iphone {
+    display:none;
+    float: left;
+    background-image: url('//static.sheaker.com/sheaker/assets/images/mockup-iphone.png');
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 344px;
+}
+@media(min-width:1217px) {
+    #intro .section-divider .mockup-iphone{
+        display:block;
+    }
+}
+
+#intro .introduction-text {
+    text-align: justify;
+    padding-top: 14px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    text-shadow: 0 1px #d2d4e3;
+    font-weight: 400;
+}
+@media(min-width:1217px) {
+    #intro .introduction-text{
+    margin-bottom: 25px;
+    padding-top: 5px;
+    }
+}
+
+#intro .introduction-text .fa {
+    margin-top: -15px;
+    font-size: 110px;
+    opacity: 0.15;
+    position: absolute;
+    width: 77.5%;
+    text-align: center;
+    color: #999999;
+}
+#intro .introduction-container {
+    margin-bottom: -395px;
+}
+@media(min-width:1217px) {
+    #intro .introduction-container{
+    margin-right: 700px;
+    }
+}
+
+#intro .intro-screen {
+    display: none;
+    margin-top:50px;
+    float: right;
+    background-image: url('//static.sheaker.com/sheaker/assets/images/screen-add.png');
+    background-repeat: no-repeat;
+    box-shadow: -6px -6px 6px #aaa;
+    width: 600px;
+    height: 348px;
+}
+@media(min-width:1217px) {
+    #intro .intro-screen{
+    display:inline;
+    }
+}
+
+
+/*
+ * Features section
+ */
+#features {
+    background-color: #f2f2f5;
+    padding-bottom: 40px;
+}
+@media(min-width:1217px) {
+    #features {
+        -webkit-box-shadow: inset 0px -19px 20px -14px rgba(0,0,0,0.29);
+        -moz-box-shadow: inset 0px -19px 20px -14px rgba(0,0,0,0.29);
+        box-shadow: inset 0px -19px 20px -14px rgba(0,0,0,0.29);    }
+}
+
+#features .section-divider {
+    padding-top: 10px;
+    margin-top: 0px;
+}
+@media(min-width:1217px) {
+    #features .section-divider {
+        padding-top: 30px;
+    }
+}
+
+#features .section-divider p {
+    color: #555459;
+    line-height: 1;
+    font-size: 30px;
+    padding: 10px;
+    text-shadow: 0 1px #fff;
+}
+@media(min-width:800px) {
+    #features .section-divider p {
+        font-size: 50px;
+    }
+}
+
+#features .section-divider h3 {
+    display:none;
+}
+@media(min-width:1217px) {
+    #features .section-divider h3 {
+        display:inline;
+    }
+}
+
+#features .section-divider .feature-screen {
+    display: none;
+    margin-top:50px;
+    background-image: url('//static.sheaker.com/sheaker/assets/images/screen-search.png');
+    background-repeat: no-repeat;
+    width: 792px;
+    height: 233px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -6px -6px 6px #aaa, 6px -6px 6px #aaa
+}
+@media(min-width:1217px) {
+    #features .section-divider .feature-screen {
+        display: block;
+    }
+}
+
+.feature {
+    text-align: justify;
+    padding-left: 0px;
+}
+@media(min-width:1217px) {
+    .feature {
+        padding-left: 40px;
+    }
+}
+
+.features-container {
+    text-align: justify;
+    padding-top: 16px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 18px;
+}
+
+.feature h3 {
+    font-size : 32px;
+    text-shadow: 0 1px #fff;
+}
+
+@media(min-width:1200px) {
+    .screen-computer {
+        background-image: url("//static.sheaker.com/sheaker/assets/images/computer.png");
+        width:360px;
+        height:293px;
+    }
+    .feature {
+        text-align: center;
+    }
+    .feature-margin-top{
+        margin-top: 90px;
+    }
+}
