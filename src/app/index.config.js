@@ -11,6 +11,7 @@ angular
     });
 
     $translateProvider.preferredLanguage('es');
+    $translateProvider.useSanitizeValueStrategy(null);
 });
 
 })();
