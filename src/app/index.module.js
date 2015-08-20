@@ -6,7 +6,8 @@ angular
     'sheaker.config',
     'ngResource',
     'ngRoute',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'pascalprecht.translate'
 ]);
 
 })();

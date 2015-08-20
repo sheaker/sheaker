@@ -3,8 +3,14 @@
 
 angular
 .module('sheaker')
-.config(function () {
+.config(function ($translateProvider) {
 
+    $translateProvider.useStaticFilesLoader({
+        prefix: 'assets/languages/locale-',
+        suffix: '.json'
+    });
+
+    $translateProvider.preferredLanguage('es');
 });
 
 })();
