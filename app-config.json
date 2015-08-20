@@ -1,0 +1,12 @@
+{
+  "production": {
+    "FRONTEND_URL": "//sheaker.com",
+    "BACKEND_URL": "//api.sheaker.com",
+    "STATIC_URL": "//static.sheaker.com"
+  },
+  "developement": {
+    "FRONTEND_URL": "//sheaker.io",
+    "BACKEND_URL": "//api.sheaker.io",
+    "STATIC_URL": "//static.sheaker.com"
+  }
+}

@@ -1,0 +1,149 @@
+.welcome-wrap {
+    position: relative;
+    background: none;
+}
+.welcome-wrap section {
+    top: 0;
+    left: 0;
+}
+.welcome-cover {
+    background-image: url('//static.sheaker.com/sheaker/assets/images/gym.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center bottom;
+}
+
+.welcome {
+    color: #fff;
+    padding-top: 10px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 35px;
+}
+
+.welcome .title {
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    line-height: 60px;
+}
+@media(min-width:1024px) {
+    .welcome .title{
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+}
+
+.welcome .title span {
+    display: block;
+}
+
+.welcome .title .upper {
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        letter-spacing: -1px;
+}
+@media(min-width:1024px) {
+    .welcome .title .upper{
+        font-size: 70px;
+        line-height: 100px;
+        letter-spacing: -2px;
+    }
+}
+
+.welcome .title .upper-description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+@media(min-width:1024px) {
+    .welcome .title .upper-description{
+        font-size: 18px;
+    }
+}
+
+.welcome .title .middle {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #EEEEEE;
+}
+@media(min-width:1024px) {
+    .welcome .title .middle{
+        font-size: 25px;
+        margin-top: 90px;
+    }
+}
+
+.welcome .title .bottom {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #EEEEEE;
+    font-weight: 400;
+}
+@media(min-width:1024px) {
+    .welcome .title .bottom{
+        margin-top: 100px;
+    }
+}
+
+.welcome .btn {
+    font-size: 40px;
+    font-weight: normal;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media(min-width:1024px) {
+    .welcome .btn{
+    display:inline;
+    }
+}
+
+.welcome .btn-version {
+    color: #fff;
+    background-color: #AC292B;
+    padding: 5px;
+    border-radius: 3px;
+    text-decoration:none;
+    display: none;
+}
+.welcome .btn-version:hover,
+.welcome .btn-version:focus,
+.welcome .btn-version:active {
+    color: #fff;
+    background-color: #8d2123;
+    border-color: #204d74;
+}
+@media(min-width:1024px) {
+    .welcome .btn-version{
+    display:inline;
+    }
+}
+
+.btn-go {
+    color: #fff;
+    background-color: #2B88BB;
+}
+.btn-go:hover,
+.btn-go:focus,
+.btn-go:active {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}

@@ -1,0 +1,14 @@
+footer {
+    margin-bottom: -20px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+footer a,
+footer a:hover,
+footer a:active,
+footer a:visited {
+    color: #fff;
+}
