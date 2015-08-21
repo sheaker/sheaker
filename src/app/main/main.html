@@ -1,9 +1,24 @@
-<div class="welcome-wrap">
-    <div class="welcome-cover"></div>
+<div class="welcome-wrap welcome-background">
     <div ng-include="'app/components/navbar/navbar.html'"></div>
 
     <section id="welcome">
-        <div class="welcome section container">
+        <div class="title text-center">
+            <span class="upper" translate>“{{ 'WELCOME.TITLE' }}”</span>
+            <span class="upper-description" translate>WELCOME.DESCRIPTION</span>
+        </div>
+        <carousel interval="intervalCarousel" no-wrap="noWrapSlides">
+          <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">
+                <div class="explain-caption">
+                    <div class="slide slide-1" ng-show="slide.text1">{{slide.text1}}</div>
+                    <div class="slide slide-2 "ng-show="slide.text2">{{slide.text2}}</div>
+                    <div class="slide slide-3 "ng-show="slide.text3">{{slide.text3}}</div>
+                </div>
+            </div>
+          </slide>
+        </carousel>
+        <!--<div class="welcome section container">
             <h2 class="title text-center">
                 <span class="upper" translate>“{{ 'WELCOME.TITLE' }}”</span>
                 <span class="upper-description" translate>WELCOME.DESCRIPTION</span>
@@ -20,11 +35,11 @@
                     </div>
                 </span>
             </h2>
-        </div>
+        </div>-->
     </section>
 </div>
 
-<section id="intro">
+<!--<section id="intro">
     <div class="section-divider row row-no-margin color-background-blue">
         <div class = "container">
             <div class="mockup-iphone"></div>
@@ -56,14 +71,14 @@
                 </div>
             </div>
         </div>
-</section>
+</section>-->
 
 <section id="features">
-    <div class="section-divider row row-no-margin color-background-white">
+    <!--<div class="section-divider row row-no-margin color-background-white">
         <p>What Sheaker can do for you</p>
         <h3>The solutions of the 21st century</h3>
         <div class="feature-screen"></div>
-    </div>
+    </div>-->
 
     <div class="container features-container">
         <div class="row row-no-margin">

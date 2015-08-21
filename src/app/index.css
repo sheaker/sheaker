@@ -29,7 +29,7 @@ body {
     line-height: 1;
     font-size: 30px;
     padding: 10px;
-    font-weight: 300;
+    font-weight: 400;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 @media(min-width:800px) {
@@ -43,40 +43,72 @@ body {
     margin-right: 0px;
 }
 
+/* Color set */
+
 .color-background-yellow {
-    background-color: #D2C22A;
+    background-color: #FFB300;
 }
+
 .color-yellow {
-    color: #D2C22A;
+    color: #FFB300;
 }
 
 .color-background-green {
-    background-color: #289A31;
+    background-color: #7CB342;
 }
+
 .color-green {
-    color: #289A31;
+    color: #7CB342;
 }
 
 .color-background-red {
-    background-color: #AC292B;
+    background-color: #E53935;
 }
+
 .color-red {
-    color: #AC292B;
+    color: #E53935;
 }
 
 .color-background-blue {
-    background-color: #2B88BB;
+    background-color: #1E88E5;
 }
 .color-blue {
-    color: #2B88BB;
+    color: #1E88E5;
+}
+
+.color-background-grey {
+    background-color: #DCDCDC;
+}
+
+.color-grey {
+    color: #DCDCDC;
+}
+
+.color-background-grey-dark {
+    background-color: #757575;
+}
+
+.color-grey-dark {
+    color: #919191;
+}
+
+.color-background-blue-grey {
+    background-color: #546E7A;
+}
+
+.color-blue-grey {
+    color: #546E7A;
 }
 
 .color-background-white {
     background-color: #FFFFFF;
 }
+
 .color-white {
     color: #FFFFFF;
 }
+
+/* End color set */
 .strong {
     font-weight: 700;
 }

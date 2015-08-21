@@ -1,30 +1,41 @@
 .navbar {
-    padding-top: 10px;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
-    text-shadow: 1px 1px 4px rgba(150, 150, 150, 1);
+    height: 70px;
 }
 .navbar-default .navbar-nav {
-    font-size: 30px;
+    line-height: 70px;
+    font-size: 17px;
+    margin-top: 15px;
 }
 .navbar-default .navbar-nav > li > a {
-    margin-top: 40px;
     margin-left: 30px;
-    color: #fff;
-}
-.navbar-default .navbar-nav > li > a:hover {
     color: #e4e4e4;
 }
 
-.navbar-default .navbar-nav > li > a:active {
-    color: #e4e4e4;
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
 }
+
 .navbar-default .navbar-header > a {
     font-size:45px;
     color: #fff;
 }
 .navbar-default .navbar-header > a:hover {
-    color: #e4e4e4;
+    color: #fff;
+}
+
+.navbar-btn {
+    margin-top: -3px;
+    font-size: 17px;
+    background: transparent;
+    border-width: 2px;
+    border-color: #e4e4e4;
+}
+
+.navbar-btn:hover {
+    border-color: #fff;
 }
 
 .navbar-brand {
@@ -37,8 +48,10 @@
 }
 @media(min-width:1024px) {
     .navbar-brand{
-        background-image: url('//static.sheaker.com/sheaker/assets/images/logo-cover.png');
-        width: 163px;
-        height: 60px;
+        background-image: url('/assets/images/brand.png');
+        width: 160px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 20px;
     }
 }
