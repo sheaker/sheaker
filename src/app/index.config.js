@@ -1,17 +1,19 @@
 (function() {
     'use strict';
 
-angular
-.module('sheaker')
-.config(function ($translateProvider) {
+    angular
+        .module('sheaker')
+        .config(config);
 
-    $translateProvider.useStaticFilesLoader({
-        prefix: 'assets/languages/locale-',
-        suffix: '.json'
-    });
+    /** @ngInject */
+    function config($translateProvider) {
+        $translateProvider.useStaticFilesLoader({
+            prefix: 'assets/languages/locale-',
+            suffix: '.json'
+        });
 
-    $translateProvider.preferredLanguage('es');
-    $translateProvider.useSanitizeValueStrategy(null);
-});
+        $translateProvider.preferredLanguage('es');
+        $translateProvider.useSanitizeValueStrategy(null);
+    }
 
 })();

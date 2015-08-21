@@ -1,10 +1,12 @@
 (function() {
     'use strict';
 
-angular
-.module('sheaker')
-.controller('CreateController', function () {
+    angular
+        .module('sheaker')
+        .controller('CreateController', CreateController);
 
-});
+    function CreateController() {
+
+    }
 
 })();
