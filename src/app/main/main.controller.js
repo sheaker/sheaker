@@ -15,11 +15,11 @@
             },
             {
                 image: '/assets/images/lockupscreen2.png',
-                text2: 'Rogatus ad ultimum admissusque in consistorium ambage'
+                text2: 'Lorem ipsum dolor sit amet, ut vel ferri clita interesset'
             },
             {
                 image: '/assets/images/lockupscreen3.png',
-                text3: 'Rogatus ad ultimum admissusque in consistorium ambage'
+                text3: 'Id sale mollis pro, nec iriure numquam in. Ornatus instructior sit te, mel et noster audire iudicabit'
             }
         ];
     }

@@ -3,12 +3,13 @@ footer {
     padding: 20px;
     font-size: 15px;
     text-align: center;
-    color: #fff;
+    color: #9f9f9f;
+    border-top: 1px solid #DDD;
 }
 
 footer a,
 footer a:hover,
 footer a:active,
 footer a:visited {
-    color: #fff;
+    color: #9f9f9f;
 }
