@@ -4,8 +4,57 @@
         "PRICING" : "Pricing",
         "CREATE" : "Create your manager"
     },
-    "WELCOME" : {
-        "TITLE": "who told you that manage gym was that difficult?",
-        "DESCRIPTION": "We give you all the keys to manage your gym."
+    "MAIN" : {
+        "WELCOME" : {
+            "TITLE" : "who told you that manage gym was that difficult?",
+            "DESCRIPTION" : "We give you all the keys to manage your gym.",
+            "SLIDES" : {
+                "TEXT_1" : "Rogatus ad ultimum admissusque in consistorium ambage",
+                "TEXT_2" : "Lorem ipsum dolor sit amet, ut vel ferri clita interesset",
+                "TEXT_3" : "Id sale mollis pro, nec iriure numquam in. Ornatus instructior sit te, mel et noster audire iudicabit"
+            }
+        },
+        "FEATURES" : {
+            "TITLE" : "The funny thing is, it actually works.",
+            "FEATURES" : {
+                "MANAGE" : {
+                    "TITLE" : "Manage",
+                    "DESCRIPTION" : "A more easily and better way to manage your client and payment."
+                },
+                "INFORM" : {
+                    "TITLE" : "Inform",
+                    "DESCRIPTION" : "Send a message to your clients at any time by mail, SMS, whatsapp..."
+                },
+                "SCHEDULE" : {
+                    "TITLE" : "Schedule",
+                    "DESCRIPTION" : "Handle the gym schedule easily. Add training sessions and different events in few clicks."
+                },
+                "STATS" : {
+                    "TITLE" : "Stats",
+                    "DESCRIPTION" : "Get a lot of kind of stats about your gym like, new clients per week, how many clients has come, the peak of attendance."
+                },
+                "CLOSE" : {
+                    "TITLE" : "Close to the gym",
+                    "DESCRIPTION" : "Keep your client close to the gym thanks to extra features and our smartphone application."
+                },
+                "BUSINESS" : {
+                    "TITLE" : "Business",
+                    "DESCRIPTION" : "Keep a record of all your client payments."
+                },
+                "MUSIC" : {
+                    "TITLE" : "Music",
+                    "DESCRIPTION" : "Let your client manage the music in the gym when they are here! More fun!"
+                }
+            }
+        }
+    },
+    "PRODUCT" : {
+
+    },
+    "PRICING" : {
+
+    },
+    "CREATE" : {
+
     }
 }

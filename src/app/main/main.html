@@ -3,20 +3,20 @@
 
     <section id="welcome">
         <div class="title text-center">
-            <span class="upper" translate>“{{ 'WELCOME.TITLE' }}”</span>
-            <span class="upper-description" translate>WELCOME.DESCRIPTION</span>
+            <span class="upper" translate>“{{ 'MAIN.WELCOME.TITLE' }}”</span>
+            <span class="upper-description" translate>MAIN.WELCOME.DESCRIPTION</span>
         </div>
-        <carousel interval="intervalCarousel" no-wrap="noWrapSlides">
-          <slide ng-repeat="slide in slides" active="slide.active">
-            <img ng-src="{{slide.image}}" style="margin:auto;">
-            <div class="carousel-caption">
-                <div class="explain-caption">
-                    <div class="slide slide-1" ng-show="slide.text1">{{slide.text1}}</div>
-                    <div class="slide slide-2 "ng-show="slide.text2">{{slide.text2}}</div>
-                    <div class="slide slide-3 "ng-show="slide.text3">{{slide.text3}}</div>
+        <carousel interval="carousel.interval" no-wrap="carousel.noWrapSlides">
+            <slide ng-repeat="s in carousel.slides" active="s.active">
+                <img ng-src="{{ s.image }}" style="margin:auto;">
+                <div class="carousel-caption">
+                    <div class="explain-caption">
+                        <div class="slide slide-1" ng-show="s.text1">{{ s.text1 }}</div>
+                        <div class="slide slide-2 "ng-show="s.text2">{{ s.text2 }}</div>
+                        <div class="slide slide-3 "ng-show="s.text3">{{ s.text3 }}</div>
+                    </div>
                 </div>
-            </div>
-          </slide>
+            </slide>
         </carousel>
         <!--<div class="welcome section container">
             <h2 class="title text-center">
@@ -81,26 +81,26 @@
     </div>-->
 
     <div class="container features-container">
-      <h1>The funny thing is, it actually works.</h1>
+      <h1 translate>MAIN.FEATURES.TITLE</h1>
         <div class="row row-no-margin">
             <div class="feature col-lg-4 col-sm-6">
-                <h3><i class="fa fa fa-users color-yellow"></i> Manage</h3>
-                <p>A more easily and better way to manage your client and payment.</p>
+                <h3><i class="fa fa fa-users color-yellow"></i> {{ 'MAIN.FEATURES.FEATURES.MANAGE.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.MANAGE.DESCRIPTION</p>
             </div>
 
             <div class="feature col-lg-4 col-sm-6">
-                <h3><i class="fa fa-bullhorn color-blue"></i> Inform</h3>
-                <p>Send a message to your clients at any time by mail, SMS, whatsapp...</p>
+                <h3><i class="fa fa-bullhorn color-blue"></i> {{ 'MAIN.FEATURES.FEATURES.INFORM.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.INFORM.DESCRIPTION</p>
             </div>
 
             <div class="feature col-lg-4 col-sm-6">
-                <h3><i class="fa fa-calendar color-red"></i> Schedule</h3>
-                <p>Handle the gym schedule easily. Add training sessions and different events in few clicks.</p>
+                <h3><i class="fa fa-calendar color-red"></i> {{ 'MAIN.FEATURES.FEATURES.SCHEDULE.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.SCHEDULE.DESCRIPTION</p>
             </div>
 
             <div class="feature col-lg-4 col-sm-6">
-                <h3><i class="fa fa-area-chart color-green feature-margin-top"></i> Stats</h3>
-                <p>Get a lot of kind of stats about your gym like, new clients per week, how many clients has come, the peak of attendance.</p>
+                <h3><i class="fa fa-area-chart color-green feature-margin-top"></i> {{ 'MAIN.FEATURES.FEATURES.STATS.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.STATS.DESCRIPTION</p>
             </div>
 
             <div class="col-lg-4 col-lg-offset-0 col-sm-0">
@@ -108,18 +108,18 @@
             </div>
 
             <div class="feature col-lg-4 col-sm-6">
-                <h3><i class="fa fa-plug color-yellow feature-margin-top"></i> Close to the gym</h3>
-                <p>Keep your client close to the gym thanks to extra features and our smartphone application.</p>
+                <h3><i class="fa fa-plug color-yellow feature-margin-top"></i> {{ 'MAIN.FEATURES.FEATURES.CLOSE.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.CLOSE.DESCRIPTION</p>
             </div>
 
             <div class="feature col-lg-offset-2 col-lg-4 col-sm-6">
-                <h3><i class="fa fa fa-money color-blue"></i> Business</h3>
-                <p>Keep a record of all your client payments.</p>
+                <h3><i class="fa fa fa-money color-blue"></i> {{ 'MAIN.FEATURES.FEATURES.BUSINESS.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.BUSINESS.DESCRIPTION</p>
             </div>
 
             <div class="feature col-lg-offset-0 col-lg-4 col-sm-6">
-                <h3><i class="fa fa-music color-red"></i> Music</h3>
-                <p>Let your client manage the music in the gym when they are here! More fun!</p>
+                <h3><i class="fa fa-music color-red"></i> {{ 'MAIN.FEATURES.FEATURES.MUSIC.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.MUSIC.DESCRIPTION</p>
             </div>
         </div>
     </div>
