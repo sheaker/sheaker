@@ -50,9 +50,9 @@
 @media(min-width:1024px) {
     .navbar-brand{
         background-image: url('/assets/images/brand.png');
-        width: 160px;
-        height: 34px;
-        margin-top: 20px;
+        width: 180px;
+        height: 52px;
+        margin-top: 15px;
         margin-left: 20px;
     }
 }
@@ -84,4 +84,6 @@
   background-color: #71a33c;
 }
 
-7CB342
+#navbar-extend .navbar-brand{
+    background-image: url('/assets/images/brandcolor.png');
+}
