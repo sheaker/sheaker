@@ -15,6 +15,7 @@
         $translateProvider.preferredLanguage('es');
         $translateProvider.useSanitizeValueStrategy(null);
         $translateProvider.useLocalStorage();
+        $translateProvider.storageKey('websiteLanguage');
 
         tmhDynamicLocaleProvider.localeLocationPattern('bower_components/angular-i18n/angular-locale_{{locale}}.js');
     }

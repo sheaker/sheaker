@@ -5,7 +5,7 @@
         .module('sheaker', [
             'sheaker.config',
             'ngResource',
-            'ngRoute',
+            'ui.router',
             'ngCookies',
             'ui.bootstrap',
             'pascalprecht.translate',

@@ -5,27 +5,35 @@
         .module('sheaker')
         .config(routeConfig);
 
-    function routeConfig($routeProvider) {
-        $routeProvider
-            .when('/', {
+    function routeConfig($stateProvider, $urlRouterProvider) {
+        $stateProvider
+            .state('app', {
+                abstract: true,
+                url: '/{lang}',
+                template: '<ui-view/>'
+            })
+            .state('app.main', {
+                url: '',
                 templateUrl: 'app/main/main.html',
                 controller:  'MainController'
             })
-            .when('/is', {
+            .state('app.product', {
+                url: '/is',
                 templateUrl: 'app/product/product.html',
                 controller:  'ProductController'
             })
-            .when('/pricing', {
+            .state('app.pricing', {
+                url: '/pricing',
                 templateUrl: 'app/pricing/pricing.html',
                 controller:  'PricingController'
             })
-            .when('/create/:teamName?', {
+            .state('app.create', {
+                url: '/create/:gymName?',
                 templateUrl: 'app/create/create.html',
                 controller:  'CreateController'
-            })
-            .otherwise({
-                redirectTo: '/'
             });
+
+        $urlRouterProvider.otherwise('/');
     }
 
 })();
