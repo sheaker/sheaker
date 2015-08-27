@@ -6,8 +6,10 @@
             'sheaker.config',
             'ngResource',
             'ngRoute',
+            'ngCookies',
             'ui.bootstrap',
-            'pascalprecht.translate'
+            'pascalprecht.translate',
+            'tmh.dynamicLocale'
         ]);
 
 })();
