@@ -1,7 +1,7 @@
 .navbar {
     border: 0;
     background-color: rgba(0, 0, 0, 0);
-    height: 70px;
+    height:60px;
 }
 .navbar-default .navbar-nav {
     font-size: 17px;
@@ -10,23 +10,29 @@
 .navbar-default .navbar-nav > li > a {
     margin-left: 30px;
     color: #e4e4e4;
+    margin-top: 0px;
+    border-width: 2px;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 3px;
+    padding-top: 10px;
+    border-color: transparent;
+    border-style: solid;
 }
 
 .navbar-default .navbar-nav > li > a:active,
 .navbar-default .navbar-nav > li > a:hover {
     color: #fff;
-    border-color: #fff;
 }
 
-.navbar-default .navbar-nav > li > .navbar-btn{
+.navbar-default .navbar-nav > li > .navbar-btn:active,
+.navbar-default .navbar-nav > li > .navbar-btn:hover {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > .navbar-btn {
   border-color: #e4e4e4;
   border-style: solid;
-  margin-top: -3px;
-  border-width: 2px;
-  border-radius: 5px;
-  height: 45px;
-  margin-top: 3px;
-  padding-top: 10px;
 }
 
 .navbar-btn:hover {
@@ -37,7 +43,7 @@
     background-image: url('//static.sheaker.com/sheaker/assets/images/logo-cover-phone.png');
     padding: 13.5px 15px 12.5px
     display: inline;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 79px;
     height: 70px;
 }
@@ -46,7 +52,36 @@
         background-image: url('/assets/images/brand.png');
         width: 160px;
         height: 34px;
-        margin-top: 15px;
+        margin-top: 20px;
         margin-left: 20px;
     }
 }
+
+#navbar-extend {
+  background-color: #fff;
+  border-bottom: 1px solid #DDD;
+}
+
+#navbar-extend  .navbar-default .navbar-nav > li > a {
+    color: #404B55;
+    opacity: .8;
+    font-weight: 700;
+    border-radius: 8px;
+    border-color: #fff;
+}
+
+#navbar-extend .navbar-default .navbar-nav > li > .navbar-btn {
+  color: #fff;
+  background-color: #7CB342;
+}
+#navbar-extend .navbar-default .navbar-nav > li > a:active,
+#navbar-extend .navbar-default .navbar-nav > li > a:hover {
+  background-color: #e6e6e6;
+}
+
+#navbar-extend .navbar-default .navbar-nav > li > .navbar-btn:active,
+#navbar-extend .navbar-default .navbar-nav > li > .navbar-btn:hover {
+  background-color: #71a33c;
+}
+
+7CB342
