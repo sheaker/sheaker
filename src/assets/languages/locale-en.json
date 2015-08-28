@@ -1,8 +1,12 @@
 {
-    "MENU" : {
+    "APP" : {
+        "HOME" : "Home",
         "PRODUCT" : "Product",
         "PRICING" : "Pricing",
-        "CREATE" : "Sign up for free"
+        "CREATE" : "Sign up for free",
+        "CREATE_2" : "Sign up",
+        "STATUS" : "Status",
+        "CONTACT_US" : "Contact us"
     },
     "MAIN" : {
         "WELCOME" : {

@@ -1,8 +1,12 @@
 {
-    "MENU" : {
+    "APP" : {
+        "HOME" : "Inicio",
         "PRODUCT" : "Producto",
         "PRICING" : "Precios",
-        "CREATE" : "Cree tu manager"
+        "CREATE" : "Cree tu manager",
+        "CREATE_2" : "Cree tu manager",
+        "STATUS" : "Status",
+        "CONTACT_US" : "Contact us"
     },
     "MAIN" : {
         "WELCOME" : {
