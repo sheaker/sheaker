@@ -6,25 +6,22 @@
         .run(runBlock);
 
     /** @ngInject */
-    function runBlock($rootScope, $stateParams, $translate, $translateLocalStorage) {
+    function runBlock($rootScope, $stateParams, $translate, $translateLocalStorage, tmhDynamicLocale) {
         $rootScope.$on('$stateChangeSuccess', function () {
-            var langToSet     = '';
-
-            if ($stateParams.lang) {
-                langToSet = $stateParams.lang;
-            } else if ($translateLocalStorage.get('websiteLanguage')) {
-                langToSet = $translateLocalStorage.get('websiteLanguage');
+            if ($stateParams.locale) {
+                $translate.use($stateParams.locale);
+                tmhDynamicLocale.set($stateParams.locale);
+            } else if ($translateLocalStorage.get('websiteLocale')) {
+                $translate.use($translateLocalStorage.get('websiteLocale'));
+                tmhDynamicLocale.set($translateLocalStorage.get('websiteLocale'));
             } else {
-                langToSet = $translate.preferredLanguage();
+                $translate.use($translate.preferredLanguage());
+                tmhDynamicLocale.set($translate.preferredLanguage());
             }
+        });
 
-            if (langToSet) {
-                $translate.use(langToSet)
-                    .then(function (language) {
-                        $rootScope.currentLanguage = language;
-                        $stateParams.lang = language;
-                    });
-            }
+        $rootScope.$on('$localeChangeSuccess', function () {
+            $stateParams.locale = tmhDynamicLocale.get();
         });
     }
 

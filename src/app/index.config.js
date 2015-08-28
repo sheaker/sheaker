@@ -7,17 +7,26 @@
 
     /** @ngInject */
     function config($translateProvider, tmhDynamicLocaleProvider) {
-        $translateProvider.useStaticFilesLoader({
-            prefix: 'assets/languages/locale-',
-            suffix: '.json'
-        });
+        $translateProvider
+            .useStaticFilesLoader({
+                prefix: 'assets/languages/locale-',
+                suffix: '.json'
+            })
+            .useSanitizeValueStrategy(null);
 
-        $translateProvider.preferredLanguage('es');
-        $translateProvider.useSanitizeValueStrategy(null);
-        $translateProvider.useLocalStorage();
-        $translateProvider.storageKey('websiteLanguage');
+        $translateProvider
+            .uniformLanguageTag('bcp47')
+            .determinePreferredLanguage()
+            .registerAvailableLanguageKeys(['en', 'es', 'fr'], {
+              'en-*': 'en',
+              'es-*': 'es',
+              'fr-*': 'fr'
+            });
 
-        tmhDynamicLocaleProvider.localeLocationPattern('bower_components/angular-i18n/angular-locale_{{locale}}.js');
+        tmhDynamicLocaleProvider
+            .localeLocationPattern('bower_components/angular-i18n/angular-locale_{{locale}}.js')
+            .storageKey('websiteLocale')
+            .useStorage('$translateLocalStorage');
     }
 
 })();

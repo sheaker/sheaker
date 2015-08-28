@@ -9,7 +9,7 @@
         $stateProvider
             .state('app', {
                 abstract: true,
-                url: '/{lang}',
+                url: '/{locale}',
                 template: '<ui-view/>'
             })
             .state('app.main', {

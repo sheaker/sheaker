@@ -5,8 +5,8 @@
         .module('sheaker', [
             'sheaker.config',
             'ngResource',
-            'ui.router',
             'ngCookies',
+            'ui.router',
             'ui.bootstrap',
             'pascalprecht.translate',
             'tmh.dynamicLocale'

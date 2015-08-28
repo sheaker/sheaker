@@ -5,9 +5,9 @@
         .module('sheaker')
         .controller('NavbarController', NavbarController);
 
-    function NavbarController($scope, $translate) {
-        $scope.getLanguage = function () {
-            return $translate.use();
+    function NavbarController($scope, tmhDynamicLocale) {
+        $scope.getLocale = function () {
+            return tmhDynamicLocale.get();
         };
     }
 })();
