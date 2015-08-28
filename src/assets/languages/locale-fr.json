@@ -2,58 +2,58 @@
     "MENU" : {
         "PRODUCT" : "Produit",
         "PRICING" : "Prix",
-        "CREATE" : "Créer votre manager"
+        "CREATE" : "Inscrivez-vous gratuitement"
     },
     "MAIN" : {
         "WELCOME" : {
             "TITLE" : "Mettez votre salle de sport dans les nuages !",
-            "DESCRIPTION" : "On vous donne toutes les clées pour gérer votre salle de sport.",
+            "DESCRIPTION" : "On vous donne toutes les clés pour gérer votre salle de sport.",
             "SLIDES" : {
-                "TEXT_1" : "Rogatus ad ultimum admissusque in consistorium ambage",
-                "TEXT_2" : "Lorem ipsum dolor sit amet, ut vel ferri clita interesset",
-                "TEXT_3" : "Id sale mollis pro, nec iriure numquam in. Ornatus instructior sit te, mel et noster audire iudicabit"
+                "TEXT_1" : "Notre interface est <b>intuitive</b> et facile à comprendre.",
+                "TEXT_2" : "Nous vous offrons un niveau de <b>personnalisation</b> avancé pour gérer vos clients.",
+                "TEXT_3" : "Voyez facilement l'évolution de votre salle de sport dans le temps et à propos de n'importe quoi."
             }
         },
         "INTRO" : {
             "BROWSER": {
-                "TITLE" : "Why sheaker is the best?",
-                "DESCRIPTION" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo <b>ligula eget dolor</b>. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu"
+                "TITLE" : "Aucun logiciel à télécharger",
+                "DESCRIPTION" : "Bienvenue au 21e siècle ! Plus besoin de télécharger quoi que ce soit, Sheaker est disponible <b>directement sur votre navigateur</b>.<br>Toutes vos données sont sauvegardées en toute sécurité directement <b>dans le cloud</b>. Vous n'aurez plus jamais de perte d'informations si votre ordinateur est en panne."
             },
             "EVERYWHERE" : {
-                "TITLE" : "Why sheaker is the best?",
-                "DESCRIPTION" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo <b>ligula eget dolor</b>. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu"
+                "TITLE" : "Disponible partout",
+                "DESCRIPTION" : "Vous pouvez gérer votre salle de sport même <b>depuis chez vous</b> ! Que vous soyez-en Antarctique ou au fin fond de l'Amazonie, il vous faudra juste une <b>connexion internet</b> et d'un ordinateur, tablette ou téléphone."
             }
         },
         "FEATURES" : {
-            "TITLE" : "The funny thing is, it actually works.",
+            "TITLE" : "Le plus drôle, nous ne pouvons pas tout mettre.",
             "FEATURES" : {
                 "MANAGE" : {
-                    "TITLE" : "Manage",
-                    "DESCRIPTION" : "A more easily and better way to manage your client and payment."
+                    "TITLE" : "Gérer",
+                    "DESCRIPTION" : "Un moyen plus efficace et plus facile de gérer vos clients et leurs paiements."
                 },
                 "INFORM" : {
-                    "TITLE" : "Inform",
-                    "DESCRIPTION" : "Send a message to your clients at any time by mail, SMS, whatsapp..."
+                    "TITLE" : "Informer",
+                    "DESCRIPTION" : "Informez vos clients à tout moment en leurs envoyant des messages de tout type (mail, SMS ...)."
                 },
                 "SCHEDULE" : {
-                    "TITLE" : "Schedule",
-                    "DESCRIPTION" : "Handle the gym schedule easily. Add training sessions and different events in few clicks."
+                    "TITLE" : "Plannifier",
+                    "DESCRIPTION" : "Gérez l'agenda de la salle de sport facilement. Ajoutez des cours et différents événements en quelques cliques."
                 },
                 "STATS" : {
-                    "TITLE" : "Stats",
-                    "DESCRIPTION" : "Get a lot of kind of stats about your gym like, new clients per week, how many clients has come, the peak of attendance."
+                    "TITLE" : "Statistiques",
+                    "DESCRIPTION" : "Obtenez des statistiques et graphiques cool à propos de votre salle de sport. Les horaires de pointe, les gains par mois ... et plus encore."
                 },
                 "CLOSE" : {
-                    "TITLE" : "Close to the gym",
-                    "DESCRIPTION" : "Keep your client close to the gym thanks to extra features and our smartphone application."
+                    "TITLE" : "Ne perdez pas le contact",
+                    "DESCRIPTION" : "Gardez vos clients proches de la salle de sport en leur faisant télécharger notre application."
                 },
                 "BUSINESS" : {
                     "TITLE" : "Business",
-                    "DESCRIPTION" : "Keep a record of all your client payments."
+                    "DESCRIPTION" : "Gardez une trace des transactions de vos clients. Qui a payé, combien, et quand."
                 },
                 "MUSIC" : {
-                    "TITLE" : "Music",
-                    "DESCRIPTION" : "Let your client manage the music in the gym when they are here! More fun!"
+                    "TITLE" : "Musique",
+                    "DESCRIPTION" : "Motivez vos clients quand ils sont là en leur laissant choisir leurs morceaux de musique favoris !"
                 }
             }
         }
