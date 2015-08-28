@@ -1,10 +1,36 @@
 footer {
-    margin-bottom: -20px;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 15px;
     text-align: center;
     color: #9f9f9f;
     border-top: 1px solid #DDD;
+    font-weight: 400;
+}
+
+footer ul > li {
+    text-align: left;
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+footer .title {
+    margin-top: 40px;
+}
+
+footer .logo-sheaker{
+    /*background-image: url("/assets/images/logo-footer.png");*/
+    width:40px;
+    height:35px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+footer .logo-social{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #9f9f9f;
 }
 
 footer a,
