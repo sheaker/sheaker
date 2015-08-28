@@ -115,3 +115,7 @@ body {
 .strong {
     font-weight: 700;
 }
+
+.lite {
+    font-weight: 200;
+}

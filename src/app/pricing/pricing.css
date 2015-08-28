@@ -1,20 +1,29 @@
 #pricing {
-    background-color: #f2f2f5;
-    padding-bottom: 100px;
+    background-color: #fff;
 }
 
- #pricing .section-divider p {
-     color: #555459;
-     line-height: 1;
-     font-size: 30px;
-     text-shadow: 0 1px #fff;
+#pricing .title-divider {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+ #pricing .title-divider .title h1 {
+     font-size: 50px;
+     font-weight: 900;
+     letter-spacing: -2px;
+     color: #2B3645;
  }
- @media(min-width:800px) {
-     #pricing .section-divider p {
-         font-size: 50px;
-         padding-top: 20px;
-     }
+
+ #pricing .title-divider .title h3 {
+     font-size: 25px;
+     font-weight: 500;
+     color: # #68686F;
+     opacity: 0.7;
  }
+
 
  #pricing .section-divider h3 {
      display:none;
@@ -25,6 +34,73 @@
      }
  }
 
+ #pricing .label {
+     padding-left: 40px;
+     padding-right: 40px;
+     text-shadow: 0 3px 1px rgba(0,0,0,.1);
+     color: #fff;
+     margin-bottom: 40px;
+ }
+
+ #pricing .label ul {
+     margin-top: 20px;
+     text-shadow: none;
+     text-align: left;
+     color: #555459;
+     font-size: 16px;
+ }
+
+ #pricing .label ul > li {
+     margin-top: 10px;
+ }
+
+ #pricing .label .details {
+     margin-top: 20px;
+     opacity: .8;
+     text-shadow: none;
+     font-size: 20px;
+ }
+
+ #pricing .label-decoration {
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     border-radius: 15px;
+     padding-bottom: 40px;
+ }
+
+ #pricing .label h2 {
+     font-size: 30px;
+     font-weight: 900;
+     padding-top: 25px;
+ }
+
+ #pricing .label h1 {
+     font-size: 90px;
+     font-weight: 900;
+ }
+
+ #pricing .label h1 > small {
+     font-size: 10px;
+     font-weight: 400;
+     color: #fff;
+ }
+
+ #pricing .label .currency {
+     font-size: 60px;
+ }
+
+
+ #pricing .free-plan {
+     background-color: rgba(255, 179, 0, 0.7);
+ }
+
+ #pricing .lite-plan {
+     background-color: rgba(30, 139, 229, 0.7);
+ }
+
+ #pricing .pro-plan {
+     background-color: rgba(229, 57, 53, 0.7);
+ }
 
  #pricing .section-divider .mockup {
      display:none;
