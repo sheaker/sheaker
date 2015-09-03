@@ -1,0 +1,84 @@
+#product {
+    background-color: #fff;
+}
+
+#product .title-divider {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+ #product .title-divider .title h1 {
+     font-size: 50px;
+     font-weight: 900;
+     letter-spacing: -1px;
+     color: #2B3645;
+ }
+
+ #product .title-divider .title h3 {
+     font-size: 25px;
+     font-weight: 500;
+     color: #68686F;
+     opacity: 0.7;
+ }
+
+ #product > .container > h1 {
+   text-align: center;
+   font-size : 50px;
+   font-weight: 400;
+   color: #4A4A4A;
+   margin-bottom: 75px;
+   opacity: 0.9;
+ }
+
+ #product .features > li {
+    color: #4A4A4A;
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 20px;
+ }
+
+ #product .features > li > a:hover {
+     opacity: 0.9;
+ }
+
+ #product .features > li > a {
+     opacity: 0.5;
+ }
+
+#product .features > li > .opacity-strong {
+     opacity: 0.9;
+ }
+
+ #product .features > li > a > .icone {
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 8px;
+ }
+
+ #product .features > li > a > h1 {
+     color: #4A4A4A;
+     font-weight: bold;
+     font-size : 22px;
+     text-shadow: 0 1px #fff;
+     opacity: 0.6;
+ }
+
+ #product > .container > .simple-things > .title {
+     border-bottom: 1px solid #DDD;
+ }
+
+ #product > .container > .simple-things > .title > h1 {
+     font-size: 40px;
+     font-weight: 500;
+     color: #68686F;
+     opacity: 0.8;
+ }

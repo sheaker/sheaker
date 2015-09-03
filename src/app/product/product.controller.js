@@ -5,8 +5,8 @@
         .module('sheaker')
         .controller('ProductController', ProductController);
 
-    function ProductController() {
-
+    function ProductController($scope) {
+        $scope.featureToAff = 1;
     }
 
 })();

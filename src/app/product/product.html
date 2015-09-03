@@ -2,5 +2,87 @@
   <section id="navbar-extend">
     <div ng-include="'app/components/navbar/navbar.html'"></div>
   </section>
+  <section id="product">
+      <div class="title-divider">
+          <div class="title">
+              <h1>Only things that you need</h1>
+              <h3>Everything is done to suit your needs, no more</h3>
+          </div>
+      </div>
+      <div class="container">
+          <h1>With sheaker, is simple to ...</h1>
+          <div class="col-lg-6 simple-things">
+              <div class="title">
+                  <h1>Manage</h1>
+              </div>
+              <ul class="features">
+                  <li class="col-lg-12">
+                      <a ng-click="featureToAff=1" ng-class="{'opacity-strong': featureToAff===1}"><div class="col-lg-4 icone color-background-blue"><i class="fa fa-users fa-fw"></i></div>
+                          <h1 class="col-lg-8">
+                              Clients
+                          </h1>
+                      </a>
+                  </li>
+                  <li class="col-lg-12">
+                      <a ng-click="featureToAff=2" ng-class="{'opacity-strong': featureToAff===2}"><div class="col-lg-4 icone color-background-red"><i class="fa fa-home fa-fw"></i></div>
+                          <h1 class="col-lg-8">
+                              Gym
+                          </h1>
+                      </a>
+                  </li>
+                  <li class="col-lg-12">
+                      <a ng-click="featureToAff=3" ng-class="{'opacity-strong': featureToAff===3}"><div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
+                          <h1 class="col-lg-8">
+                              Money
+                          </h1>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-lg-6 simple-things" ng-show="featureToAff==1">
+              <div class="title">
+                  <h1>your client</h1>
+              </div>
+          </div>
+          <div class="col-lg-6 simple-things" ng-show="featureToAff==2">
+              <div class="title">
+                  <h1>your gym</h1>
+              </div>
+          </div>
+          <div class="col-lg-6 simple-things" ng-show="featureToAff==3">
+              <div class="title">
+                  <h1>your money</h1>
+              </div>
+          </div>
+          <!--<div class="<!--col-lg-5">
+              <ul class="features">
+                  <li class="col-lg-12">
+                      <div class="col-lg-4 icone color-background-blue"><i class="fa fa-user fa-fw"></i></div>
+                      <h1 class="col-lg-8">
+                          Manage your clients
+                      </h1>
+                  </li>
+                  <li class="col-lg-12">
+                      <div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
+                      <h1 class="col-lg-8">
+                          Add new client
+                      </h1>
+                  </li>
+                  <li class="col-lg-12">
+                      <div class="col-lg-4 icone color-background-red"><i class="fa fa-bar-chart fa-fw"></i></div>
+                      <h1 class="col-lg-8">
+                          Add new client
+                      </h1>
+                  </li>
+                  <li class="col-lg-12">
+                      <div class="col-lg-4 icone color-background-yellow"><i class="fa fa-user fa-fw"></i></div>
+                      <h1 class="col-lg-8">
+                          Add new client
+                      </h1>
+                  </li>
+              </ul>
+          </div>-->
+      </div>
+  </section>
     <div ng-include="'app/components/footer/footer.html'"></div>
 </div>
