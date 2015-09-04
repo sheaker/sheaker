@@ -24,7 +24,7 @@
      opacity: 0.7;
  }
 
- #product > .container > h1 {
+#product > .container > h1 {
    text-align: center;
    font-size : 50px;
    font-weight: 400;
@@ -33,26 +33,36 @@
    opacity: 0.9;
  }
 
- #product .features > li {
+#product .features li {
     color: #4A4A4A;
     font-size: 30px;
     list-style-type: none;
     margin-top: 20px;
  }
 
- #product .features > li > a:hover {
+#product .features li:hover {
      opacity: 0.9;
  }
 
- #product .features > li > a {
+#product .features li {
      opacity: 0.5;
  }
 
-#product .features > li > .opacity-strong {
+#product #product-simple-things .simple-things > .nav-features > .features > .opacity-strong {
      opacity: 0.9;
  }
 
- #product .features > li > a > .icone {
+ #product #product-simple-things .simple-things > .nav-features {
+     background-color: #f9f9f9;
+     width: 270px;
+     height: 275px;
+     margin-left: auto;
+     margin-right: auto;
+     border: 8px dashed #DDD;
+     border-radius: 30px;
+  }
+
+ #product .features li > a > .icone {
     width: 60px;
     height: 60px;
     color: #FFFFFF;
@@ -64,7 +74,7 @@
     padding-left: 8px;
  }
 
- #product .features > li > a > h1 {
+ #product .features li > a > h1 {
      color: #4A4A4A;
      font-weight: bold;
      font-size : 22px;
@@ -81,4 +91,13 @@
      font-weight: 500;
      color: #68686F;
      opacity: 0.8;
+ }
+
+ #product > .container > .simple-things > p {
+     font-size: 30px;
+     padding: 10px;
+ }
+
+ #product > #product-simple-things {
+     margin-bottom: 100px;
  }
