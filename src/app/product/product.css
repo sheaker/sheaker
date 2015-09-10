@@ -24,7 +24,7 @@
      opacity: 0.7;
  }
 
-#product > .container > h1 {
+#product > #product-simple-things > .container > h1 {
    text-align: center;
    font-size : 50px;
    font-weight: 400;
@@ -82,22 +82,35 @@
      opacity: 0.6;
  }
 
- #product > .container > .simple-things > .title {
+ #product > #product-simple-things > .container > .simple-things > .title {
      border-bottom: 1px solid #DDD;
  }
 
- #product > .container > .simple-things > .title > h1 {
+ #product > #product-simple-things > .container > .simple-things > .title > h1 {
      font-size: 40px;
      font-weight: 500;
      color: #68686F;
      opacity: 0.8;
  }
 
- #product > .container > .simple-things > p {
+ #product > #product-simple-things > .container > .simple-things > p {
      font-size: 30px;
      padding: 10px;
  }
 
- #product > #product-simple-things {
-     margin-bottom: 100px;
+ #product > #ergonomics {
+     border-top: 8px solid #DDD;
+     margin-top: 100px;
+     background-color: #FFB300;
+     padding-top: 40px;
+     padding-bottom: 40px;
  }
+
+ #product > #ergonomics > .container > h1 {
+    text-align: center;
+    font-size : 50px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 75px;
+    opacity: 1;
+  }

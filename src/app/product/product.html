@@ -9,73 +9,55 @@
               <h3>Everything is done to suit your needs, no more</h3>
           </div>
       </div>
-      <div class="container" id="product-simple-things">
-          <h1>With sheaker, is simple to manage your</h1>
-          <div class="col-lg-6 simple-things">
-              <div class="nav-features">
-                  <ul class="features">
-                      <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===1}">
-                          <a ng-click="onClick(1)"><div class="col-lg-4 icone color-background-blue"><i class="fa fa-users fa-fw"></i></div>
-                              <h1 class="col-lg-8">
-                                  Clients
-                              </h1>
-                          </a>
-                      </li>
-                      <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===2}">
-                          <a ng-click="onClick(2)"><div class="col-lg-4 icone color-background-red"><i class="fa fa-home fa-fw"></i></div>
-                              <h1 class="col-lg-8">
-                                  Gym
-                              </h1>
-                          </a>
-                      </li>
-                      <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===3}">
-                          <a ng-click="onClick(3)"><div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
-                              <h1 class="col-lg-8">
-                                  Money
-                              </h1>
-                          </a>
-                      </li>
+      <section id="product-simple-things">
+      <div class="container">
+              <h1>With sheaker, is simple to manage your</h1>
+              <div class="col-lg-6 simple-things">
+                  <div class="nav-features">
+                      <ul class="features">
+                          <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===1}">
+                              <a ng-click="onClick(1)"><div class="col-lg-4 icone color-background-blue"><i class="fa fa-users fa-fw"></i></div>
+                                  <h1 class="col-lg-8">
+                                      Clients
+                                  </h1>
+                              </a>
+                          </li>
+                          <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===2}">
+                              <a ng-click="onClick(2)"><div class="col-lg-4 icone color-background-red"><i class="fa fa-home fa-fw"></i></div>
+                                  <h1 class="col-lg-8">
+                                      Gym
+                                  </h1>
+                              </a>
+                          </li>
+                          <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===3}">
+                              <a ng-click="onClick(3)"><div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
+                                  <h1 class="col-lg-8">
+                                      Money
+                                  </h1>
+                              </a>
+                          </li>
+                      </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 simple-things" ng-show="featureToAff==1">
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.tempor incididunt ut labore et dolore magna aliqua</p>
+              </div>
+              <div class="col-lg-6 simple-things" ng-show="featureToAff==2">
+                  <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo . dolore magna aliqua</p>
+              </div>
+              <div class="col-lg-6 simple-things" ng-show="featureToAff==3">
+                  <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of .tut labore et dolore magna aliqua</p>
+              </div>
+          </div>
+      </section>
+          <section id="ergonomics">
+              <div class="container">
+              <h1>Ergnomics it's a good definition for Sheaker</h1>
+              <ul class="features">
+                  <li>coucou</li>
                   </ul>
             </div>
-          </div>
-          <div class="col-lg-6 simple-things" ng-show="featureToAff==1">
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.tempor incididunt ut labore et dolore magna aliqua</p>
-          </div>
-          <div class="col-lg-6 simple-things" ng-show="featureToAff==2">
-              <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo . dolore magna aliqua</p>
-          </div>
-          <div class="col-lg-6 simple-things" ng-show="featureToAff==3">
-              <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of .tut labore et dolore magna aliqua</p>
-          </div>
-          <!--<div class="<!--col-lg-5">
-              <ul class="features">
-                  <li class="col-lg-12">
-                      <div class="col-lg-4 icone color-background-blue"><i class="fa fa-user fa-fw"></i></div>
-                      <h1 class="col-lg-8">
-                          Manage your clients
-                      </h1>
-                  </li>
-                  <li class="col-lg-12">
-                      <div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
-                      <h1 class="col-lg-8">
-                          Add new client
-                      </h1>
-                  </li>
-                  <li class="col-lg-12">
-                      <div class="col-lg-4 icone color-background-red"><i class="fa fa-bar-chart fa-fw"></i></div>
-                      <h1 class="col-lg-8">
-                          Add new client
-                      </h1>
-                  </li>
-                  <li class="col-lg-12">
-                      <div class="col-lg-4 icone color-background-yellow"><i class="fa fa-user fa-fw"></i></div>
-                      <h1 class="col-lg-8">
-                          Add new client
-                      </h1>
-                  </li>
-              </ul>
-          </div>-->
-      </div>
+          </section>
   </section>
     <div ng-include="'app/components/footer/footer.html'"></div>
 </div>
