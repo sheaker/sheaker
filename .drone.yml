@@ -1,0 +1,23 @@
+image: tuxity/drone-gulp-bower
+
+script:
+  - npm install -q
+  - bower install --allow-root
+  - gulp
+
+deploy:
+  ssh:
+    target: ubuntu@ec2-52-20-239-124.compute-1.amazonaws.com:~/sheaker.tar
+    artifacts:
+      - dist
+      - .deploy
+    cmd: mkdir sheaker; tar -xf sheaker.tar -C sheaker; cd sheaker; .deploy/remote.sh
+    when:
+      branch: master
+
+notify:
+  slack:
+    webhook_url: 'https://hooks.slack.com/services/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'
+    on_started: false
+    on_success: true
+    on_failure: true
