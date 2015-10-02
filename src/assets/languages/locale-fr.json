@@ -63,7 +63,30 @@
         }
     },
     "PRODUCT" : {
-
+        "TITLE" : "Juste l'essentiel",
+        "DESCRIPTION" : "Tout est fait en fonction de vos besoin",
+        "FEATURES" : {
+            "CLIENTS" : {
+                "TITLE" : "Clients",
+                "DESCRIPTION" : "Avec Sheaker la gestion de vos clients devient un jeu d'enfant.<br>Tout se dont vous avez besoin : Ajouter un client, l'editer, le consulter, .... est dans Sheaker."
+            },
+            "GYM" : {
+                "TITLE" : "Salle",
+                "DESCRIPTION" : "Toutes les donnees de votre salle de sport sont sauvegardees a tout moment, consultez les n'importe quand et n'importe ou."
+            },
+            "MONEY" : {
+                "TITLE" : "Revenu",
+                "DESCRIPTION" : "Plus possible de faire des erreurs de calculs, sheaker fera ce travaille pour vous.<br>La contabilite de votre salle de sport sera ..."
+            }
+        },
+        "ERGONOMICS" : {
+            "TITLE" : "Ultra ergnomique",
+            "DESCRIPTION" : "L'interface de Sheaker est faite pour etre utilise par des personnes Lambda, pas besoin d'etre un geni de l'informatique pour comprendre comment il fonctionne."
+        },
+        "SECURITY" : {
+            "TITLE" : "Securite",
+            "DESCRIPTION" : "Toutes vos donnees sont securise sur nos serveur. Vos connexion sont quand elles securise grace au certificat ssl, la meme securite que celle utilise par les banques."
+        }
     },
     "PRICING" : {
 

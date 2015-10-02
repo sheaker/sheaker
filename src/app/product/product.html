@@ -5,66 +5,72 @@
   <section id="product">
       <div class="title-divider">
           <div class="title">
-              <h1>Only things that you need</h1>
-              <h3>Everything is done to suit your needs, no more</h3>
+              <h1 translate>PRODUCT.TITLE</h1>
+              <h3 translate>PRODUCT.DESCRIPTION</h3>
+              <!--               <h3>Everything is done to suit your needs, no more</h3> -->
+              <div class="img-title"></div>
           </div>
       </div>
       <section id="product-simple-things">
       <div class="container">
-              <h1>With sheaker, is simple to manage your</h1>
-              <div class="col-lg-6 simple-things">
-                  <div class="nav-features">
-                      <ul class="features">
-                          <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===1}">
-                              <a ng-click="onClick(1)"><div class="col-lg-4 icone color-background-blue"><i class="fa fa-users fa-fw"></i></div>
-                                  <h1 class="col-lg-8">
-                                      Clients
-                                  </h1>
-                              </a>
-                          </li>
-                          <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===2}">
-                              <a ng-click="onClick(2)"><div class="col-lg-4 icone color-background-red"><i class="fa fa-home fa-fw"></i></div>
-                                  <h1 class="col-lg-8">
-                                      Gym
-                                  </h1>
-                              </a>
-                          </li>
-                          <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===3}">
-                              <a ng-click="onClick(3)"><div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
-                                  <h1 class="col-lg-8">
-                                      Money
-                                  </h1>
-                              </a>
-                          </li>
-                      </ul>
-                </div>
-              </div>
-              <div class="col-lg-6 simple-things" ng-show="featureToAff==1">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.tempor incididunt ut labore et dolore magna aliqua</p>
-              </div>
-              <div class="col-lg-6 simple-things" ng-show="featureToAff==2">
-                  <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo . dolore magna aliqua</p>
-              </div>
-              <div class="col-lg-6 simple-things" ng-show="featureToAff==3">
-                  <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of .tut labore et dolore magna aliqua</p>
+          <div class="col-lg-6">
+              <div class="connect-link"></div>
+          </div>
+          <div class="col-lg-6">
+            <div class="connect-link-inv"></div>
+          </div>
+              <!--<h1>With sheaker, is simple to manage your</h1>-->
+          <div class="col-lg-6 simple-things">
+              <div class="nav-features">
+                  <ul class="features">
+                      <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===1}">
+                          <a ng-click="onClick(1)"><div class="col-lg-4 icone color-background-blue"><i class="fa fa-users fa-fw"></i></div>
+                              <h1 class="col-lg-8" translate>PRODUCT.FEATURES.CLIENTS.TITLE</h1>
+                          </a>
+                      </li>
+                      <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===2}">
+                          <a ng-click="onClick(2)"><div class="col-lg-4 icone color-background-red"><i class="fa fa-home fa-fw"></i></div>
+                              <h1 class="col-lg-8" translate>PRODUCT.FEATURES.GYM.TITLE</h1>
+                          </a>
+                      </li>
+                      <li class="col-lg-12" ng-class="{'opacity-strong': featureToAff===3}">
+                          <a ng-click="onClick(3)"><div class="col-lg-4 icone color-background-green"><i class="fa fa-money fa-fw"></i></div>
+                              <h1 class="col-lg-8" translate>PRODUCT.FEATURES.MONEY.TITLE</h1>
+                          </a>
+                      </li>
+                  </ul>
               </div>
           </div>
+          <div class="col-lg-6 simple-things" ng-show="featureToAff==1">
+              <p translate>PRODUCT.FEATURES.CLIENTS.DESCRIPTION</p>
+          </div>
+          <div class="col-lg-6 simple-things" ng-show="featureToAff==2">
+              <p translate>PRODUCT.FEATURES.GYM.DESCRIPTION</p>
+          </div>
+          <div class="col-lg-6 simple-things" ng-show="featureToAff==3">
+              <p translate>PRODUCT.FEATURES.MONEY.DESCRIPTION</p>
+          </div>
+      </div>
       </section>
       <section id="ergonomics">
           <div class="container">
-          <h1>Ultra ergnomics</h1>
-          <ul class="features">
-              <li>coucou</li>
-              </ul>
-        </div>
+              <div class="col-lg-6">
+                  <h1 translate>PRODUCT.ERGONOMICS.TITLE</h1>
+                  <p translate>PRODUCT.ERGONOMICS.DESCRIPTION</p>
+              </div>
+              <div class="col-lg-6">
+                  <div class="ergonomics-img"></div>
+              </div>
+          </div>
       </section>
       <section id="security">
           <div class="container">
-          <h1>Security</h1>
-          <ul class="features">
-              <li>coucou</li>
-              </ul>
-        </div>
+              <h1 translate>PRODUCT.SECURITY.TITLE</h1>
+              <div class="col-lg-offset-3 col-lg-6">
+                  <div class="security-img"></div>
+                  <p translate>PRODUCT.SECURITY.DESCRIPTION</p>
+              </div>
+          </div>
       </section>
   </section>
     <div ng-include="'app/components/footer/footer.html'"></div>

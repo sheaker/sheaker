@@ -3,11 +3,20 @@
 }
 
 #product .title-divider {
-    margin-bottom: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 100px;
     background-color: #f9f9f9;
+    background-color: #efbfb6;
+    background-color: rgba(154, 269, 166, 0.5);
     text-align: center;
+}
+
+#product .title-divider .img-title{
+    background-image: url("/assets/images/productfont.png");
+    width:800px;
+    height:404px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -170px;
 }
 
  #product .title-divider .title h1 {
@@ -24,14 +33,48 @@
      opacity: 0.7;
  }
 
+ #product > #product-simple-things {
+     padding-bottom: 100px;
+ }
+
 #product > #product-simple-things > .container > h1 {
    text-align: center;
    font-size : 50px;
    font-weight: 400;
    color: #4A4A4A;
-   margin-bottom: 75px;
    opacity: 0.9;
  }
+
+ #product > #product-simple-things .connect-link {
+     width: 40px;
+     height: 140px;
+     border: 8px dashed #DDD;
+     background-color: #f9f9f9;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #product > #product-simple-things .connect-link-inv {
+     width: 40px;
+     height: 140px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+
+ #product #product-simple-things .simple-things > .nav-features > .features > .opacity-strong {
+      opacity: 0.9;
+  }
+
+  #product #product-simple-things .simple-things > .nav-features {
+      background-color: #f9f9f9;
+      width: 270px;
+      height: 275px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 8px dashed #DDD;
+      border-radius: 30px;
+   }
 
 #product .features li {
     color: #4A4A4A;
@@ -45,22 +88,8 @@
  }
 
 #product .features li {
-     opacity: 0.5;
+     opacity: 0.3;
  }
-
-#product #product-simple-things .simple-things > .nav-features > .features > .opacity-strong {
-     opacity: 0.9;
- }
-
- #product #product-simple-things .simple-things > .nav-features {
-     background-color: #f9f9f9;
-     width: 270px;
-     height: 275px;
-     margin-left: auto;
-     margin-right: auto;
-     border: 8px dashed #DDD;
-     border-radius: 30px;
-  }
 
  #product .features li > a > .icone {
     width: 60px;
@@ -94,8 +123,13 @@
  }
 
  #product > #product-simple-things > .container > .simple-things > p {
-     font-size: 30px;
-     padding: 10px;
+     font-size : 24px;
+     font-weight: 400;
+     color: #68686F;
+     padding-right: 30px;
+     padding: 20px;
+     opacity: 0.9;
+     margin-top: 30px;
  }
 
   #product > #product-simple-things {
@@ -104,27 +138,65 @@
 
  #product > #ergonomics {
      padding-top: 50px;
-     background-color: rgba(30, 139, 229, 0.7);
+     background-color: rgba(30, 139, 229, 0.6);
+     background-color: #9ac8ef;
+     padding-bottom: 50px;
+     border-bottom: 8px solid #DDD;
  }
 
- #product > #ergonomics > .container > h1 {
-    text-align: center;
+ #product > #ergonomics > .container h1 {
+    text-align: left;
     font-size : 50px;
     font-weight: 800;
     color: #fff;
-    margin-bottom: 75px;
+    margin-bottom: 35px;
     opacity: 1;
-  }
+}
 
-  #product > #security {
+#product > #ergonomics > .container p {
+    font-size : 24px;
+    font-weight: 400;
+    color: #68686F;
+    padding-right: 30px;
+}
+
+ #product > #ergonomics .ergonomics-img{
+   background-image: url("/assets/images/ergonomic.png");
+   width:478px;
+   height:305px;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 0.9;
+ }
+
+#product > #security {
       padding-top: 40px;
       padding-bottom: 40px;
-  }
+      font-size : 24px;
+}
 
-  #product > #security > .container > h1 {
+#product > #security > .container > h1 {
      text-align: center;
      font-size : 50px;
-     font-weight: 400;
-     margin-bottom: 75px;
+     font-weight: 900;
+     margin-bottom: 15px;
      opacity: 1;
-   }
+ }
+
+ #product > #security > .container p {
+     font-size : 24px;
+     font-weight: 400;
+     color: #68686F;
+     padding-right: 30px;
+     opacity: 0.9;
+  }
+
+#product > #security .security-img{
+   background-image: url("/assets/images/security.png");
+   width:239px;
+   height:219px;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 0.9;
+ }
