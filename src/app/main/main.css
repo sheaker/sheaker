@@ -22,13 +22,19 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e88e5', endColorstr='#d9eaf9',GradientType=0 ); /* IE6-9 */
 
     width: 100%;
-    height: 800px;
+    height: 400px;
     background-position: center bottom;
+}
+@media(min-width:800px) {
+    .welcome-background {
+        height: 800px;
+    }
 }
 
 #welcome .title {
     font-weight: 900;
     margin-top: 40px;
+    font-size: 30px;
 }
 
 #welcome .title span {
@@ -37,9 +43,18 @@
 
 #welcome .title .upper {
         font-family: 'Lato', sans-serif;
-        font-size: 55px;
-        letter-spacing: -1px;
-        line-height: 100px;
+        font-size: 38px;
+        padding: 30px;
+        letter-spacing: 0px;
+        line-height: 50px;
+}
+@media(min-width:800px) {
+    #welcome .title .upper {
+            font-family: 'Lato', sans-serif;
+            font-size: 55px;
+            letter-spacing: -1px;
+            line-height: 100px;
+    }
 }
 
 #welcome .title .upper-description {
@@ -63,23 +78,59 @@
     padding-top: 16px;
     margin-bottom: 50px;
     margin-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: left;
+}
+@media(min-width:750px) {
+    #intro .intro-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(min-width:970px) {
+    #intro .intro-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
 
 #intro .intro-browser{
-  background-image: url("/assets/images/browser.png");
-  width:478px;
-  height:305px;
-  opacity: 0.6;
+    display: none;
+}
+@media(min-width:992px) {
+    #intro .intro-browser{
+      display: block;
+      background-image: url("/assets/images/browser.png");
+      width:478px;
+      height:305px;
+      opacity: 0.6;
+      margin-top: 90px;
+    }
+}
+@media(min-width:1200px) {
+    #intro .intro-browser{
+      margin-top: 10px;
+    }
 }
 
 #intro .intro-everywhere{
-  background-image: url("/assets/images/everywhere.png");
-  width:478px;
-  height:305px;
-  opacity: 0.6;
+    display: none;
+}
+@media(min-width:992px) {
+    #intro .intro-everywhere{
+      display: block;
+      background-image: url("/assets/images/everywhere.png");
+      width:478px;
+      height:305px;
+      opacity: 0.6;
+      margin-top: 30px;
+    }
+}
+@media(min-width:1200px) {
+    #intro .intro-everywhere{
+      margin-top: 10px;
+    }
 }
 
 .separator {
@@ -87,13 +138,20 @@
 }
 
 #intro h2{
-  text-align: left;
   font-size : 35px;
   font-weight: 400;
   color: #4A4A4A;
   margin-bottom: 15px;
   padding-left: 25px;
   margin-top: 60px;
+}
+
+#intro .align-left{
+  text-align: left;
+}
+
+#intro .align-right{
+  text-align: right;
 }
 
 #intro p{
@@ -184,12 +242,19 @@
 
 /* Carousel */
 .carousel {
-    position: absolute;
-    left: calc(50% - 400px);
-    bottom: 0;
-    width: 800px;
-    height: 480px;
+    display: none;
 }
+@media(min-width:800px) {
+    .carousel {
+        display: block;
+        position: absolute;
+        left: calc(50% - 400px);
+        bottom: 0;
+        width: 800px;
+        height: 480px;
+    }
+}
+
 .carousel-caption {
     margin-left: auto;
     margin-right: auto;
