@@ -306,7 +306,7 @@
  }
 
  @media(min-width:600px) {
-     #product .title-divider .img-title{
+     #product > #ergonomics .ergonomics-img{
          width:478px;
          height:305px;
          background-size: cover;
