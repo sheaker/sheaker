@@ -222,10 +222,16 @@
 
 .features-container > h1 {
   text-align: center;
-  font-size : 60px;
+  font-size : 35px;
   font-weight: 900;
   color: #4A4A4A;
-  margin-bottom: 75px;
+  margin-bottom: 55px;
+}
+@media(min-width:992px) {
+    .features-container > h1 {
+      font-size : 60px;
+      margin-bottom: 75px;
+    }
 }
 
 .feature > h3 {
