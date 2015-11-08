@@ -63,29 +63,29 @@
         }
     },
     "PRODUCT" : {
-        "TITLE" : "Juste l'essentiel",
-        "DESCRIPTION" : "Tout est fait en fonction de vos besoin",
+        "TITLE" : "Uniquement l'essentiel",
+        "DESCRIPTION" : "Tout est fait en fonction de vos besoins",
         "FEATURES" : {
             "CLIENTS" : {
                 "TITLE" : "Clients",
-                "DESCRIPTION" : "Avec Sheaker la gestion de vos clients devient un jeu d'enfant.<br>Tout se dont vous avez besoin : Ajouter un client, l'editer, le consulter, .... est dans Sheaker."
+                "DESCRIPTION" : "Avec Sheaker la gestion de vos clients devient un jeu d'enfant.<br>Tout ce dont vous avez besoin : Ajouter un client, l'editer, le consulter ... est dans Sheaker."
             },
             "GYM" : {
                 "TITLE" : "Salle",
-                "DESCRIPTION" : "Toutes les donnees de votre salle de sport sont sauvegardees a tout moment, consultez les n'importe quand et n'importe ou."
+                "DESCRIPTION" : "Toutes les données de votre salle de sport sont sauvegardées à tout moment, consultez les n'importe quand et n'importe où."
             },
             "MONEY" : {
-                "TITLE" : "Revenu",
-                "DESCRIPTION" : "Plus possible de faire des erreurs de calculs, sheaker fera ce travaille pour vous.<br>La contabilite de votre salle de sport sera ..."
+                "TITLE" : "Revenus",
+                "DESCRIPTION" : "Plus possible de faire des erreurs de calcul, Sheaker fera ce travaille pour vous.<br>La comptabilité de votre salle de sport sera ..."
             }
         },
         "ERGONOMICS" : {
             "TITLE" : "Ultra ergnomique",
-            "DESCRIPTION" : "L'interface de Sheaker est faite pour etre utilise par des personnes Lambda, pas besoin d'etre un geni de l'informatique pour comprendre comment il fonctionne."
+            "DESCRIPTION" : "L'interface de Sheaker est faite pour être utilisé par n'importe quelle personne, pas besoin d'être un génie de l'informatique pour comprendre comment il fonctionne."
         },
         "SECURITY" : {
-            "TITLE" : "Securite",
-            "DESCRIPTION" : "Toutes vos donnees sont securise sur nos serveur. Vos connexion sont quand elles securise grace au certificat ssl, la meme securite que celle utilise par les banques."
+            "TITLE" : "Securité",
+            "DESCRIPTION" : "TToutes vos données sont sécurisées sur nos serveurs. Vos connexions sont quant a elles securisés grâce au certificat SSL, la même sécurité que celle utilisée par les banques."
         }
     },
     "PRICING" : {
