@@ -63,7 +63,30 @@
         }
     },
     "PRODUCT" : {
-
+        "TITLE" : "The essential, nothing more.",
+        "DESCRIPTION" : "We make everything to answer your needs",
+        "FEATURES" : {
+            "CLIENTS" : {
+                "TITLE" : "Clients",
+                "DESCRIPTION" : "The management of your clients become very easy.<br>All you need: add a client, edit, view..."
+            },
+            "GYM" : {
+                "TITLE" : "Gym",
+                "DESCRIPTION" : "All your gym datas are saved, consult them everywhere and at any time."
+            },
+            "MONEY" : {
+                "TITLE" : "Incomes",
+                "DESCRIPTION" : "No need anymore to use the calculator, we will handle the accounting and provide you statistics about your gym evolution."
+            }
+        },
+        "ERGONOMICS" : {
+            "TITLE" : "Ergonomic",
+            "DESCRIPTION" : "Sheaker interface has been designed to be used by any one. No need to be a informatic genius to understand how it work."
+        },
+        "SECURITY" : {
+            "TITLE" : "Security",
+            "DESCRIPTION" : "All your datas are saved safely in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
+        }
     },
     "PRICING" : {
 
