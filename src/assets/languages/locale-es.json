@@ -3,89 +3,89 @@
         "HOME" : "Inicio",
         "PRODUCT" : "Producto",
         "PRICING" : "Precios",
-        "CREATE" : "Cree tu manager",
-        "CREATE_2" : "Cree tu manager",
-        "STATUS" : "Status",
-        "CONTACT_US" : "Contact us"
+        "CREATE" : "Cree su gestor",
+        "CREATE_2" : "Cree su gestor",
+        "STATUS" : "Estado",
+        "CONTACT_US" : "Contáctenos"
     },
     "MAIN" : {
         "WELCOME" : {
-            "TITLE" : "Pone tu gimnasio en la nube!",
-            "DESCRIPTION" : "Les damos toda las llaves para manejar tu gimnasio.",
+            "TITLE" : "¡Ponga su gimnasio en la nube!",
+            "DESCRIPTION" : "Les ofrecemos todos los trucos para manejar su gimnasio.",
             "SLIDES" : {
-                "TEXT_1" : "Our interface is <b>intuitive</b> and easy to understand.",
-                "TEXT_2" : "We offer you a level of <b>customization</b> avanced to manage your clients.",
-                "TEXT_3" : "See easily the evolution of your gym in time and about everything."
+                "TEXT_1" : "Nuestra interfaz es <b>intuitiva</b> y fácil de usar.",
+                "TEXT_2" : "Le ofrecemos un nivel de <b>personalización</b> avanzado para gestionar a sus clientes.",
+                "TEXT_3" : "Vea con facilidad la evolución de su gimnasio respecto a tiempo y a todo."
             }
         },
         "INTRO" : {
             "BROWSER": {
-                "TITLE" : "No software to download",
-                "DESCRIPTION" : "Welcome in the 21th century! No need to download anything, Sheaker is available <b>directly on browser</b>.<br>All your datas are saved safely <b>in the cloud</b>. You will never have a loss of informations if your computer don't work anymore."
+                "TITLE" : "No hay software que descargar",
+                "DESCRIPTION" : "¡Bienvenido al siglo 21! No es necesario descargar nada. Sheaker está disponible <b>directamente desde el navegador</b>.<br>Toda su información está guardada <b>en la nube</b>. Usted nunca sufrirá pérdidas de información si su ordenador deja de funcionar."
             },
             "EVERYWHERE" : {
-                "TITLE" : "Available everywhere",
-                "DESCRIPTION" : "You can administrate your gym even from your house! All you need is just an <b>internet connection</b> and a computer, tablet or smartphone."
+                "TITLE" : "Disponible en todas partes",
+                "DESCRIPTION" : "¡Usted puede administrar su gimnasio incluso desde su casa! Todo lo que necesita es <b>conexión a internet</b> y un ordenador, tablet o smartphone."
             }
         },
         "FEATURES" : {
-            "TITLE" : "The funny thing, we can't put them all.",
+            "TITLE" : "La cosa divertida es que no podemos ponerlas todas.",
             "FEATURES" : {
                 "MANAGE" : {
-                    "TITLE" : "Manage",
-                    "DESCRIPTION" : "A more effective and easy way to manage your clients and theirs payments."
+                    "TITLE" : "Gestiona",
+                    "DESCRIPTION" : "Una forma más eficiente y sencilla de gestionar todos sus clientes y sus pagos."
                 },
                 "INFORM" : {
-                    "TITLE" : "Inform",
-                    "DESCRIPTION" : "Advise your customers at any time by sending mail, messages..."
+                    "TITLE" : "Informa",
+                    "DESCRIPTION" : "Informe a sus clientes en cualquier momento mediante correos, etc..."
                 },
                 "SCHEDULE" : {
-                    "TITLE" : "Schedule",
-                    "DESCRIPTION" : "Handle the gym schedule easily. Add training sessions and different events in few clicks."
+                    "TITLE" : "Horario",
+                    "DESCRIPTION" : "Gestione los horarios de su gimnasio de forma sencilla. Cree y ajuste horarios con unos simples clicks."
                 },
                 "STATS" : {
-                    "TITLE" : "Stats",
-                    "DESCRIPTION" : "Get a lot of nice statistics and graphics about your gym. Peak of attendance, monthly gains..."
+                    "TITLE" : "Estadísticas",
+                    "DESCRIPTION" : "Obtenga un montón de buenas e interesantes estadísticas respecto a su gimnasio. Picos de asistencia, beneficio mensual..."
                 },
                 "CLOSE" : {
-                    "TITLE" : "Don't loose contact",
-                    "DESCRIPTION" : "Keep your customers close to the gym by making them downloading the app."
+                    "TITLE" : "No pierda el contacto",
+                    "DESCRIPTION" : "Mantenga a sus clientes cerca de su gimnasio haciendo que descarguen la aplicación."
                 },
                 "BUSINESS" : {
-                    "TITLE" : "Business",
-                    "DESCRIPTION" : "Keep a record of all your customers payments. Who pay how much and when."
+                    "TITLE" : "Negocio",
+                    "DESCRIPTION" : "Mantenga un historial de todos los pagos de sus clientes. Quién paga, cuanto y cuando."
                 },
                 "MUSIC" : {
-                    "TITLE" : "Music",
-                    "DESCRIPTION" : "Motive your clients when they here by letting them picking their favorite music!"
+                    "TITLE" : "Música",
+                    "DESCRIPTION" : "¡Motive a sus clientes cuando se encuentran en el gimnasio, permitiéndoles elegir su música favorita!"
                 }
             }
         }
     },
     "PRODUCT" : {
-        "TITLE" : "The essential, nothing more.",
-        "DESCRIPTION" : "We make everything to answer your needs",
+        "TITLE" : "Lo esencial, nada más.",
+        "DESCRIPTION" : "Nosotros hacemos todo esto para cubrir sus necesidades",
         "FEATURES" : {
             "CLIENTS" : {
-                "TITLE" : "Clients",
-                "DESCRIPTION" : "The management of your clients become very easy.<br>All you need: add a client, edit, view..."
+                "TITLE" : "Clientes",
+                "DESCRIPTION" : "La gestión de sus clientes se vuelve realmente fácil.<br>Todo lo que necesita: añadir un cliente, editar, ver..."
             },
             "GYM" : {
-                "TITLE" : "Gym",
-                "DESCRIPTION" : "All your gym datas are saved, consult them everywhere and at any time."
+                "TITLE" : "Gimnasio",
+                "DESCRIPTION" : "Toda la información de su gimnasio es guardada. Consúltela en cualquier momento, donde quiera."
             },
             "MONEY" : {
-                "TITLE" : "Incomes",
-                "DESCRIPTION" : "No need anymore to use the calculator, we will handle the accounting and provide you statistics about your gym evolution."
+                "TITLE" : "Ingresos",
+                "DESCRIPTION" : "Ya no necesitará usar más la calculadora. Nosotros gestionaremos la contabilidad y le proveeremos la información y el estado de la evolución de su gimnasio."
             }
         },
         "ERGONOMICS" : {
-            "TITLE" : "Ergonomic",
-            "DESCRIPTION" : "Sheaker interface has been designed to be used by any one. No need to be a informatic genius to understand how it work."
+            "TITLE" : "Ergonómico",
+            "DESCRIPTION" : "La interfaz de Sheaker ha sido diseñada para que cualquiera sea capaz de utilizarla. No necesita ser ningún tipo de genio informático para poder entender todas sus funciones."
         },
         "SECURITY" : {
-            "TITLE" : "Security",
-            "DESCRIPTION" : "All your datas are saved safely in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
+            "TITLE" : "Seguridad",
+            "DESCRIPTION" : "Toda su información se guarda a salvo en nuestros servidores. Todas sus conexiones son también seguras gracias a un certificado SSL, el mismo que se usa para páginas web de bancos o del gobierno."
         }
     },
     "PRICING" : {
