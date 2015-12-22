@@ -1,0 +1,61 @@
+<div id="container" ng-controller="PricingController">
+  <section id="navbar-extend">
+    <div ng-include="'app/components/navbar/navbar.html'"></div>
+  </section>
+    <section id="pricing">
+        <div class="title-divider">
+            <div class="title">
+                <h1 translate>PRICING.TITLE</h1>
+                <h3 translate>PRICING.DESCRIPTION</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col-lg-4 label">
+                <div class="free-plan label-decoration">
+                    <h2>Free</h2>
+                    <h1>{{"0" | currency : symbol : 0}}</h1>
+                    <div class="details" translate>PRICING.PLANS.FREE.DETAILS</div>
+                </div>
+                <ul>
+                    <li>Client payment management</li>
+                    <li>Support</li>
+                    <li>Searchable client history <br>(limited to 2 weeks)</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 label">
+                <div class="lite-plan label-decoration">
+                    <h2>Lite</h2>
+                    <h1>{{"10" | currency : symbol : 0}}</h1>
+                    <div class="details" translate>PRICING.PLANS.LITE.DETAILS</div>
+                </div>
+                <ul>
+                    <li>Client payment management</li>
+                    <li>Support</li>
+                    <li>Searchable client history</li>
+                    <li>Statistical graphs</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 label">
+                <div class="pro-plan label-decoration">
+                    <h2>Pro</h2>
+                    <h1>{{"13" | currency : symbol : 0}}</h1>
+                    <div class="details" translate>PRICING.PLANS.PRO.DETAILS</div>
+                </div>
+                <ul>
+                    <li>Client payment management</li>
+                    <li>Support</li>
+                    <li>Searchable client history</li>
+                    <li>Statistical graphs</li>
+                    <li>Client Interface</li>
+                    <li>Smartphone Application</li>
+                    <li>Schedule management</li>
+                    <li>Notification Alert</li>
+                    <li>Music management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div ng-include="'app/components/footer/footer.html'"></div>
+</div>

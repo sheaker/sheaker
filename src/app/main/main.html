@@ -1,0 +1,88 @@
+<div class="welcome-wrap welcome-background">
+    <div ng-include="'app/components/navbar/navbar.html'"></div>
+
+    <section id="welcome">
+        <div class="title text-center">
+            <span class="upper" translate>“{{ 'MAIN.WELCOME.TITLE' }}”</span>
+            <span class="upper-description" translate>MAIN.WELCOME.DESCRIPTION</span>
+        </div>
+        <carousel interval="carousel.interval" no-wrap="carousel.noWrapSlides">
+            <slide ng-repeat="s in carousel.slides" active="s.active">
+                <img ng-src="{{ s.image }}" style="margin:auto;">
+                <div class="carousel-caption">
+                    <div class="explain-caption">
+                        <div class="slide slide-1" ng-show="s.text1" translate="{{ s.text1 }}"></div>
+                        <div class="slide slide-2" ng-show="s.text2" translate="{{ s.text2 }}"></div>
+                        <div class="slide slide-3" ng-show="s.text3" translate="{{ s.text3 }}"></div>
+                    </div>
+                </div>
+            </slide>
+        </carousel>
+    </section>
+</div>
+
+<section id="intro">
+    <div class="container intro-container">
+        <div class="col-lg-6 col-md-5">
+            <h2 class="align-left" translate>MAIN.INTRO.BROWSER.TITLE</h2>
+            <p translate>MAIN.INTRO.BROWSER.DESCRIPTION</p>
+        </div>
+        <div class="col-lg-6 col-md-7 intro-browser"></div>
+    </div>
+    <div class="separator"></div>
+    <div class="container intro-container">
+        <div class="col-lg-6 col-md-7 intro-everywhere"></div>
+        <div class="col-lg-6 col-md-5">
+            <h2 class="align-right" translate>MAIN.INTRO.EVERYWHERE.TITLE</h2>
+            <p translate>MAIN.INTRO.EVERYWHERE.DESCRIPTION</p>
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container features-container">
+      <h1 translate>MAIN.FEATURES.TITLE</h1>
+        <div class="row row-no-margin">
+            <div class="feature col-lg-4 col-sm-6">
+                <h3><i class="fa fa fa-users color-yellow"></i> {{ 'MAIN.FEATURES.FEATURES.MANAGE.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.MANAGE.DESCRIPTION</p>
+            </div>
+
+            <div class="feature col-lg-4 col-sm-6">
+                <h3><i class="fa fa-bullhorn color-blue"></i> {{ 'MAIN.FEATURES.FEATURES.INFORM.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.INFORM.DESCRIPTION</p>
+            </div>
+
+            <div class="feature col-lg-4 col-sm-6">
+                <h3><i class="fa fa-calendar color-red"></i> {{ 'MAIN.FEATURES.FEATURES.SCHEDULE.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.SCHEDULE.DESCRIPTION</p>
+            </div>
+
+            <div class="feature col-lg-4 col-sm-6">
+                <h3><i class="fa fa-area-chart color-green feature-margin-top"></i> {{ 'MAIN.FEATURES.FEATURES.STATS.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.STATS.DESCRIPTION</p>
+            </div>
+
+            <div class="col-lg-4 col-lg-offset-0 col-sm-0">
+                <div class="screen-computer"></div>
+            </div>
+
+            <div class="feature col-lg-4 col-sm-6">
+                <h3><i class="fa fa-plug color-yellow feature-margin-top"></i> {{ 'MAIN.FEATURES.FEATURES.CLOSE.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.CLOSE.DESCRIPTION</p>
+            </div>
+
+            <div class="feature col-lg-offset-2 col-lg-4 col-sm-6">
+                <h3><i class="fa fa fa-money color-blue"></i> {{ 'MAIN.FEATURES.FEATURES.BUSINESS.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.BUSINESS.DESCRIPTION</p>
+            </div>
+
+            <div class="feature col-lg-offset-0 col-lg-4 col-sm-6">
+                <h3><i class="fa fa-music color-red"></i> {{ 'MAIN.FEATURES.FEATURES.MUSIC.TITLE' | translate }}</h3>
+                <p translate>MAIN.FEATURES.FEATURES.MUSIC.DESCRIPTION</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div ng-include="'app/components/footer/footer.html'"></div>

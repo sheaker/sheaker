@@ -1,0 +1,109 @@
+{
+    "APP" : {
+        "HOME" : "Accueil",
+        "PRODUCT" : "Produit",
+        "PRICING" : "Prix",
+        "CREATE" : "Inscrivez-vous gratuitement",
+        "CREATE_2" : "Inscrivez-vous",
+        "STATUS" : "État des services",
+        "CONTACT_US" : "Contactez-nous"
+    },
+    "MAIN" : {
+        "WELCOME" : {
+            "TITLE" : "Mettez votre salle de sport dans les nuages !",
+            "DESCRIPTION" : "On vous donne toutes les clés pour gérer votre salle de sport.",
+            "SLIDES" : {
+                "TEXT_1" : "Notre interface est <b>intuitive</b> et facile à comprendre.",
+                "TEXT_2" : "Nous vous offrons un niveau de <b>personnalisation</b> avancé pour gérer vos clients.",
+                "TEXT_3" : "Voyez facilement l'évolution de votre salle de sport dans le temps et à propos de n'importe quoi."
+            }
+        },
+        "INTRO" : {
+            "BROWSER": {
+                "TITLE" : "Rien à télécharger",
+                "DESCRIPTION" : "Bienvenue au 21e siècle ! Plus besoin de télécharger quoi que ce soit, Sheaker est disponible <b>directement depuis votre navigateur</b>.<br>Toutes vos données sont sauvegardées en toute sécurité directement <b>dans le cloud</b>. Vous n'aurez plus jamais de perte d'informations si votre ordinateur est en panne."
+            },
+            "EVERYWHERE" : {
+                "TITLE" : "Disponible depuis partout",
+                "DESCRIPTION" : "Vous pouvez gérer votre salle de sport même <b>depuis chez vous</b> ! Que vous soyez-en Antarctique ou au fin fond de la forêt amazonienne, il vous faut uniquement une <b>connexion internet</b> et un ordinateur, tablette ou téléphone."
+            }
+        },
+        "FEATURES" : {
+            "TITLE" : "Le plus drôle, nous ne pouvons pas tout mettre.",
+            "FEATURES" : {
+                "MANAGE" : {
+                    "TITLE" : "Gérer",
+                    "DESCRIPTION" : "Un moyen plus simple et efficace de gérer vos clients et leurs paiements."
+                },
+                "INFORM" : {
+                    "TITLE" : "Informer",
+                    "DESCRIPTION" : "Informez vos clients à tout moment en leurs envoyant des messages de tout type: mail, SMS ..."
+                },
+                "SCHEDULE" : {
+                    "TITLE" : "Plannifier",
+                    "DESCRIPTION" : "Gérez l'agenda de la salle de sport facilement. Ajoutez des cours et différents événements en quelques cliques."
+                },
+                "STATS" : {
+                    "TITLE" : "Statistiques",
+                    "DESCRIPTION" : "Obtenez des statistiques et graphiques à propos de votre salle de sport. Les horaires de pointe, les gains par mois ... et plus encore."
+                },
+                "CLOSE" : {
+                    "TITLE" : "Ne perdez pas le contact",
+                    "DESCRIPTION" : "Gardez vos clients proches de la salle de sport en leur faisant télécharger notre application sur leur téléphone."
+                },
+                "BUSINESS" : {
+                    "TITLE" : "Business",
+                    "DESCRIPTION" : "Gardez une trace des transactions de vos clients. Qui a payé, combien, et quand."
+                },
+                "MUSIC" : {
+                    "TITLE" : "Musique",
+                    "DESCRIPTION" : "Motivez vos clients quand ils sont là en leur laissant choisir leurs morceaux de musique favoris !"
+                }
+            }
+        }
+    },
+    "PRODUCT" : {
+        "TITLE" : "L'essentiel, rien de plus.",
+        "DESCRIPTION" : "Nous avons tout fait pour répondre à vos besoins",
+        "FEATURES" : {
+            "CLIENTS" : {
+                "TITLE" : "Clients",
+                "DESCRIPTION" : "La gestion de vos clients devient un jeu d'enfant.<br>Tout ce dont vous avez besoin : Ajouter un client, l'editer, le consulter ..."
+            },
+            "GYM" : {
+                "TITLE" : "Salle",
+                "DESCRIPTION" : "Toutes les données de votre salle de sport sont sauvegardées, consultez les n'importe où et n'importe quand."
+            },
+            "MONEY" : {
+                "TITLE" : "Revenus",
+                "DESCRIPTION" : "Plus la peine de sortir votre calculette, nous effectuons la comptabilitée de votre salle et vous donnons des statistiques sur son évolution."
+            }
+        },
+        "ERGONOMICS" : {
+            "TITLE" : "Ergnomique",
+            "DESCRIPTION" : "L'interface de Sheaker est faite pour être utilisée par n'importe quelle personne. Pas besoin d'être un génie de l'informatique ou expert comptable pour comprendre son fonctionnement."
+        },
+        "SECURITY" : {
+            "TITLE" : "Sécurité",
+            "DESCRIPTION" : "Toutes vos données sont sécurisées sur nos serveurs. Vos connexions sont sécurisées grâce à un certificat SSL, également utilisé par les sites des banques ou du gouvernement."
+        }
+    },
+    "PRICING" : {
+        "TITLE" : "Choisissez votre Sheaker",
+        "DESCRIPTION" : "Nous avons des offres pour tout type de salle de sport, choisissez la vôtre.",
+        "PLANS" : {
+            "FREE" : {
+                "DETAILS" : "pas de limite d'utilisateurs"
+            },
+            "LITE" : {
+                "DETAILS" : "par utilisateur / mois"
+            },
+            "PRO" : {
+                "DETAILS" : "par utilisateur / mois"
+            }
+        }
+    },
+    "CREATE" : {
+
+    }
+}

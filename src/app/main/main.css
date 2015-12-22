@@ -1,0 +1,352 @@
+/*
+ * Welcome section
+ */
+.welcome-wrap {
+    position: relative;
+    background: none;
+    color: #fff;
+}
+.welcome-wrap section {
+    top: 0;
+    left: 0;
+}
+.welcome-background {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e88e5+0,d9eaf9+100 */
+    background: rgb(30,136,229); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(30,136,229,1) 0%, rgba(217,234,249,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,136,229,1)), color-stop(100%,rgba(217,234,249,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(30,136,229,1) 0%,rgba(217,234,249,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(30,136,229,1) 0%,rgba(217,234,249,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(30,136,229,1) 0%,rgba(217,234,249,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(30,136,229,1) 0%,rgba(217,234,249,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e88e5', endColorstr='#d9eaf9',GradientType=0 ); /* IE6-9 */
+
+    width: 100%;
+    height: 420px;
+    background-position: center bottom;
+}
+@media(min-width:800px) {
+    .welcome-background {
+        height: 800px;
+    }
+}
+
+#welcome .title {
+    font-weight: 900;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+#welcome .title span {
+    display: block;
+}
+
+#welcome .title .upper {
+        font-family: 'Lato', sans-serif;
+        font-size: 38px;
+        padding: 30px;
+        letter-spacing: 0px;
+        line-height: 50px;
+}
+@media(min-width:800px) {
+    #welcome .title .upper {
+            font-family: 'Lato', sans-serif;
+            font-size: 55px;
+            letter-spacing: -1px;
+            line-height: 100px;
+    }
+}
+
+#welcome .title .upper-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+@media(min-width:800px) {
+    #welcome .title .upper {
+            font-family: 'Lato', sans-serif;
+            font-size: 55px;
+            letter-spacing: -1px;
+            line-height: 100px;
+    }
+}
+
+/*
+ * Intro section
+ */
+#intro {
+    background-color: #fff;
+    border-top: 1px solid #DDD;
+    color: #9f9f9f;
+    font-weight: 500;
+}
+
+#intro .intro-container {
+    padding-top: 16px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+@media(min-width:750px) {
+    #intro .intro-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(min-width:970px) {
+    #intro .intro-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+#intro .intro-browser{
+    display: none;
+}
+@media(min-width:992px) {
+    #intro .intro-browser{
+      display: block;
+      background-image: url("/assets/images/browser.png");
+      width:478px;
+      height:305px;
+      opacity: 0.6;
+      margin-top: 90px;
+    }
+}
+@media(min-width:1200px) {
+    #intro .intro-browser{
+      margin-top: 10px;
+    }
+}
+
+#intro .intro-everywhere{
+    display: none;
+}
+@media(min-width:992px) {
+    #intro .intro-everywhere{
+      display: block;
+      background-image: url("/assets/images/everywhere.png");
+      width:478px;
+      height:305px;
+      opacity: 0.6;
+      margin-top: 30px;
+    }
+}
+@media(min-width:1200px) {
+    #intro .intro-everywhere{
+      margin-top: 10px;
+    }
+}
+
+.separator {
+  border-top: 1px solid #DDD;
+}
+
+#intro h2{
+  font-size : 35px;
+  font-weight: 400;
+  color: #4A4A4A;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  margin-top: 60px;
+}
+
+#intro .align-left{
+  text-align: left;
+}
+
+#intro .align-right{
+  text-align: right;
+}
+
+#intro p{
+  padding-left: 22px;
+  text-align: left;
+  font-size : 20px;
+  opacity: .75;
+  color: #4A4A4A;
+}
+
+/*@media(min-width:1217px) {
+    #intro .section-divider p{
+        padding-top: 60px;
+    }
+}*/
+
+/*
+ * Features section
+ */
+#features {
+    border-top: 1px solid #DDD;
+    background-color: #F7F5F3;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: #9f9f9f;
+    font-weight: 500;
+}
+
+.feature {
+    text-align: justify;
+    padding-left: 0px;
+    color: #4A4A4A;
+}
+@media(min-width:1217px) {
+    .feature {
+        padding-left: 40px;
+    }
+}
+
+.features-container {
+    padding-top: 16px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+@media(min-width:1200px) {
+    .screen-computer {
+        background-image: url("/assets/images/circle-feature.png");
+        width:360px;
+        height:293px;
+        margin-left: -30px;
+    }
+    .feature {
+        text-align: left;
+    }
+    .feature-margin-top{
+        margin-top: 90px;
+    }
+}
+
+.features-container p{
+    line-height: 22px;
+    font-size: 18px;
+    opacity: .75;
+}
+
+.features-container > h1 {
+  text-align: center;
+  font-size : 35px;
+  font-weight: 900;
+  color: #4A4A4A;
+  margin-bottom: 55px;
+}
+@media(min-width:992px) {
+    .features-container > h1 {
+      font-size : 60px;
+      margin-bottom: 75px;
+    }
+}
+
+.feature > h3 {
+    font-color: #4A4A4A;
+    font-weight: bold;
+    font-size : 18px;
+    text-shadow: 0 1px #fff;
+}
+
+.feature > h3 > .fa{
+  font-size : 20px;
+  margin-right: 10px;
+}
+
+/* Carousel */
+.carousel {
+    display: none;
+}
+@media(min-width:800px) {
+    .carousel {
+        display: block;
+        position: absolute;
+        left: calc(50% - 400px);
+        bottom: 0;
+        width: 800px;
+        height: 480px;
+    }
+}
+
+.carousel-caption {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+
+    background: -moz-linear-gradient(top,  rgba(41,137,216,0) 0%, rgba(112,176,229,0) 33%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(41,137,216,0)), color-stop(33%,rgba(112,176,229,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(41,137,216,0) 0%,rgba(112,176,229,0) 33%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(41,137,216,0) 0%,rgba(112,176,229,0) 33%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(41,137,216,0) 0%,rgba(112,176,229,0) 33%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(41,137,216,0) 0%,rgba(112,176,229,0) 33%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002989d8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.carousel-control {
+    display: none;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-indicators{
+    top: -20px;
+ }
+
+ .carousel-indicators .active,
+ .carousel-indicators li{
+     margin-right: 5px;
+  }
+
+.carousel-caption > .explain-caption{
+    position: absolute;
+    bottom: 10px;
+    left: calc( 50% - 175px);
+    text-align: left;
+    font-size: 21px;
+    color: #4a4a4a;
+    text-shadow: none;
+}
+
+.carousel-caption > .explain-caption > .slide {
+    color: #4A4A4A;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 0px 20px 0px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px 0px #ffffff;
+    -o-box-shadow: 0px 0px 20px 0px #ffffff;
+    box-shadow: 0px 0px 20px 0px #ffffff;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#ffffff, Direction=NaN, Strength=20);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.carousel-caption > .explain-caption > .slide-1{
+    width: 250px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.carousel-caption > .explain-caption > .slide-2{
+    width: 250px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: -170px;
+}
+
+.carousel-caption > .explain-caption > .slide-3{
+    width: 250px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -200px;
+}
+
+/* End Carousel */

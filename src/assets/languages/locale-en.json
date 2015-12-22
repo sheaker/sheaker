@@ -1,0 +1,97 @@
+{
+    "APP" : {
+        "HOME" : "Home",
+        "PRODUCT" : "Product",
+        "PRICING" : "Pricing",
+        "CREATE" : "Sign up for free",
+        "CREATE_2" : "Sign up",
+        "STATUS" : "Status",
+        "CONTACT_US" : "Contact us"
+    },
+    "MAIN" : {
+        "WELCOME" : {
+            "TITLE" : "who told you that manage gym was that difficult?",
+            "DESCRIPTION" : "We give you all the keys to manage your gym.",
+            "SLIDES" : {
+                "TEXT_1" : "Our interface is <b>intuitive</b> and easy to understand.",
+                "TEXT_2" : "We offer you a level of <b>customization</b> avanced to manage your clients.",
+                "TEXT_3" : "See easily the evolution of your gym in time and about everything."
+            }
+        },
+        "INTRO" : {
+            "BROWSER": {
+                "TITLE" : "No software to download",
+                "DESCRIPTION" : "Welcome in the 21th century! No need to download anything, Sheaker is available <b>directly on browser</b>.<br>All your datas are saved safely <b>in the cloud</b>. You will never have a loss of informations if your computer don't work anymore."
+            },
+            "EVERYWHERE" : {
+                "TITLE" : "Available everywhere",
+                "DESCRIPTION" : "You can administrate your gym even from your house! Even if you live in Antarctic or in deep Amazon Jungle you just need an <b>internet connection</b> and a computer, tablet or smartphone."
+            }
+        },
+        "FEATURES" : {
+            "TITLE" : "The funny thing, we can't put them all.",
+            "FEATURES" : {
+                "MANAGE" : {
+                    "TITLE" : "Manage",
+                    "DESCRIPTION" : "A more effective and easy way to manage your clients and theirs payments."
+                },
+                "INFORM" : {
+                    "TITLE" : "Inform",
+                    "DESCRIPTION" : "Advise your customers at any time by sending them multiple kind of messages (mail, SMS...)."
+                },
+                "SCHEDULE" : {
+                    "TITLE" : "Schedule",
+                    "DESCRIPTION" : "Handle the gym schedule easily. Add training sessions and different events in few clicks."
+                },
+                "STATS" : {
+                    "TITLE" : "Stats",
+                    "DESCRIPTION" : "Get a lot of nice statistics and graphics about your gym. Peak of attendance, monthly gains... and more."
+                },
+                "CLOSE" : {
+                    "TITLE" : "Don't loose contact",
+                    "DESCRIPTION" : "Keep your customers close to the gym by making them downloading our application."
+                },
+                "BUSINESS" : {
+                    "TITLE" : "Business",
+                    "DESCRIPTION" : "Keep a record of all your customers payments. Who pay, how much, and when."
+                },
+                "MUSIC" : {
+                    "TITLE" : "Music",
+                    "DESCRIPTION" : "Motive your clients when they here by letting them picking their favorite music!"
+                }
+            }
+        }
+    },
+    "PRODUCT" : {
+        "TITLE" : "The essential, nothing more.",
+        "DESCRIPTION" : "We make everything to answer your needs",
+        "FEATURES" : {
+            "CLIENTS" : {
+                "TITLE" : "Clients",
+                "DESCRIPTION" : "The management of your clients become very easy.<br>All you need: add a client, edit, view..."
+            },
+            "GYM" : {
+                "TITLE" : "Gym",
+                "DESCRIPTION" : "All your gym datas are saved, consult them everywhere and at any time."
+            },
+            "MONEY" : {
+                "TITLE" : "Incomes",
+                "DESCRIPTION" : "No need anymore to use the calculator, we will handle the accounting and provide you statistics about your gym evolution."
+            }
+        },
+        "ERGONOMICS" : {
+            "TITLE" : "Ergonomic",
+            "DESCRIPTION" : "Sheaker interface has been designed to be used by any one. No need to be a informatic genius to understand how it work."
+        },
+        "SECURITY" : {
+            "TITLE" : "Security",
+            "DESCRIPTION" : "All your datas are saved safely in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
+        }
+    },
+    "PRICING" : {
+
+    },
+    "CREATE" : {
+
+    }
+}
