@@ -15,7 +15,7 @@
 
 @media(min-width:400px) {
     #product .title-divider .img-title{
-        background-image: url("/assets/images/productfont.png");
+        background-image: url("//static.sheaker.com/sheaker/assets/images/productfont.png");
         background-size: cover;
         margin-left: auto;
         margin-right: auto;
@@ -295,7 +295,7 @@
 
  @media(min-width:300px) {
      #product > #ergonomics .ergonomics-img{
-         background-image: url("/assets/images/ergonomic.png");
+         background-image: url("//static.sheaker.com/sheaker/assets/images/ergonomic.png");
          background-size: contain;
          margin-left: auto;
          margin-right: auto;
@@ -336,7 +336,7 @@
   }
 
 #product > #security .security-img{
-   background-image: url("/assets/images/security.png");
+   background-image: url("//static.sheaker.com/sheaker/assets/images/security.png");
    width:260px;
    height:219px;
    margin-bottom: 40px;
