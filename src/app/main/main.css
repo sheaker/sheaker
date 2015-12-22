@@ -110,7 +110,7 @@
 @media(min-width:992px) {
     #intro .intro-browser{
       display: block;
-      background-image: url("/assets/images/browser.png");
+      background-image: url("//static.sheaker.com/sheaker/assets/images/browser.png");
       width:478px;
       height:305px;
       opacity: 0.6;
@@ -129,7 +129,7 @@
 @media(min-width:992px) {
     #intro .intro-everywhere{
       display: block;
-      background-image: url("/assets/images/everywhere.png");
+      background-image: url("//static.sheaker.com/sheaker/assets/images/everywhere.png");
       width:478px;
       height:305px;
       opacity: 0.6;
@@ -210,7 +210,7 @@
 
 @media(min-width:1200px) {
     .screen-computer {
-        background-image: url("/assets/images/circle-feature.png");
+        background-image: url("//static.sheaker.com/sheaker/assets/images/circle-feature.png");
         width:360px;
         height:293px;
         margin-left: -30px;
