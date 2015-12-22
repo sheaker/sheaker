@@ -5,22 +5,22 @@
         .module('sheaker')
         .controller('MainController', MainController);
 
-    function MainController($scope, $translate) {
+    function MainController($scope) {
         $scope.carousel = {
             interval:     3500,
             noWrapSlides: false,
             slides: [
                 {
                     image: '/assets/images/lockupscreen1.png',
-                    text1: $translate.instant('MAIN.WELCOME.SLIDES.TEXT_1')
+                    text1: 'MAIN.WELCOME.SLIDES.TEXT_1'
                 },
                 {
                     image: '/assets/images/lockupscreen2.png',
-                    text2: $translate.instant('MAIN.WELCOME.SLIDES.TEXT_2')
+                    text2: 'MAIN.WELCOME.SLIDES.TEXT_2'
                 },
                 {
                     image: '/assets/images/lockupscreen3.png',
-                    text3: $translate.instant('MAIN.WELCOME.SLIDES.TEXT_3')
+                    text3: 'MAIN.WELCOME.SLIDES.TEXT_3'
                 }
             ]
         };

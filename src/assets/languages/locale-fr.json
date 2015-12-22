@@ -20,12 +20,12 @@
         },
         "INTRO" : {
             "BROWSER": {
-                "TITLE" : "Aucun logiciel à télécharger",
-                "DESCRIPTION" : "Bienvenue au 21e siècle ! Plus besoin de télécharger quoi que ce soit, Sheaker est disponible <b>directement sur votre navigateur</b>.<br>Toutes vos données sont sauvegardées en toute sécurité directement <b>dans le cloud</b>. Vous n'aurez plus jamais de perte d'informations si votre ordinateur est en panne."
+                "TITLE" : "Rien à télécharger",
+                "DESCRIPTION" : "Bienvenue au 21e siècle ! Plus besoin de télécharger quoi que ce soit, Sheaker est disponible <b>directement depuis votre navigateur</b>.<br>Toutes vos données sont sauvegardées en toute sécurité directement <b>dans le cloud</b>. Vous n'aurez plus jamais de perte d'informations si votre ordinateur est en panne."
             },
             "EVERYWHERE" : {
-                "TITLE" : "Disponible partout",
-                "DESCRIPTION" : "Vous pouvez gérer votre salle de sport même <b>depuis chez vous</b> ! Que vous soyez-en Antarctique ou au fin fond de l'Amazonie, il vous faudra juste une <b>connexion internet</b> et d'un ordinateur, tablette ou téléphone."
+                "TITLE" : "Disponible depuis partout",
+                "DESCRIPTION" : "Vous pouvez gérer votre salle de sport même <b>depuis chez vous</b> ! Que vous soyez-en Antarctique ou au fin fond de la forêt amazonienne, il vous faut uniquement une <b>connexion internet</b> et un ordinateur, tablette ou téléphone."
             }
         },
         "FEATURES" : {
@@ -33,11 +33,11 @@
             "FEATURES" : {
                 "MANAGE" : {
                     "TITLE" : "Gérer",
-                    "DESCRIPTION" : "Un moyen plus efficace et plus facile de gérer vos clients et leurs paiements."
+                    "DESCRIPTION" : "Un moyen plus simple et efficace de gérer vos clients et leurs paiements."
                 },
                 "INFORM" : {
                     "TITLE" : "Informer",
-                    "DESCRIPTION" : "Informez vos clients à tout moment en leurs envoyant des messages de tout type (mail, SMS ...)."
+                    "DESCRIPTION" : "Informez vos clients à tout moment en leurs envoyant des messages de tout type: mail, SMS ..."
                 },
                 "SCHEDULE" : {
                     "TITLE" : "Plannifier",
@@ -45,11 +45,11 @@
                 },
                 "STATS" : {
                     "TITLE" : "Statistiques",
-                    "DESCRIPTION" : "Obtenez des statistiques et graphiques cool à propos de votre salle de sport. Les horaires de pointe, les gains par mois ... et plus encore."
+                    "DESCRIPTION" : "Obtenez des statistiques et graphiques à propos de votre salle de sport. Les horaires de pointe, les gains par mois ... et plus encore."
                 },
                 "CLOSE" : {
                     "TITLE" : "Ne perdez pas le contact",
-                    "DESCRIPTION" : "Gardez vos clients proches de la salle de sport en leur faisant télécharger notre application."
+                    "DESCRIPTION" : "Gardez vos clients proches de la salle de sport en leur faisant télécharger notre application sur leur téléphone."
                 },
                 "BUSINESS" : {
                     "TITLE" : "Business",
@@ -64,7 +64,7 @@
     },
     "PRODUCT" : {
         "TITLE" : "L'essentiel, rien de plus.",
-        "DESCRIPTION" : "Tout est fait pour repondre a vos besoins",
+        "DESCRIPTION" : "Nous avons tout fait pour répondre à vos besoins",
         "FEATURES" : {
             "CLIENTS" : {
                 "TITLE" : "Clients",
@@ -81,15 +81,27 @@
         },
         "ERGONOMICS" : {
             "TITLE" : "Ergnomique",
-            "DESCRIPTION" : "L'interface de Sheaker est faite pour être utilisé par n'importe quelle personne. Pas besoin d'être un génie de l'informatique pour comprendre son fonctionnement."
+            "DESCRIPTION" : "L'interface de Sheaker est faite pour être utilisée par n'importe quelle personne. Pas besoin d'être un génie de l'informatique ou expert comptable pour comprendre son fonctionnement."
         },
         "SECURITY" : {
             "TITLE" : "Sécurité",
-            "DESCRIPTION" : "Toutes vos données sont sécurisées sur nos serveurs. Vos connexions sont sécurisés grâce a un certificat SSL, la meme chose utilisé également par les sites des banques ou du gouvernement."
+            "DESCRIPTION" : "Toutes vos données sont sécurisées sur nos serveurs. Vos connexions sont sécurisées grâce à un certificat SSL, également utilisé par les sites des banques ou du gouvernement."
         }
     },
     "PRICING" : {
-
+        "TITLE" : "Choisissez votre Sheaker",
+        "DESCRIPTION" : "Nous avons des offres pour tout type de salle de sport, choisissez la vôtre.",
+        "PLANS" : {
+            "FREE" : {
+                "DETAILS" : "pas de limite d'utilisateurs"
+            },
+            "LITE" : {
+                "DETAILS" : "par utilisateur / mois"
+            },
+            "PRO" : {
+                "DETAILS" : "par utilisateur / mois"
+            }
+        }
     },
     "CREATE" : {
 
