@@ -1,25 +1,47 @@
-<div class="welcome-wrap welcome-background">
     <section id="navbar-extend">
       <div ng-include="'app/components/navbar/navbar.html'"></div>
     </section>
-    <section id="welcome">
-        <div class="title text-center">
-            <span class="upper" translate>“{{ 'MAIN.WELCOME.TITLE' }}”</span>
-            <span class="upper-description" translate>MAIN.WELCOME.DESCRIPTION</span>
+    <section id="landing-zone">
+      <div class="content row">
+        <div class="col-md-8 text">
+          <div class="title">Les salles de sports sont gere ici</div>
+          <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</div>
         </div>
-        <carousel interval="carousel.interval" no-wrap="carousel.noWrapSlides">
-            <slide ng-repeat="s in carousel.slides" active="s.active">
-                <img ng-src="{{ s.image }}" style="margin:auto;">
-                <div class="carousel-caption">
-                    <div class="explain-caption">
-                        <div class="slide slide-1" ng-show="s.text1" translate="{{ s.text1 }}"></div>
-                        <div class="slide slide-2" ng-show="s.text2" translate="{{ s.text2 }}"></div>
-                        <div class="slide slide-3" ng-show="s.text3" translate="{{ s.text3 }}"></div>
-                    </div>
-                </div>
-            </slide>
-        </carousel>
+        <div class="col-md-4">
+          <form name="createForm" class="form-create col-lg-12">
+              <div class="form-group">
+                  <input type="text" class="form-control" id="InputName" ng-model="formDatas.gym_name" placeholder="Gym name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="InputEmail" ng-model="formDatas.email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" placeholder="Password" required>
+              </div>
+              <button class="btn btn-submit col-lg-12">Create</button>
+        </form>
+      </div>
+      </div>
     </section>
+    <!--<div class="welcome-wrap welcome-background">
+      <section id="welcome">
+          <div class="title text-center">
+              <span class="upper" translate>“{{ 'MAIN.WELCOME.TITLE' }}”</span>
+              <span class="upper-description" translate>MAIN.WELCOME.DESCRIPTION</span>
+          </div>
+          <carousel interval="carousel.interval" no-wrap="carousel.noWrapSlides">
+              <slide ng-repeat="s in carousel.slides" active="s.active">
+                  <img ng-src="{{ s.image }}" style="margin:auto;">
+                  <div class="carousel-caption">
+                      <div class="explain-caption">
+                          <div class="slide slide-1" ng-show="s.text1" translate="{{ s.text1 }}"></div>
+                          <div class="slide slide-2" ng-show="s.text2" translate="{{ s.text2 }}"></div>
+                          <div class="slide slide-3" ng-show="s.text3" translate="{{ s.text3 }}"></div>
+                      </div>
+                  </div>
+              </slide>
+          </carousel>
+      </section>-->
 </div>
 
 <section id="intro">
