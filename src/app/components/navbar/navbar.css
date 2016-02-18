@@ -76,7 +76,7 @@
 
 #navbar-extend .navbar-default .navbar-nav > li > .navbar-btn {
   color: #fff;
-  background-color: #7CB342;
+  background-color: #f54785;
 }
 #navbar-extend .navbar-default .navbar-nav > li > a:active,
 #navbar-extend .navbar-default .navbar-nav > li > a:hover {
@@ -85,7 +85,7 @@
 
 #navbar-extend .navbar-default .navbar-nav > li > .navbar-btn:active,
 #navbar-extend .navbar-default .navbar-nav > li > .navbar-btn:hover {
-  background-color: #71a33c;
+  background-color: #f54785;
 }
 
 #navbar-extend .navbar-brand{

@@ -1,12 +1,12 @@
 /* Landing section */
-#landing-zone
+#landing-zone-head
 {
   background-color: #00B0B9;
   background-image: url('/assets/images/fontLanding.png');
   margin-bottom: 40px;
 }
 
-#landing-zone .content
+#landing-zone-head .content
 {
   color : #fff;
   padding-top: 70px;
@@ -15,7 +15,7 @@
   margin: auto;
 }
 
-#landing-zone .title
+#landing-zone-head .title
 {
   color : #fff;
   font-family: 'Lato', sans-serif;
@@ -23,7 +23,21 @@
   font-weight: 400;
 }
 
-#landing-zone .description
+#landing-zone-head h3
+{
+  font-size: 20px;
+}
+
+#landing-zone-head .pink-box
+{
+  background-color: #f54785;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#landing-zone-head .description
 {
   font-size: 20px;
 }
@@ -31,8 +45,33 @@
 #landing-zone .mockup-landing
 {
   background-image: url('/assets/images/mockuplanding.png');
-  height: 316px;
-  width: 450px;
+  height: 210px;
+  width: 299px;
+}
+
+#landing-zone
+{
+  color: #f54785;
+}
+
+#landing-zone .content
+{
+  width: 980px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#landing-zone .text
+{
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+#landing-zone .text i
+{
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .mockup-list
@@ -44,7 +83,7 @@
   margin-bottom: 40px;
 }
 
-#landing-zone .pict-screen
+#landing-zone-head .pict-screen
 {
   background-image: url('/assets/images/lockupscreen2.png');
   height: 120px;
@@ -52,39 +91,39 @@
   margin: auto;
 }
 
-#landing-zone .result-check
+#landing-zone-head .result-check
 {
   color: #f54785;
   font-size: 25px;
 }
 
-#landing-zone .text
+#landing-zone-head .text
 {
   margin-top: 50px;
 }
 
-#landing-zone .form-create {
+#landing-zone-head .form-create {
 }
 
-#landing-zone .form-create label{
+#landing-zone-head .form-create label{
     font-size : 17px;
     font-weight: 400;
 }
 
-#landing-zone .form-create input{
+#landing-zone-head .form-create input{
     height: 50px;
     font-size : 22px;
     font-weight: 400;
 }
 
-#landing-zone .btn-submit {
+#landing-zone-head .btn-submit {
     margin-top: 30px;
     font-size : 25px;
     color: #f54785;
     background-color: #fff;
 }
 
-#landing-zone .btn-submit:hover {
+#landing-zone-head .btn-submit:hover {
     margin-top: 30px;
     font-size : 25px;
     color: #fff;
@@ -177,84 +216,6 @@
         padding-top: 60px;
     }
 }*/
-
-/*
- * Features section
- */
-#features {
-    border-top: 1px solid #DDD;
-    background-color: #F7F5F3;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    color: #9f9f9f;
-    font-weight: 500;
-}
-
-.feature {
-    text-align: justify;
-    padding-left: 0px;
-    color: #4A4A4A;
-}
-@media(min-width:1217px) {
-    .feature {
-        padding-left: 40px;
-    }
-}
-
-.features-container {
-    padding-top: 16px;
-    margin-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
-    text-align: justify;
-}
-
-@media(min-width:1200px) {
-    .screen-computer {
-        background-image: url("/assets/images/circle-feature.png");
-        width:360px;
-        height:293px;
-        margin-left: -30px;
-    }
-    .feature {
-        text-align: left;
-    }
-    .feature-margin-top{
-        margin-top: 90px;
-    }
-}
-
-.features-container p{
-    line-height: 22px;
-    font-size: 18px;
-    opacity: .75;
-}
-
-.features-container > h1 {
-  text-align: center;
-  font-size : 35px;
-  font-weight: 900;
-  color: #4A4A4A;
-  margin-bottom: 55px;
-}
-@media(min-width:992px) {
-    .features-container > h1 {
-      font-size : 60px;
-      margin-bottom: 75px;
-    }
-}
-
-.feature > h3 {
-    font-color: #4A4A4A;
-    font-weight: bold;
-    font-size : 18px;
-    text-shadow: 0 1px #fff;
-}
-
-.feature > h3 > .fa{
-  font-size : 20px;
-  margin-right: 10px;
-}
 
 /* Carousel */
 .carousel {
