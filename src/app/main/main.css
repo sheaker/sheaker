@@ -110,6 +110,9 @@
 }
 
 #landing-zone-head .form-create {
+  background-color: rgba(174,180,180,.6);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 #landing-zone-head .form-create label{
