@@ -3,14 +3,14 @@
 {
   background-color: #00B0B9;
   background-image: url('/assets/images/fontLanding.png');
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 #landing-zone-head .content
 {
   color : #fff;
   padding-top: 70px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   width: 980px;
   margin: auto;
 }
@@ -21,6 +21,7 @@
   font-family: 'Lato', sans-serif;
   font-size: 44px;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 #landing-zone-head h3
@@ -42,11 +43,17 @@
   font-size: 20px;
 }
 
+#landing-zone-head .description p
+{
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
 #landing-zone .mockup-landing
 {
   background-image: url('/assets/images/mockuplanding.png');
-  height: 210px;
-  width: 299px;
+  height: 246px;
+  width: 350px;
 }
 
 #landing-zone
@@ -85,8 +92,8 @@
 
 #landing-zone-head .pict-screen
 {
-  background-image: url('/assets/images/lockupscreen2.png');
-  height: 120px;
+  background-image: url('/assets/images/lockuphomeipad.png');
+  height: 290px;
   width: 800px;
   margin: auto;
 }
