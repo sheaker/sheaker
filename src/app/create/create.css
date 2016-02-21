@@ -1,8 +1,11 @@
-#create .create-img-font {
-    background-color: #f2d792;
-    background-color: #f9f9f9;
-    background: linear-gradient(to bottom,#328890 0,#4ac0bf 100%);
-
+@media(min-width:992px) {
+  #create .create-img-font {
+      background-color: #f2d792;
+      background-color: #f9f9f9;
+      background: linear-gradient(to bottom,#328890 0,#4ac0bf 100%);
+      height: 651px;
+      margin-bottom: 20px;
+  }
 }
 
 #create .create-img {
@@ -21,8 +24,16 @@
     }
 }
 
+@media(min-width:992px) {
+  #create .form-create {
+      margin-top: 100px;
+      margin-bottom: 150px;
+  }
+}
+
 #create .form-create {
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 150px;
 }
 
 #create .form-create label{
@@ -38,8 +49,8 @@
 
 #create .form-create h1 {
     font-size : 32px;
-    font-weight: 200;
-    color: #4A4A4A;
+    font-weight: 400;
+    color: #f54785;
     margin-bottom: 20px;
 }
 

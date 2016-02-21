@@ -3,7 +3,7 @@
     <div ng-include="'app/components/navbar/navbar.html'"></div>
   </section>
   <section id="create">
-      <div class="col-md-4">
+      <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
           <form name="createForm" class="form-create col-lg-offset-1 col-lg-10">
               <h1>Create your gym manager</h1>
               <div class="form-group">
@@ -18,14 +18,11 @@
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" required>
               </div>
-              <button class="btn btn-submit col-lg-offset-2 col-lg-8" ng-disabled="createForm.$invalid">Create</button>
+              <button class="btn btn-submit col-xs-offset-2 col-xs-8" ng-disabled="createForm.$invalid">Create</button>
         </form>
       </div>
     <div class="col-md-8 create-img-font">
-        <div class="col-md-offset-5 col-md-2">
-            <div class="create-img"></div>
-        </div>
     </div>
-  </secton>
-    <div ng-include="'app/components/footer/footer.html'"></div>
+  </section>
+  <div ng-include="'app/components/footer/footer.html'"></div>
 </div>
