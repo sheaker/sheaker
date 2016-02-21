@@ -1,6 +1,7 @@
 #create .create-img-font {
     background-color: #f2d792;
     background-color: #f9f9f9;
+    background: linear-gradient(to bottom,#328890 0,#4ac0bf 100%);
 
 }
 
@@ -46,7 +47,8 @@
     margin-top: 40px;
     font-size : 25px;
     color: #fff;
-    background-color: #7CB342;
+    color: #fff;
+    background-color: #f54785;
 }
 
 #create .btn-submit:disabled {
