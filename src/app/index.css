@@ -221,3 +221,7 @@ body {
 .lite {
     font-weight: 200;
 }
+
+.without-margin {
+    margin: 0;
+}

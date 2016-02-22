@@ -18,6 +18,12 @@
                 "TEXT_3" : "Voyez facilement l'évolution de votre salle de sport dans le temps et à propos de n'importe quoi."
             }
         },
+        "LANDING" : {
+            "TITLE" : "Les salles de sport sont gérées ici.",
+            "DESCRIPTION_1" : "Simplicité, une interface ergonomique et intuitive.",
+            "DESCRIPTION_2" : "Tous les outils nécessaires pour gérer votre salle de sport.",
+            "DESCRIPTION_3" : "Les informations dont vous avez besoin, rien de plus."
+        },
         "INTRO" : {
             "BROWSER": {
                 "TITLE" : "Rien à télécharger",
@@ -104,6 +110,11 @@
         }
     },
     "CREATE" : {
-
+      "FORM" : {
+          "NAME" : "Nom de la salle",
+          "MAIL" : "Adresse mail",
+          "PASSWORD" : "Mot de passe",
+          "BUTTON_CREATE" : "Créer"
+      }
     }
 }

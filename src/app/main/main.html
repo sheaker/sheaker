@@ -4,26 +4,26 @@
     <section id="landing-zone-head">
       <div class="content row">
         <div class="col-md-8 text">
-          <div class="title">Les salles de sports sont gere ici</div>
+          <div class="title" translate>MAIN.LANDING.TITLE</div>
           <div class="description">
             <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."<br>-->
-            <p><i class="color-pink fa fa-check"></i> Simplicite, une interface ergonomic et intuitive</p>
-            <p><i class="color-pink fa fa-check"></i> Tout les outils nessecaire pour gerer votre salle de sport</p>
-            <p><i class="color-pink fa fa-check"></i> Les informations dont vous avez besoins</p>
+            <p><i class="color-pink fa fa-check"></i> <span translate>MAIN.LANDING.DESCRIPTION_1</span></p>
+            <p><i class="color-pink fa fa-check"></i> <span translate>MAIN.LANDING.DESCRIPTION_2</span></p>
+            <p><i class="color-pink fa fa-check"></i> <span translate>MAIN.LANDING.DESCRIPTION_3</span></p>
           </div>
         </div>
         <div class="col-md-4">
           <form name="createForm" class="form-create col-lg-12">
               <div class="form-group">
-                  <input type="text" class="form-control" id="InputName" ng-model="formDatas.gym_name" placeholder="Gym name" required>
+                  <input type="text" class="form-control" id="InputName" ng-model="formDatas.gym_name" placeholder="{{ 'CREATE.FORM.NAME' | translate }}" required>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="InputEmail" ng-model="formDatas.email" placeholder="Email" required>
+                <input type="email" class="form-control" id="InputEmail" ng-model="formDatas.email" placeholder="{{ 'CREATE.FORM.MAIL' | translate }}" required>
               </div>
               <div class="form-group">
-                <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" placeholder="Password" required>
+                <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" placeholder="{{ 'CREATE.FORM.PASSWORD' | translate }}" required>
               </div>
-              <button class="btn btn-submit col-lg-12">Create</button>
+              <button class="btn btn-submit col-lg-12" translate>CREATE.FORM.BUTTON_CREATE</button>
         </form>
       </div>
       </div>
