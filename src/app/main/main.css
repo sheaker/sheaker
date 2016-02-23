@@ -6,12 +6,11 @@
   margin-bottom: 0px;
 }
 
-#landing-zone-head .content
+#landing-zone-head .container
 {
   color : #fff;
   padding-top: 70px;
   padding-bottom: 30px;
-  width: 980px;
   margin: auto;
 }
 
@@ -73,11 +72,28 @@
   margin-bottom: 40px;
 }
 
-#landing-zone .text
-{
-  font-size: 20px;
-  font-weight: 500;
-  padding-top: 30px;
+@media(max-width:991px) {
+  #landing-zone-head .text
+  {
+    margin-top: 10px;
+  }
+
+  #landing-zone-head .text .title
+  {
+    text-align: center;
+  }
+
+  #landing-zone-head .description
+  {
+    margin-bottom: 35px;
+  }
+}
+
+@media(min-width:992px) {
+  #landing-zone-head .text
+  {
+    margin-top: 50px;
+  }
 }
 
 #landing-zone .text i
@@ -95,23 +111,27 @@
   margin-bottom: 40px;
 }
 
-#landing-zone-head .pict-screen
-{
-  background-image: url('/assets/images/lockuphomeipad.png');
-  height: 290px;
-  width: 800px;
-  margin: auto;
+@media(max-width:991px) {
+  #landing-zone-head .pict-screen
+  {
+    display: none;
+  }
+}
+
+@media(min-width:992px) {
+  #landing-zone-head .pict-screen
+  {
+    background-image: url('/assets/images/lockuphomeipad.png');
+    height: 290px;
+    width: 800px;
+    margin: auto;
+  }
 }
 
 #landing-zone-head .result-check
 {
   color: #f54785;
   font-size: 25px;
-}
-
-#landing-zone-head .text
-{
-  margin-top: 50px;
 }
 
 #landing-zone-head .form-create {
