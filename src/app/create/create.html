@@ -6,7 +6,7 @@
     <div class="row without-margin">
       <div class="col-sm-offset-3 col-sm-6 col-md-offset-0 col-md-4">
           <form name="createForm" class="form-create col-lg-offset-1 col-lg-10">
-              <h1>Create your gym manager</h1>
+              <h1 translate>CREATE.STARTNOW</h1>
               <div class="form-group">
                   <label for="exampleInputEmail1" translate>CREATE.FORM.NAME</label>
                   <input type="text" class="form-control" id="InputName" ng-model="formDatas.gym_name" required>
@@ -19,11 +19,12 @@
                 <label for="exampleInputPassword1" translate>CREATE.FORM.PASSWORD</label>
                 <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" required>
               </div>
-              <button class="btn btn-submit col-xs-offset-2 col-xs-8" ng-disabled="createForm.$invalid">Create</button>
+              <button class="btn btn-submit col-xs-offset-2 col-xs-8" ng-disabled="createForm.$invalid" translate>CREATE.FORM.BUTTON_CREATE</button>
         </form>
       </div>
       <div class="col-md-8 create-img-font">
         <h1>#startnow</h1>
+        <h2>99%</h2>
       </div>
     </div>
   </section>

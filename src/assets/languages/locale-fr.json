@@ -110,6 +110,7 @@
         }
     },
     "CREATE" : {
+      "STARTNOW" : "Commence maintenant ! C'est GRATUIT",
       "FORM" : {
           "NAME" : "Nom de la salle",
           "MAIL" : "Adresse mail",
