@@ -8,15 +8,15 @@
           <form name="createForm" class="form-create col-lg-offset-1 col-lg-10">
               <h1>Create your gym manager</h1>
               <div class="form-group">
-                  <label for="exampleInputEmail1">Gym name</label>
+                  <label for="exampleInputEmail1" translate>CREATE.FORM.NAME</label>
                   <input type="text" class="form-control" id="InputName" ng-model="formDatas.gym_name" required>
               </div>
               <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
+                <label for="exampleInputEmail1" translate>CREATE.FORM.MAIL</label>
                 <input type="email" class="form-control" id="InputEmail" ng-model="formDatas.email" required>
               </div>
               <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
+                <label for="exampleInputPassword1" translate>CREATE.FORM.PASSWORD</label>
                 <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" required>
               </div>
               <button class="btn btn-submit col-xs-offset-2 col-xs-8" ng-disabled="createForm.$invalid">Create</button>
