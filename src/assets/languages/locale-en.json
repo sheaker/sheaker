@@ -18,6 +18,12 @@
                 "TEXT_3" : "See easily the evolution of your gym in time and about everything."
             }
         },
+        "LANDING" : {
+            "TITLE" : "Gyms are managed here.",
+            "DESCRIPTION_1" : "Simplicity, ergonomic and intuitive interface.",
+            "DESCRIPTION_2" : "All the necessary tools to manage your gym.",
+            "DESCRIPTION_3" : "The informations you need, nothing more."
+        },
         "INTRO" : {
             "BROWSER": {
                 "TITLE" : "No software to download",
@@ -92,6 +98,11 @@
 
     },
     "CREATE" : {
-
+      "FORM" : {
+          "NAME" : "Name of your gym",
+          "MAIL" : "E-mail address",
+          "PASSWORD" : "Password",
+          "BUTTON_CREATE" : "Create"
+      }
     }
 }
