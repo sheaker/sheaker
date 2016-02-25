@@ -18,6 +18,12 @@
                 "TEXT_3" : "Vea con facilidad la evolución de su gimnasio respecto a tiempo y a todo."
             }
         },
+        "LANDING" : {
+            "TITLE" : "Gimnasios se gestionan aquí.",
+            "DESCRIPTION_1" : "Simplicidad, ergonómico y una interfaz intuitiva.",
+            "DESCRIPTION_2" : "Todas las herramientas necesarias para gestionar su gimnasio.",
+            "DESCRIPTION_3" : "Las informaciones que necesita, nada más"
+        },
         "INTRO" : {
             "BROWSER": {
                 "TITLE" : "No hay software que descargar",
@@ -92,6 +98,11 @@
 
     },
     "CREATE" : {
-
+      "FORM" : {
+          "NAME" : "Nombre de su gimnasio",
+          "MAIL" : "Correo electrónico",
+          "PASSWORD" : "Contraseña",
+          "BUTTON_CREATE" : "Crear"
+      }
     }
 }
