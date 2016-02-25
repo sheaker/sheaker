@@ -95,7 +95,29 @@
         }
     },
     "PRICING" : {
-
+        "TITLE" : "Elija su Sheaker",
+        "DESCRIPTION" : "Tenemos ofertas para todo tipo de gimnasio, elige el tuyo.",
+        "PLANS" : {
+            "FREE" : {
+                "DETAILS" : "sin límite de usuarios"
+            },
+            "LITE" : {
+                "DETAILS" : "Version bêta"
+            },
+            "PRO" : {
+                "DETAILS" : "Próximamente"
+            }
+        },
+        "FEATURE1" : "Gestión de pagos de clientes",
+        "FEATURE2" : "Support",
+        "FEATURE3" : "Historial del cliente",
+        "FEATURE3BIS" : "(limitado a 2 semanas)",
+        "FEATURE4" : "Estadísticos gráficos",
+        "FEATURE5" : "Interfaz de cliente",
+        "FEATURE6" : "Aplicación de smartphone",
+        "FEATURE7" : "Manejo de calendario",
+        "FEATURE8" : "Alertas por notificación",
+        "FEATURE9" : "Gestión de música"
     },
     "CREATE" : {
       "STARTNOW" : "Empieza ahora ! Es GRATIS",

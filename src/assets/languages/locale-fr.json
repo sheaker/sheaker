@@ -102,12 +102,22 @@
                 "DETAILS" : "pas de limite d'utilisateurs"
             },
             "LITE" : {
-                "DETAILS" : "par utilisateur / mois"
+                "DETAILS" : "Version bêta"
             },
             "PRO" : {
-                "DETAILS" : "par utilisateur / mois"
+                "DETAILS" : "Bientôt disponible"
             }
-        }
+        },
+        "FEATURE1" : "Gestion des paiements client",
+        "FEATURE2" : "Support",
+        "FEATURE3" : "Historique du client",
+        "FEATURE3BIS" : "(limité à 2 semaines)",
+        "FEATURE4" : "Statistiques graphiques",
+        "FEATURE5" : "Interface client",
+        "FEATURE6" : "Application smartphone",
+        "FEATURE7" : "Gestion des plannings",
+        "FEATURE8" : "Alertes par notifications",
+        "FEATURE9" : "Gestion de la musique"
     },
     "CREATE" : {
       "STARTNOW" : "Commence maintenant ! C'est GRATUIT",
