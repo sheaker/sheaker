@@ -28,7 +28,7 @@
                 controller:  'PricingController'
             })
             .state('app.create', {
-                url: '/create/:gymName?',
+                url: '/create',
                 templateUrl: 'app/create/create.html',
                 controller:  'CreateController'
             });

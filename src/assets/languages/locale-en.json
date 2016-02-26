@@ -123,8 +123,10 @@
       "STARTNOW" : "Start now ! It´s FREE",
       "FORM" : {
           "NAME" : "Name of your gym",
+          "WEB_ADDRESS" : "Web address of your sheaker manager",
           "MAIL" : "E-mail address",
           "PASSWORD" : "Password",
+          "BUTTON_NEXT" : "Next",
           "BUTTON_CREATE" : "Create"
       }
     }

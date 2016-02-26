@@ -123,8 +123,10 @@
       "STARTNOW" : "Empieza ahora ! Es GRATIS",
       "FORM" : {
           "NAME" : "Nombre de su gimnasio",
+          "WEB_ADDRESS" : "",
           "MAIL" : "Correo electrónico",
           "PASSWORD" : "Contraseña",
+          "BUTTON_NEXT" : "Siguiente",
           "BUTTON_CREATE" : "Crear"
       }
     }

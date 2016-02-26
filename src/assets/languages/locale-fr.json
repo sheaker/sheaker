@@ -123,8 +123,10 @@
       "STARTNOW" : "Commence maintenant ! C'est GRATUIT",
       "FORM" : {
           "NAME" : "Nom de la salle",
+          "WEB_ADDRESS" : "Adresse web de votre manager sheaker",
           "MAIL" : "Adresse mail",
           "PASSWORD" : "Mot de passe",
+          "BUTTON_NEXT" : "Suivant",
           "BUTTON_CREATE" : "Créer"
       }
     }
