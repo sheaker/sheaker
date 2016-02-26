@@ -9,11 +9,11 @@
         $stateProvider
             .state('app', {
                 abstract: true,
-                url: '/{locale}',
+                url: '',
                 template: '<ui-view/>'
             })
             .state('app.main', {
-                url: '',
+                url: '/',
                 templateUrl: 'app/main/main.html',
                 controller:  'MainController'
             })
