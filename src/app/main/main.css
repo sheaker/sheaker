@@ -140,6 +140,16 @@
   border-radius: 5px;
 }
 
+#landing-zone-head .border-form-right {
+  border-bottom-right-radius : 0;
+  border-top-right-radius : 0;
+}
+
+#landing-zone-head .border-form-left {
+  border-bottom-left-radius : 0;
+  border-top-left-radius : 0;
+}
+
 #landing-zone-head .form-create label{
     font-size : 17px;
     font-weight: 400;
@@ -152,17 +162,15 @@
 }
 
 #landing-zone-head .btn-submit {
-    margin-top: 30px;
-    font-size : 25px;
-    color: #f54785;
-    background-color: #fff;
-}
-
-#landing-zone-head .btn-submit:hover {
-    margin-top: 30px;
     font-size : 25px;
     color: #fff;
     background-color: #f54785;
+}
+
+#landing-zone-head .btn-submit:hover {
+    font-size : 25px;
+    color: #f54785;
+    background-color: #fff;
 }
 
 /*

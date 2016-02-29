@@ -11,6 +11,7 @@
             second: false
         };
 
+        $scope.pct = 98;
         $scope.slugifyGymName = function() {
             $scope.formDatas.subdomain = Slug.slugify($scope.formDatas.name);
         };
@@ -18,6 +19,7 @@
         $scope.setSecondStep = function() {
             $scope.steps.first = false;
             $scope.steps.second = true;
+            $scope.pct+=1;
         };
 
         $scope.createClient = function() {

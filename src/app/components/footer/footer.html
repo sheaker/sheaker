@@ -1,10 +1,14 @@
 <footer class="color-background-white" ng-controller="FooterController">
     <div class="container">
-        <div class="col-md-4 col-xs-6 title">
+        <div class="col-ms-4 col-xs-6">
+          <div class="col-sm-6">
+              <select class="form-control" ng-model="currentLang" ng-options="al.short as al.long for al in availableLangs" ng-change="updateLang()"></select>
+          </div>
+          <div class="col-sm-12 title">
             <ul>
                 <li>Made with lot of <i class="fa fa-heart"></i> by <a href="http://hexagone.com.mx" target="_blank">Hexagone</a></li>
                 <li><div class="logo-sheaker"></div></li>
-            </ul>
+            </ul>          </div>
         </div>
         <div class="col-md-4 col-xs-6">
             <div class="col-md-6">
@@ -37,9 +41,6 @@
                         <i class="fa fa-twitter fa-stack-1x"></i>
                     </span>
                     <a href="https://twitter.com/hexagonemx" target="_blank">Twitter</a>
-                </li>
-                <li>
-                    <select class="form-control" ng-model="currentLang" ng-options="al.short as al.long for al in availableLangs" ng-change="updateLang()"></select>
                 </li>
             </ul>
         </div>
