@@ -20,9 +20,9 @@
         },
         "LANDING" : {
             "TITLE" : "Gyms are managed here.",
-            "DESCRIPTION_1" : "Simplicity, ergonomic and intuitive interface.",
-            "DESCRIPTION_2" : "All the necessary tools to manage your gym.",
-            "DESCRIPTION_3" : "The informations you need, nothing more."
+            "DESCRIPTION_1" : "<b>Simplicity</b>, <b>ergonomic</b> and intuitive interface.",
+            "DESCRIPTION_2" : "All the <b>necessary tools</b> to manage your gym.",
+            "DESCRIPTION_3" : "The informations you need, <b>nothing more</b>."
         },
         "INTRO" : {
             "BROWSER": {
@@ -122,6 +122,7 @@
     "CREATE" : {
       "STARTNOW" : "Start now ! It´s FREE",
       "FORM" : {
+          "TITLE" : "Sheaker is <b>free</b> and without time limit.",
           "NAME" : "Name of your gym",
           "WEB_ADDRESS" : "Web address of your sheaker manager",
           "MAIL" : "Email address",

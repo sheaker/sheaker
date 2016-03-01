@@ -20,9 +20,9 @@
         },
         "LANDING" : {
             "TITLE" : "Gimnasios se gestionan aquí.",
-            "DESCRIPTION_1" : "Simplicidad, ergonómico y una interfaz intuitiva.",
-            "DESCRIPTION_2" : "Todas las herramientas necesarias para gestionar su gimnasio.",
-            "DESCRIPTION_3" : "Las informaciones que necesita, nada más"
+            "DESCRIPTION_1" : "<b>Simplicidad</b>, <b>ergonómico</b> y una interfaz intuitiva.",
+            "DESCRIPTION_2" : "Todas las <b>herramientas necesarias</b> para gestionar su gimnasio.",
+            "DESCRIPTION_3" : "Las informaciones que necesita, <b>nada más</b>."
         },
         "INTRO" : {
             "BROWSER": {
@@ -122,12 +122,14 @@
     "CREATE" : {
       "STARTNOW" : "Empieza ahora ! Es GRATIS",
       "FORM" : {
+          "TITLE" : "Sheaker es <b>gratis</b> y sin límite de tiempo.",
           "NAME" : "Nombre de su gimnasio",
           "WEB_ADDRESS" : "",
-          "MAIL" : "Correo electrónico",
+          "MAIL" : "Correo",
           "PASSWORD" : "Contraseña",
           "BUTTON_NEXT" : "Siguiente",
-          "BUTTON_CREATE" : "Crear"
+          "BUTTON_CREATE" : "Crear",
+          "BUTTON_CREATE_LONG" : "Crear mi gestor "
       }
     }
 }

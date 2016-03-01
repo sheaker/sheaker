@@ -20,9 +20,9 @@
         },
         "LANDING" : {
             "TITLE" : "Les salles de sport sont gérées ici.",
-            "DESCRIPTION_1" : "Simplicité, une interface ergonomique et intuitive.",
-            "DESCRIPTION_2" : "Tous les outils nécessaires pour gérer votre salle de sport.",
-            "DESCRIPTION_3" : "Les informations dont vous avez besoin, rien de plus."
+            "DESCRIPTION_1" : "<b>Simplicité</b>, une <b>interface ergonomique</b> et intuitive.",
+            "DESCRIPTION_2" : "Tous les <b>outils nécessaires</b> pour gérer votre salle de sport.",
+            "DESCRIPTION_3" : "Les informations dont vous avez besoin, <b>rien de plus</b>."
         },
         "INTRO" : {
             "BROWSER": {
@@ -122,12 +122,14 @@
     "CREATE" : {
       "STARTNOW" : "Commence maintenant ! C'est GRATUIT",
       "FORM" : {
+          "TITLE" : "Sheaker est <b>gratuit</b> et sans limite de temps.",
           "NAME" : "Nom de la salle",
           "WEB_ADDRESS" : "Adresse web de votre manager sheaker",
           "MAIL" : "Adresse mail",
           "PASSWORD" : "Mot de passe",
           "BUTTON_NEXT" : "Suivant",
-          "BUTTON_CREATE" : "Créer"
+          "BUTTON_CREATE" : "Créer",
+          "BUTTON_CREATE_LONG" : "Créer un manager"
       }
     }
 }

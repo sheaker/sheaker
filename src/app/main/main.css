@@ -144,10 +144,20 @@
   margin: auto;
 }
 
+#landing-zone-head h3 {
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#landing-zone-head .form-create b {
+  font-weight: 800;
+}
+
 @media(min-width:992px) {
   #landing-zone-head .form-create
   {
-    margin-top: 100px;
+    margin-top: 90px;
   }
 }
 
@@ -186,9 +196,9 @@
 
 #landing-zone-head .btn-submit:hover {
     font-size : 20px;
-    color: #f54785;
-    background-color: #fff;
     height: 50px;
+    background-color: #fb4988;
+    border-bottom: solid 2px #9f1949;
 }
 
 /*
