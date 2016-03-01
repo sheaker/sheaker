@@ -125,6 +125,7 @@
     height: 290px;
     width: 800px;
     margin: auto;
+    margin-top: 80px;
   }
 }
 
@@ -138,14 +139,28 @@
   background-color: rgba(174,180,180,.6);
   padding: 20px;
   border-radius: 5px;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: auto;
+}
+
+@media(min-width:992px) {
+  #landing-zone-head .form-create
+  {
+    margin-top: 100px;
+  }
 }
 
 #landing-zone-head .border-form-right {
   border-bottom-right-radius : 0;
   border-top-right-radius : 0;
+  border-bottom-left-radius : 5px;
+  border-top-left-radius : 5px;
 }
 
 #landing-zone-head .border-form-left {
+  border-bottom-right-radius : 5px;
+  border-top-right-radius : 5px;
   border-bottom-left-radius : 0;
   border-top-left-radius : 0;
 }
@@ -162,15 +177,18 @@
 }
 
 #landing-zone-head .btn-submit {
-    font-size : 25px;
+    font-size : 20px;
     color: #fff;
     background-color: #f54785;
+    height: 50px;
+    width: 180px;
 }
 
 #landing-zone-head .btn-submit:hover {
-    font-size : 25px;
+    font-size : 20px;
     color: #f54785;
     background-color: #fff;
+    height: 50px;
 }
 
 /*

@@ -124,10 +124,11 @@
       "FORM" : {
           "NAME" : "Name of your gym",
           "WEB_ADDRESS" : "Web address of your sheaker manager",
-          "MAIL" : "E-mail address",
+          "MAIL" : "Email address",
           "PASSWORD" : "Password",
           "BUTTON_NEXT" : "Next",
-          "BUTTON_CREATE" : "Create"
+          "BUTTON_CREATE" : "Create",
+          "BUTTON_CREATE_LONG" : "Create a manager"
       }
     }
 }
