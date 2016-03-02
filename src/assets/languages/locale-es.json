@@ -129,7 +129,7 @@
           "PASSWORD" : "Contraseña",
           "BUTTON_NEXT" : "Siguiente",
           "BUTTON_CREATE" : "Crear",
-          "BUTTON_CREATE_LONG" : "Crear mi gestor "
+          "BUTTON_CREATE_LONG" : "Crear"
       }
     }
 }
