@@ -17,7 +17,7 @@
 
 @media(min-width:400px) {
     #product .title-divider .img-title{
-        background-image: url("/assets/images/productfont.png");
+        background-image: url("//static.sheaker.com/sheaker/assets/images/productfont.png");
         background-size: cover;
         margin-left: auto;
         margin-right: auto;
@@ -388,7 +388,7 @@
 
  @media(min-width:1200px) {
      .screen-computer {
-         background-image: url("/assets/images/circle-feature.png");
+         background-image: url("//static.sheaker.com/sheaker/assets/images/circle-feature.png");
          width:360px;
          height:293px;
          margin-left: -30px;
