@@ -21,7 +21,7 @@
         "LANDING" : {
             "TITLE" : "Gyms are managed here.",
             "DESCRIPTION_1" : "<b>Simplicity</b>, <b>ergonomic</b> and intuitive interface.",
-            "DESCRIPTION_2" : "All the <b>necessary tools</b> to manage your gym.",
+            "DESCRIPTION_2" : "All the <b>necessary tools</b> to manage your gym <b>easily</b>.",
             "DESCRIPTION_3" : "The informations you need, <b>nothing more</b>."
         },
         "INTRO" : {
@@ -87,11 +87,11 @@
         },
         "ERGONOMICS" : {
             "TITLE" : "Ergonomic",
-            "DESCRIPTION" : "Sheaker interface has been designed to be used by any one. No need to be a informatic genius to understand how it work."
+            "DESCRIPTION" : "Sheaker interface has been designed to <b>be used by any one</b>. No need to be a informatic genius to understand how it work."
         },
         "SECURITY" : {
             "TITLE" : "Security",
-            "DESCRIPTION" : "All your datas are saved safely in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
+            "DESCRIPTION" : "All your datas are <b>saved safely</b> in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
         }
     },
     "PRICING" : {

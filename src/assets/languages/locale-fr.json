@@ -21,7 +21,7 @@
         "LANDING" : {
             "TITLE" : "Les salles de sport sont gérées ici.",
             "DESCRIPTION_1" : "<b>Simplicité</b>, une <b>interface ergonomique</b> et intuitive.",
-            "DESCRIPTION_2" : "Tous les <b>outils nécessaires</b> pour gérer votre salle de sport.",
+            "DESCRIPTION_2" : "Tous les <b>outils nécessaires</b> pour gérer votre salle.",
             "DESCRIPTION_3" : "Les informations dont vous avez besoin, <b>rien de plus</b>."
         },
         "INTRO" : {
@@ -87,11 +87,11 @@
         },
         "ERGONOMICS" : {
             "TITLE" : "Ergnomique",
-            "DESCRIPTION" : "L'interface de Sheaker est faite pour être utilisée par n'importe quelle personne. Pas besoin d'être un génie de l'informatique ou expert comptable pour comprendre son fonctionnement."
+            "DESCRIPTION" : "L'interface de Sheaker est faite pour être <b>utilisée par n'importe quelle personne</b>. Pas besoin d'être un génie de l'informatique ou expert comptable pour comprendre son fonctionnement."
         },
         "SECURITY" : {
             "TITLE" : "Sécurité",
-            "DESCRIPTION" : "Toutes vos données sont sécurisées sur nos serveurs. Vos connexions sont sécurisées grâce à un certificat SSL, également utilisé par les sites des banques ou du gouvernement."
+            "DESCRIPTION" : "Toutes vos données sont <b>sécurisées</b> sur nos serveurs. Vos connexions sont sécurisées grâce à un certificat SSL, également utilisé par les sites des banques ou du gouvernement."
         }
     },
     "PRICING" : {

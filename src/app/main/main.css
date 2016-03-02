@@ -135,6 +135,17 @@
   font-size: 25px;
 }
 
+@media(min-width:1200px) {
+  #landing-zone-head .arrow
+  {
+    background-image: url('/assets/images/arrow.png');
+    height: 71px;
+    width: 210px;
+    margin: auto;
+    margin-top: -70px;
+  }
+}
+
 #landing-zone-head .form-create {
   background-color: rgba(174,180,180,.6);
   padding: 20px;
