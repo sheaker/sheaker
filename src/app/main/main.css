@@ -55,7 +55,7 @@
 
 #landing-zone .mockup-landing
 {
-  background-image: url('/assets/images/mockuplanding.png');
+  background-image: url('//static.sheaker.com/sheaker/assets/images/mockuplanding.png');
   height: 246px;
   width: 350px;
 }
@@ -104,7 +104,7 @@
 
 .mockup-list
 {
-  background-image: url('/assets/images/mockuplist.png');
+  background-image: url('//static.sheaker.com/sheaker/assets/images/mockuplist.png');
   height: 271px;
   width: 899px;
   margin: auto;
@@ -121,7 +121,7 @@
 @media(min-width:992px) {
   #landing-zone-head .pict-screen
   {
-    background-image: url('/assets/images/lockuphomeipad.png');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/lockuphomeipad.png');
     height: 290px;
     width: 800px;
     margin: auto;
@@ -138,7 +138,7 @@
 @media(min-width:1200px) {
   #landing-zone-head .arrow
   {
-    background-image: url('/assets/images/arrow.png');
+    background-image: url('//static.sheaker.com/sheaker/assets/images/arrow.png');
     height: 71px;
     width: 210px;
     margin: auto;

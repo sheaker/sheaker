@@ -41,7 +41,7 @@
         width: 600px;
         height:428px;
         margin-top: 224px;
-        background-image: url("/assets/images/create.png");
+        background-image: url("//static.sheaker.com/sheaker/assets/images/create.png");
         display: block;
     }
 }
