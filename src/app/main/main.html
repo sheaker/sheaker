@@ -1,43 +1,67 @@
-<div class="welcome-wrap welcome-background">
-    <div ng-include="'app/components/navbar/navbar.html'"></div>
-
-    <section id="welcome">
-        <div class="title text-center">
-            <span class="upper" translate>“{{ 'MAIN.WELCOME.TITLE' }}”</span>
-            <span class="upper-description" translate>MAIN.WELCOME.DESCRIPTION</span>
-        </div>
-        <carousel interval="carousel.interval" no-wrap="carousel.noWrapSlides">
-            <slide ng-repeat="s in carousel.slides" active="s.active">
-                <img ng-src="{{ s.image }}" style="margin:auto;">
-                <div class="carousel-caption">
-                    <div class="explain-caption">
-                        <div class="slide slide-1" ng-show="s.text1" translate="{{ s.text1 }}"></div>
-                        <div class="slide slide-2" ng-show="s.text2" translate="{{ s.text2 }}"></div>
-                        <div class="slide slide-3" ng-show="s.text3" translate="{{ s.text3 }}"></div>
-                    </div>
-                </div>
-            </slide>
-        </carousel>
+    <section id="navbar-extend">
+      <div ng-include="'app/components/navbar/navbar.html'"></div>
     </section>
+    <section id="landing-zone-head">
+      <div class="container">
+        <div class="col-md-7 text">
+          <div class="title" translate>MAIN.LANDING.TITLE</div>
+          <div class="description">
+            <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."<br>-->
+            <p><i class="color-pink fa fa-check"></i> <span translate>MAIN.LANDING.DESCRIPTION_1</span></p>
+            <p><i class="color-pink fa fa-check"></i> <span translate>MAIN.LANDING.DESCRIPTION_2</span></p>
+            <p><i class="color-pink fa fa-check"></i> <span translate>MAIN.LANDING.DESCRIPTION_3</span></p>
+          </div>
+        </div>
+        <div class="row col-md-5">
+          <form name="createForm" class="form-create col-lg-12 row">
+              <h3 translate>CREATE.FORM.TITLE</h3>
+              <div class="form-group col-xs-6 without-margin without-padding">
+                  <input type="text" class="form-control border-form-right" id="InputName" ng-model="formDatas.email" placeholder="{{ 'CREATE.FORM.MAIL' | translate }}" required>
+              </div>
+                <button class="btn btn-submit col-xs-6 border-form-left" translate>CREATE.FORM.BUTTON_CREATE_LONG</button>
+              <!--<div class="form-group">
+                <input type="email" class="form-control" id="InputEmail" ng-model="formDatas.email" placeholder="{{ 'CREATE.FORM.MAIL' | translate }}" required>
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="InputPassword" ng-model="formDatas.password" placeholder="{{ 'CREATE.FORM.PASSWORD' | translate }}" required>
+              </div>-->
+        </form>
+      </div>
+      </div>
+      <div class="arrow"></div>
+      <div class="pict-screen"></div>
+    </section>
+    <!--<section id="landing-zone">
+      <div class="content row">
+        <div class="col-lg-offset-1 col-md-7 text color-pink">
+          <p><i class="fa fa-check"></i> Simplicite, une interface ergonomic et intuitive</p>
+          <p><i class="fa fa-check"></i> Tout les outils nessecaire pour gerer votre salle de sport</p>
+          <p><i class="fa fa-check"></i> Les informations dont vous avez besoins</p>
+        </div>
+        <div class="col-md-4">
+          <div class="mockup-landing"></div>
+        </div>
+    </section>
+        <!--<div class="welcome-wrap welcome-background">
+      <section id="welcome">
+          <div class="title text-center">
+              <span class="upper" translate>“{{ 'MAIN.WELCOME.TITLE' }}”</span>
+              <span class="upper-description" translate>MAIN.WELCOME.DESCRIPTION</span>
+          </div>
+          <carousel interval="carousel.interval" no-wrap="carousel.noWrapSlides">
+              <slide ng-repeat="s in carousel.slides" active="s.active">
+                  <img ng-src="{{ s.image }}" style="margin:auto;">
+                  <div class="carousel-caption">
+                      <div class="explain-caption">
+                          <div class="slide slide-1" ng-show="s.text1" translate="{{ s.text1 }}"></div>
+                          <div class="slide slide-2" ng-show="s.text2" translate="{{ s.text2 }}"></div>
+                          <div class="slide slide-3" ng-show="s.text3" translate="{{ s.text3 }}"></div>
+                      </div>
+                  </div>
+              </slide>
+          </carousel>
+      </section>
 </div>
-
-<section id="intro">
-    <div class="container intro-container">
-        <div class="col-lg-6 col-md-5">
-            <h2 class="align-left" translate>MAIN.INTRO.BROWSER.TITLE</h2>
-            <p translate>MAIN.INTRO.BROWSER.DESCRIPTION</p>
-        </div>
-        <div class="col-lg-6 col-md-7 intro-browser"></div>
-    </div>
-    <div class="separator"></div>
-    <div class="container intro-container">
-        <div class="col-lg-6 col-md-7 intro-everywhere"></div>
-        <div class="col-lg-6 col-md-5">
-            <h2 class="align-right" translate>MAIN.INTRO.EVERYWHERE.TITLE</h2>
-            <p translate>MAIN.INTRO.EVERYWHERE.DESCRIPTION</p>
-        </div>
-    </div>
-</section>
 
 <section id="features">
     <div class="container features-container">
@@ -83,6 +107,6 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 <div ng-include="'app/components/footer/footer.html'"></div>

@@ -18,6 +18,12 @@
                 "TEXT_3" : "See easily the evolution of your gym in time and about everything."
             }
         },
+        "LANDING" : {
+            "TITLE" : "Gyms are managed here.",
+            "DESCRIPTION_1" : "<b>Simplicity</b>, <b>ergonomic</b> and intuitive interface.",
+            "DESCRIPTION_2" : "All the <b>necessary tools</b> to manage your gym <b>easily</b>.",
+            "DESCRIPTION_3" : "The informations you need, <b>nothing more</b>."
+        },
         "INTRO" : {
             "BROWSER": {
                 "TITLE" : "No software to download",
@@ -81,17 +87,49 @@
         },
         "ERGONOMICS" : {
             "TITLE" : "Ergonomic",
-            "DESCRIPTION" : "Sheaker interface has been designed to be used by any one. No need to be a informatic genius to understand how it work."
+            "DESCRIPTION" : "Sheaker interface has been designed to <b>be used by any one</b>. No need to be a informatic genius to understand how it work."
         },
         "SECURITY" : {
             "TITLE" : "Security",
-            "DESCRIPTION" : "All your datas are saved safely in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
+            "DESCRIPTION" : "All your datas are <b>saved safely</b> in our servers. Your connections are also secure thanks to a SSL certificate, the same thing used by bank's o governement's websites."
         }
     },
     "PRICING" : {
-
+        "TITLE" : "Choose your Sheaker",
+        "DESCRIPTION" : "We have offers for all types of gym, choose yours.",
+        "PLANS" : {
+            "FREE" : {
+                "DETAILS" : "unlimited users"
+            },
+            "LITE" : {
+                "DETAILS" : "beta version"
+            },
+            "PRO" : {
+                "DETAILS" : "Coming soon"
+            }
+        },
+        "FEATURE1" : "Client payment management",
+        "FEATURE2" : "Support",
+        "FEATURE3" : "Searchable client history",
+        "FEATURE3BIS" : "(limited to 2 weeks)",
+        "FEATURE4" : "Statistical graphs",
+        "FEATURE5" : "Client interface",
+        "FEATURE6" : "Smartphone application",
+        "FEATURE7" : "Schedule management",
+        "FEATURE8" : "Notification Alert",
+        "FEATURE9" : "Music management"
     },
     "CREATE" : {
-
+      "STARTNOW" : "Start now ! It´s FREE",
+      "FORM" : {
+          "TITLE" : "Sheaker is <b>free</b> and without time limit.",
+          "NAME" : "Name of your gym",
+          "WEB_ADDRESS" : "Web address of your sheaker manager",
+          "MAIL" : "Email address",
+          "PASSWORD" : "Password",
+          "BUTTON_NEXT" : "Next",
+          "BUTTON_CREATE" : "Create",
+          "BUTTON_CREATE_LONG" : "Create a manager"
+      }
     }
 }

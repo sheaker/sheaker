@@ -18,6 +18,12 @@
                 "TEXT_3" : "Vea con facilidad la evolución de su gimnasio respecto a tiempo y a todo."
             }
         },
+        "LANDING" : {
+            "TITLE" : "Gimnasios se gestionan aquí.",
+            "DESCRIPTION_1" : "<b>Simplicidad</b>, <b>ergonómico</b> y una interfaz intuitiva.",
+            "DESCRIPTION_2" : "Todas las <b>herramientas necesarias</b> para gestionar su gimnasio.",
+            "DESCRIPTION_3" : "Las informaciones que necesita, <b>nada más</b>."
+        },
         "INTRO" : {
             "BROWSER": {
                 "TITLE" : "No hay software que descargar",
@@ -81,17 +87,49 @@
         },
         "ERGONOMICS" : {
             "TITLE" : "Ergonómico",
-            "DESCRIPTION" : "La interfaz de Sheaker ha sido diseñada para que cualquiera sea capaz de utilizarla. No necesita ser ningún tipo de genio informático para poder entender todas sus funciones."
+            "DESCRIPTION" : "La interfaz de Sheaker ha sido diseñada para que <b>cualquiera sea capaz de utilizarla</b>. No necesita ser ningún tipo de genio informático para poder entender todas sus funciones."
         },
         "SECURITY" : {
             "TITLE" : "Seguridad",
-            "DESCRIPTION" : "Toda su información se guarda a salvo en nuestros servidores. Todas sus conexiones son también seguras gracias a un certificado SSL, el mismo que se usa para páginas web de bancos o del gobierno."
+            "DESCRIPTION" : "Toda su información se <b>guarda a salvo</b> en nuestros servidores. Todas sus conexiones son también seguras gracias a un certificado SSL, el mismo que se usa para páginas web de bancos o del gobierno."
         }
     },
     "PRICING" : {
-
+        "TITLE" : "Elija su Sheaker",
+        "DESCRIPTION" : "Tenemos ofertas para todo tipo de gimnasio, elige el tuyo.",
+        "PLANS" : {
+            "FREE" : {
+                "DETAILS" : "sin límite de usuarios"
+            },
+            "LITE" : {
+                "DETAILS" : "Version bêta"
+            },
+            "PRO" : {
+                "DETAILS" : "Próximamente"
+            }
+        },
+        "FEATURE1" : "Gestión de pagos de clientes",
+        "FEATURE2" : "Support",
+        "FEATURE3" : "Historial del cliente",
+        "FEATURE3BIS" : "(limitado a 2 semanas)",
+        "FEATURE4" : "Estadísticos gráficos",
+        "FEATURE5" : "Interfaz de cliente",
+        "FEATURE6" : "Aplicación de smartphone",
+        "FEATURE7" : "Manejo de calendario",
+        "FEATURE8" : "Alertas por notificación",
+        "FEATURE9" : "Gestión de música"
     },
     "CREATE" : {
-
+      "STARTNOW" : "Empieza ahora ! Es GRATIS",
+      "FORM" : {
+          "TITLE" : "Sheaker es <b>gratis</b> y sin límite de tiempo.",
+          "NAME" : "Nombre de su gimnasio",
+          "WEB_ADDRESS" : "",
+          "MAIL" : "Correo",
+          "PASSWORD" : "Contraseña",
+          "BUTTON_NEXT" : "Siguiente",
+          "BUTTON_CREATE" : "Crear",
+          "BUTTON_CREATE_LONG" : "Crear mi gestor "
+      }
     }
 }

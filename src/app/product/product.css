@@ -5,8 +5,10 @@
 #product .title-divider {
     padding-top: 100px;
     background-color: #f9f9f9;
-    background-color: #efbfb6;
+    background-color: #4ff547;
     background-color: rgba(154, 269, 166, 0.5);
+    background-color: #00B0B9;
+    background: linear-gradient(to bottom,rgba(56,88,105,1) 0,rgba(19,30,36,1) 100%);
     text-align: center;
 }
 
@@ -15,7 +17,7 @@
 
 @media(min-width:400px) {
     #product .title-divider .img-title{
-        background-image: url("//static.sheaker.com/sheaker/assets/images/productfont.png");
+        background-image: url("/assets/images/productfont.png");
         background-size: cover;
         margin-left: auto;
         margin-right: auto;
@@ -183,6 +185,7 @@
 
 #product .features li {
     color: #4A4A4A;
+    color: #fff;
     font-size: 30px;
     list-style-type: none;
     margin-top: 20px;
@@ -230,9 +233,10 @@
      #product .features li > a > h1 {
          display: block;
          color: #4A4A4A;
+         color: #fff;
          font-weight: bold;
          font-size : 22px;
-         text-shadow: 0 1px #fff;
+         /*text-shadow: 0 1px #fff;*/
          opacity: 0.6;
      }
  }
@@ -250,6 +254,7 @@
      font-size: 40px;
      font-weight: 500;
      color: #68686F;
+     color: #fff;
      opacity: 0.8;
  }
 
@@ -257,7 +262,7 @@
      font-size : 24px;
      font-weight: 400;
      color: #68686F;
-
+     color: #fff;
      opacity: 0.9;
      margin-top: 30px;
  }
@@ -269,10 +274,11 @@
  #product > #ergonomics {
      padding-top: 50px;
      background-color: rgba(30, 139, 229, 0.6);
-     background-color: #9ac8ef;
+     background-color: #537d92;
      padding-bottom: 50px;
      border-bottom: 8px solid #DDD;
  }
+
 
  #product > #ergonomics > .container h1 {
     text-align: left;
@@ -286,7 +292,7 @@
 #product > #ergonomics > .container p {
     font-size : 24px;
     font-weight: 400;
-    color: #68686F;
+    color: #93bfd5;
     padding-right: 30px;
 }
 
@@ -343,4 +349,87 @@
    margin-left: auto;
    margin-right: auto;
    opacity: 0.9;
+ }
+
+
+ /*
+  * Features section
+  */
+ #features {
+     border-top: 1px solid #DDD;
+     background-color: #F7F5F3;
+     background-color: #87a4b3;
+     padding-bottom: 40px;
+     padding-top: 40px;
+     color: #fff;
+     font-weight: 500;
+ }
+
+ .feature {
+     text-align: justify;
+     padding-left: 0px;
+     color: #4A4A4A;
+     color: #fff;
+ }
+ @media(min-width:1217px) {
+     .feature {
+         padding-left: 40px;
+     }
+ }
+
+ .features-container {
+     padding-top: 16px;
+     margin-bottom: 50px;
+     padding-left: 60px;
+     padding-right: 60px;
+     text-align: justify;
+ }
+
+ @media(min-width:1200px) {
+     .screen-computer {
+         background-image: url("/assets/images/circle-feature.png");
+         width:360px;
+         height:293px;
+         margin-left: -30px;
+     }
+     .feature {
+         text-align: left;
+     }
+     .feature-margin-top{
+         margin-top: 90px;
+     }
+ }
+
+ .features-container p{
+     line-height: 22px;
+     font-size: 18px;
+     opacity: .75;
+ }
+
+ .features-container > h1 {
+   text-align: center;
+   font-size : 35px;
+   font-weight: 900;
+   color: #4A4A4A;
+   color: #fff;
+   margin-bottom: 55px;
+ }
+ @media(min-width:992px) {
+     .features-container > h1 {
+       font-size : 60px;
+       margin-bottom: 75px;
+     }
+ }
+
+ .feature > h3 {
+     font-color: #4A4A4A;
+     color: #fff;
+     font-weight: bold;
+     font-size : 18px;
+     /*text-shadow: 0 1px #fff;*/
+ }
+
+ .feature > h3 > .fa{
+   font-size : 20px;
+   margin-right: 10px;
  }

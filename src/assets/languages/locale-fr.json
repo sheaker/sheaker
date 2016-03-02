@@ -18,6 +18,12 @@
                 "TEXT_3" : "Voyez facilement l'évolution de votre salle de sport dans le temps et à propos de n'importe quoi."
             }
         },
+        "LANDING" : {
+            "TITLE" : "Les salles de sport sont gérées ici.",
+            "DESCRIPTION_1" : "<b>Simplicité</b>, une <b>interface ergonomique</b> et intuitive.",
+            "DESCRIPTION_2" : "Tous les <b>outils nécessaires</b> pour gérer votre salle.",
+            "DESCRIPTION_3" : "Les informations dont vous avez besoin, <b>rien de plus</b>."
+        },
         "INTRO" : {
             "BROWSER": {
                 "TITLE" : "Rien à télécharger",
@@ -81,11 +87,11 @@
         },
         "ERGONOMICS" : {
             "TITLE" : "Ergnomique",
-            "DESCRIPTION" : "L'interface de Sheaker est faite pour être utilisée par n'importe quelle personne. Pas besoin d'être un génie de l'informatique ou expert comptable pour comprendre son fonctionnement."
+            "DESCRIPTION" : "L'interface de Sheaker est faite pour être <b>utilisée par n'importe quelle personne</b>. Pas besoin d'être un génie de l'informatique ou expert comptable pour comprendre son fonctionnement."
         },
         "SECURITY" : {
             "TITLE" : "Sécurité",
-            "DESCRIPTION" : "Toutes vos données sont sécurisées sur nos serveurs. Vos connexions sont sécurisées grâce à un certificat SSL, également utilisé par les sites des banques ou du gouvernement."
+            "DESCRIPTION" : "Toutes vos données sont <b>sécurisées</b> sur nos serveurs. Vos connexions sont sécurisées grâce à un certificat SSL, également utilisé par les sites des banques ou du gouvernement."
         }
     },
     "PRICING" : {
@@ -96,14 +102,34 @@
                 "DETAILS" : "pas de limite d'utilisateurs"
             },
             "LITE" : {
-                "DETAILS" : "par utilisateur / mois"
+                "DETAILS" : "Version bêta"
             },
             "PRO" : {
-                "DETAILS" : "par utilisateur / mois"
+                "DETAILS" : "Bientôt disponible"
             }
-        }
+        },
+        "FEATURE1" : "Gestion des paiements client",
+        "FEATURE2" : "Support",
+        "FEATURE3" : "Historique du client",
+        "FEATURE3BIS" : "(limité à 2 semaines)",
+        "FEATURE4" : "Statistiques graphiques",
+        "FEATURE5" : "Interface client",
+        "FEATURE6" : "Application smartphone",
+        "FEATURE7" : "Gestion des plannings",
+        "FEATURE8" : "Alertes par notifications",
+        "FEATURE9" : "Gestion de la musique"
     },
     "CREATE" : {
-
+      "STARTNOW" : "Commence maintenant ! C'est GRATUIT",
+      "FORM" : {
+          "TITLE" : "Sheaker est <b>gratuit</b> et sans limite de temps.",
+          "NAME" : "Nom de la salle",
+          "WEB_ADDRESS" : "Adresse web de votre manager sheaker",
+          "MAIL" : "Adresse mail",
+          "PASSWORD" : "Mot de passe",
+          "BUTTON_NEXT" : "Suivant",
+          "BUTTON_CREATE" : "Créer",
+          "BUTTON_CREATE_LONG" : "Créer un manager"
+      }
     }
 }

@@ -1,3 +1,217 @@
+/* Landing section */
+#landing-zone-head
+{
+  background-color: #00B0B9;
+  background-image: url('/assets/images/fontLanding.png');
+  margin-bottom: 0px;
+}
+
+#landing-zone-head .container
+{
+  color : #fff;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+#landing-zone-head .title
+{
+  color : #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+#landing-zone-head h3
+{
+  font-size: 20px;
+}
+
+#landing-zone-head .pink-box
+{
+  background-color: #f54785;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#landing-zone-head .description
+{
+  font-size: 20px;
+}
+
+#landing-zone-head .description i
+{
+  margin-right: 10px;
+}
+
+#landing-zone-head .description p
+{
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+#landing-zone .mockup-landing
+{
+  background-image: url('/assets/images/mockuplanding.png');
+  height: 246px;
+  width: 350px;
+}
+
+#landing-zone
+{
+  color: #f54785;
+}
+
+#landing-zone .content
+{
+  width: 980px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media(max-width:991px) {
+  #landing-zone-head .text
+  {
+    margin-top: 10px;
+  }
+
+  #landing-zone-head .text .title
+  {
+    text-align: center;
+  }
+
+  #landing-zone-head .description
+  {
+    margin-bottom: 35px;
+  }
+}
+
+@media(min-width:992px) {
+  #landing-zone-head .text
+  {
+    margin-top: 50px;
+  }
+}
+
+#landing-zone .text i
+{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.mockup-list
+{
+  background-image: url('/assets/images/mockuplist.png');
+  height: 271px;
+  width: 899px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media(max-width:991px) {
+  #landing-zone-head .pict-screen
+  {
+    display: none;
+  }
+}
+
+@media(min-width:992px) {
+  #landing-zone-head .pict-screen
+  {
+    background-image: url('/assets/images/lockuphomeipad.png');
+    height: 290px;
+    width: 800px;
+    margin: auto;
+    margin-top: 80px;
+  }
+}
+
+#landing-zone-head .result-check
+{
+  color: #f54785;
+  font-size: 25px;
+}
+
+@media(min-width:1200px) {
+  #landing-zone-head .arrow
+  {
+    background-image: url('/assets/images/arrow.png');
+    height: 71px;
+    width: 210px;
+    margin: auto;
+    margin-top: -70px;
+  }
+}
+
+#landing-zone-head .form-create {
+  background-color: rgba(174,180,180,.6);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: auto;
+}
+
+#landing-zone-head h3 {
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+#landing-zone-head .form-create b {
+  font-weight: 800;
+}
+
+@media(min-width:992px) {
+  #landing-zone-head .form-create
+  {
+    margin-top: 90px;
+  }
+}
+
+#landing-zone-head .border-form-right {
+  border-bottom-right-radius : 0;
+  border-top-right-radius : 0;
+  border-bottom-left-radius : 5px;
+  border-top-left-radius : 5px;
+}
+
+#landing-zone-head .border-form-left {
+  border-bottom-right-radius : 5px;
+  border-top-right-radius : 5px;
+  border-bottom-left-radius : 0;
+  border-top-left-radius : 0;
+}
+
+#landing-zone-head .form-create label{
+    font-size : 17px;
+    font-weight: 400;
+}
+
+#landing-zone-head .form-create input{
+    height: 50px;
+    font-size : 22px;
+    font-weight: 400;
+}
+
+#landing-zone-head .btn-submit {
+    font-size : 20px;
+    color: #fff;
+    background-color: #f54785;
+    height: 50px;
+    width: 180px;
+}
+
+#landing-zone-head .btn-submit:hover {
+    font-size : 20px;
+    height: 50px;
+    background-color: #fb4988;
+    border-bottom: solid 2px #9f1949;
+}
+
 /*
  * Welcome section
  */
@@ -25,15 +239,20 @@
     height: 420px;
     background-position: center bottom;
 }
-@media(min-width:800px) {
+/*@media(min-width:800px) {
     .welcome-background {
         height: 800px;
+    }
+}*/
+
+@media(min-width:800px) {
+    .welcome-background {
+        height: 0px;
     }
 }
 
 #welcome .title {
     font-weight: 900;
-    margin-top: 40px;
     font-size: 30px;
 }
 
@@ -73,187 +292,12 @@
     }
 }
 
-/*
- * Intro section
- */
-#intro {
-    background-color: #fff;
-    border-top: 1px solid #DDD;
-    color: #9f9f9f;
-    font-weight: 500;
-}
-
-#intro .intro-container {
-    padding-top: 16px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: left;
-}
-@media(min-width:750px) {
-    #intro .intro-container {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-@media(min-width:970px) {
-    #intro .intro-container {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-}
-
-#intro .intro-browser{
-    display: none;
-}
-@media(min-width:992px) {
-    #intro .intro-browser{
-      display: block;
-      background-image: url("//static.sheaker.com/sheaker/assets/images/browser.png");
-      width:478px;
-      height:305px;
-      opacity: 0.6;
-      margin-top: 90px;
-    }
-}
-@media(min-width:1200px) {
-    #intro .intro-browser{
-      margin-top: 10px;
-    }
-}
-
-#intro .intro-everywhere{
-    display: none;
-}
-@media(min-width:992px) {
-    #intro .intro-everywhere{
-      display: block;
-      background-image: url("//static.sheaker.com/sheaker/assets/images/everywhere.png");
-      width:478px;
-      height:305px;
-      opacity: 0.6;
-      margin-top: 30px;
-    }
-}
-@media(min-width:1200px) {
-    #intro .intro-everywhere{
-      margin-top: 10px;
-    }
-}
-
-.separator {
-  border-top: 1px solid #DDD;
-}
-
-#intro h2{
-  font-size : 35px;
-  font-weight: 400;
-  color: #4A4A4A;
-  margin-bottom: 15px;
-  padding-left: 25px;
-  margin-top: 60px;
-}
-
-#intro .align-left{
-  text-align: left;
-}
-
-#intro .align-right{
-  text-align: right;
-}
-
-#intro p{
-  padding-left: 22px;
-  text-align: left;
-  font-size : 20px;
-  opacity: .75;
-  color: #4A4A4A;
-}
 
 /*@media(min-width:1217px) {
     #intro .section-divider p{
         padding-top: 60px;
     }
 }*/
-
-/*
- * Features section
- */
-#features {
-    border-top: 1px solid #DDD;
-    background-color: #F7F5F3;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    color: #9f9f9f;
-    font-weight: 500;
-}
-
-.feature {
-    text-align: justify;
-    padding-left: 0px;
-    color: #4A4A4A;
-}
-@media(min-width:1217px) {
-    .feature {
-        padding-left: 40px;
-    }
-}
-
-.features-container {
-    padding-top: 16px;
-    margin-bottom: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
-    text-align: justify;
-}
-
-@media(min-width:1200px) {
-    .screen-computer {
-        background-image: url("//static.sheaker.com/sheaker/assets/images/circle-feature.png");
-        width:360px;
-        height:293px;
-        margin-left: -30px;
-    }
-    .feature {
-        text-align: left;
-    }
-    .feature-margin-top{
-        margin-top: 90px;
-    }
-}
-
-.features-container p{
-    line-height: 22px;
-    font-size: 18px;
-    opacity: .75;
-}
-
-.features-container > h1 {
-  text-align: center;
-  font-size : 35px;
-  font-weight: 900;
-  color: #4A4A4A;
-  margin-bottom: 55px;
-}
-@media(min-width:992px) {
-    .features-container > h1 {
-      font-size : 60px;
-      margin-bottom: 75px;
-    }
-}
-
-.feature > h3 {
-    font-color: #4A4A4A;
-    font-weight: bold;
-    font-size : 18px;
-    text-shadow: 0 1px #fff;
-}
-
-.feature > h3 > .fa{
-  font-size : 20px;
-  margin-right: 10px;
-}
 
 /* Carousel */
 .carousel {

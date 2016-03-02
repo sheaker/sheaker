@@ -9,11 +9,11 @@
         $stateProvider
             .state('app', {
                 abstract: true,
-                url: '/{locale}',
+                url: '',
                 template: '<ui-view/>'
             })
             .state('app.main', {
-                url: '',
+                url: '/',
                 templateUrl: 'app/main/main.html',
                 controller:  'MainController'
             })
@@ -28,7 +28,7 @@
                 controller:  'PricingController'
             })
             .state('app.create', {
-                url: '/create/:gymName?',
+                url: '/create',
                 templateUrl: 'app/create/create.html',
                 controller:  'CreateController'
             });

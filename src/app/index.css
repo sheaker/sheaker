@@ -46,6 +46,104 @@ body {
     margin-right: 0px;
 }
 
+/*
+ * Intro section
+ */
+#intro {
+    background-color: #fff;
+    border-top: 1px solid #DDD;
+    color: #9f9f9f;
+    font-weight: 500;
+}
+
+#intro .intro-container {
+    padding-top: 16px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+@media(min-width:750px) {
+    #intro .intro-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(min-width:970px) {
+    #intro .intro-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+#intro .intro-browser{
+    display: none;
+}
+@media(min-width:992px) {
+    #intro .intro-browser{
+      display: block;
+      background-image: url("//static.sheaker.com/sheaker/assets/images/browser.png");
+      width:478px;
+      height:305px;
+      opacity: 0.6;
+      margin-top: 90px;
+    }
+}
+@media(min-width:1200px) {
+    #intro .intro-browser{
+      margin-top: 10px;
+    }
+}
+
+#intro .intro-everywhere{
+    display: none;
+}
+@media(min-width:992px) {
+    #intro .intro-everywhere{
+      display: block;
+      background-image: url("//static.sheaker.com/sheaker/assets/images/everywhere.png");
+      width:478px;
+      height:305px;
+      opacity: 0.6;
+      margin-top: 30px;
+    }
+}
+@media(min-width:1200px) {
+    #intro .intro-everywhere{
+      margin-top: 10px;
+    }
+}
+
+.separator {
+  border-top: 1px solid #DDD;
+}
+
+#intro h2{
+  font-size : 35px;
+  font-weight: 400;
+  color: #f54785;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  margin-top: 60px;
+}
+
+#intro .align-left{
+  text-align: left;
+}
+
+#intro .align-right{
+  text-align: right;
+}
+
+#intro p{
+  padding-left: 22px;
+  text-align: left;
+  font-size : 20px;
+  opacity: .75;
+  color: #4A4A4A;
+}
+
 /* Color set */
 
 .color-background-yellow {
@@ -111,11 +209,23 @@ body {
     color: #FFFFFF;
 }
 
+.color-pink {
+    color: #f54785;
+}
+
 /* End color set */
 .strong {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .lite {
     font-weight: 200;
+}
+
+.without-margin {
+    margin: 0;
+}
+
+.without-padding {
+  padding: 0;
 }
