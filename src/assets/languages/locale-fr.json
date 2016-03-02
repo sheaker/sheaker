@@ -129,7 +129,7 @@
           "PASSWORD" : "Mot de passe",
           "BUTTON_NEXT" : "Suivant",
           "BUTTON_CREATE" : "Créer",
-          "BUTTON_CREATE_LONG" : "Créer un manager"
+          "BUTTON_CREATE_LONG" : "Créer"
       }
     }
 }

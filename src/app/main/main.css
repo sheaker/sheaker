@@ -155,6 +155,10 @@
   margin: auto;
 }
 
+#landing-zone-head .form-create input {
+  width: 300px;
+}
+
 #landing-zone-head h3 {
   margin-top: 0;
   font-size: 18px;
@@ -202,7 +206,6 @@
     color: #fff;
     background-color: #f54785;
     height: 50px;
-    width: 180px;
 }
 
 #landing-zone-head .btn-submit:hover {
