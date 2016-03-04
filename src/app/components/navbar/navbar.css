@@ -61,6 +61,19 @@
     }
 }
 
+#navmobile {
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 22px;
+}
+
+.nav-mobile-margin {
+  margin-bottom: 200px;
+}
+
+#navmobile .nav-mobile > li > a {
+  color: #404B55;
+}
+
 #navbar-extend {
   background-color: #fff;
   border-bottom: 1px solid #DDD;

@@ -9,5 +9,11 @@
         $scope.getLocale = function () {
             return tmhDynamicLocale.get();
         };
+
+        $scope.MenuState = 0;
+
+        $scope.openMobileMenu= function() {
+          $scope.MobileMenuState = !$scope.MobileMenuState;
+        };
     }
 })();
