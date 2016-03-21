@@ -64,14 +64,23 @@
 #navmobile {
   background-color: rgba(255, 255, 255, 1);
   margin-top: 22px;
+  border-bottom: 5px solid #DDD;
 }
 
 .nav-mobile-margin {
-  margin-bottom: 200px;
+  margin-bottom: 160px;
 }
 
 #navmobile .nav-mobile > li > a {
   color: #404B55;
+}
+
+#navmobile .nav-mobile > li {
+  padding-top: 10px;
+}
+
+#navmobile .nav-mobile {
+  background-color: #fff;
 }
 
 #navbar-extend {
