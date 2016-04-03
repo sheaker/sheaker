@@ -3,6 +3,10 @@ clone:
   recursive: true
   submodule_update_remote: true
 
+cache:
+  mount:
+    - node_modules
+
 build:
   image: tuxity/drone-gulp-bower
   pull: true
