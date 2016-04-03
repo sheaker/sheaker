@@ -9,7 +9,13 @@ var $ = require('gulp-load-plugins')();
 var wiredep = require('wiredep').stream;
 var _ = require('lodash');
 
+var browserSync = require('browser-sync');
+
 var gulpNgConfig = require('gulp-ng-config');
+
+gulp.task('inject-reload', ['inject'], function() {
+  browserSync.reload();
+});
 
 gulp.task('inject', ['scripts'], function () {
   var injectStyles = gulp.src([
