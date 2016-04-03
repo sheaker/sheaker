@@ -7,7 +7,7 @@
 
     /** @ngInject */
     function runBlock($rootScope, $stateParams, $translate, $translateLocalStorage, tmhDynamicLocale) {
-        $rootScope.$on('$stateChangeSuccess', function () {
+        var deregistrationCallback = $rootScope.$on('$stateChangeSuccess', function () {
             if ($translateLocalStorage.get('websiteLocale')) {
                 $translate.use($translateLocalStorage.get('websiteLocale'));
                 tmhDynamicLocale.set($translateLocalStorage.get('websiteLocale'));
@@ -16,6 +16,7 @@
                 tmhDynamicLocale.set($translate.preferredLanguage().toLowerCase());
             }
         });
+        $rootScope.$on('$destroy', deregistrationCallback);
     }
 
 })();
