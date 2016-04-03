@@ -10,7 +10,16 @@ var $ = require('gulp-load-plugins')();
 
 var ngConfig = require('gulp-ng-config');
 
-gulp.task('scripts', function () {
+gulp.task('scripts-reload', function() {
+  return buildScripts()
+    .pipe(browserSync.stream());
+});
+
+gulp.task('scripts', function() {
+  return buildScripts();
+});
+
+function buildScripts() {
   gulp.src(conf.paths.src + '/config/index.constants-env.json')
   .pipe(ngConfig('sheaker', {
     environment: conf.options.mode,
@@ -20,8 +29,7 @@ gulp.task('scripts', function () {
   .pipe(gulp.dest(conf.paths.src + '/app/'));
 
   return gulp.src(path.join(conf.paths.src, '/app/**/*.js'))
-    .pipe($.jshint())
-    .pipe($.jshint.reporter('jshint-stylish'))
-    .pipe(browserSync.reload({ stream: true }))
+    .pipe($.eslint())
+    .pipe($.eslint.format())
     .pipe($.size())
-});
+};

@@ -1,7 +1,6 @@
 APP_NAME=sheaker
 
-TEMP_FILE=~/$APP_NAME.tar
-TEMP_DIR=~/$APP_NAME
+TEMP_DIR=/tmp/$APP_NAME
 PROD_DIR=/var/www/sheaker.com/$APP_NAME
 PROD_NAME=$(date +%s)
 
@@ -19,5 +18,4 @@ ln -s $PROD_NAME current
 
 sudo /etc/init.d/nginx start
 
-rm -rf $TEMP_DIR
-rm -rf $TEMP_FILE
+rm -rf $TEMP_DIR/*
