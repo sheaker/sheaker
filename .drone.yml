@@ -32,7 +32,7 @@ deploy:
 notify:
   slack:
     webhook_url: https://hooks.slack.com/services/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
-    channel: notification
+    channel: notifications
     username: Drone
     template: >
       Build <https://drone.sheaker.com/Hexagone/sheaker/{{ build.number }}|{{ repo.name }}#{{ truncate build.commit 7 }}> ({{ build.branch }}) by {{ build.author }} finished with a *{{ build.status }}* status in {{ duration build.started_at build.finished_at }}
