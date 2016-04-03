@@ -1,6 +1,6 @@
 {
   "name": "sheaker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "angular": "~1.5.3",
     "angular-bootstrap": "~1.2.5",
