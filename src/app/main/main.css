@@ -2,7 +2,7 @@
 #landing-zone-head
 {
   background-color: #00B0B9;
-  background-image: url('/assets/images/fontLanding.png');
+  background-image: url('//static.sheaker.com/sheaker/assets/images/fontLanding.png');
   margin-bottom: 0px;
 }
 
@@ -151,12 +151,35 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.2);
-  width: 400px;
   margin: auto;
 }
 
-#landing-zone-head .form-create input {
-  width: 300px;
+@media(min-width:768px) {
+  #landing-zone-head .border-form-right {
+    border-bottom-right-radius : 0;
+    border-top-right-radius : 0;
+    border-bottom-left-radius : 5px;
+    border-top-left-radius : 5px;
+  }
+
+  #landing-zone-head .border-form-left {
+    border-bottom-right-radius : 5px;
+    border-top-right-radius : 5px;
+    border-bottom-left-radius : 0;
+    border-top-left-radius : 0;
+  }
+}
+
+@media(max-width:767px) {
+  #landing-zone-head .form-group{
+    margin-bottom: 20px;
+  }
+}
+
+@media(min-width:430px) {
+  #landing-zone-head .form-create {
+    width: 400px;
+  }
 }
 
 #landing-zone-head h3 {
@@ -170,24 +193,9 @@
 }
 
 @media(min-width:992px) {
-  #landing-zone-head .form-create
-  {
+  #landing-zone-head .form-create {
     margin-top: 90px;
   }
-}
-
-#landing-zone-head .border-form-right {
-  border-bottom-right-radius : 0;
-  border-top-right-radius : 0;
-  border-bottom-left-radius : 5px;
-  border-top-left-radius : 5px;
-}
-
-#landing-zone-head .border-form-left {
-  border-bottom-right-radius : 5px;
-  border-top-right-radius : 5px;
-  border-bottom-left-radius : 0;
-  border-top-left-radius : 0;
 }
 
 #landing-zone-head .form-create label{

@@ -16,15 +16,15 @@
 
         $translateProvider
             .uniformLanguageTag('bcp47')
-            .determinePreferredLanguage()
             .registerAvailableLanguageKeys(['en', 'es', 'fr'], {
               'en-*': 'en',
               'es-*': 'es',
               'fr-*': 'fr'
-            });
+            })
+            .determinePreferredLanguage();
 
         tmhDynamicLocaleProvider
-            .localeLocationPattern('bower_components/angular-i18n/angular-locale_{{locale}}.js')
+            .localeLocationPattern('//static.sheaker.com/sheaker/bower_components/angular-i18n/angular-locale_{{locale}}.js')
             .storageKey('websiteLocale')
             .useStorage('$translateLocalStorage');
     }
